@@ -5,8 +5,12 @@ date: 2015-02-05 12:00:00
 description: NXT-G is convoluted, disgusting, resource-hungry, not cross-platform, and the resulting code isn't precise. But not Instacode. <img src="/images/instacode.png">
 tags:
  - robotics
- - lego
- - mindstorms
+ - LEGO
+ - MINDSTORMS
+ - python
+ - C
+ - gui
+ - tkinter
  - programming
  - language
 ---

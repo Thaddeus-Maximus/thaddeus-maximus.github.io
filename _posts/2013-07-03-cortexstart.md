@@ -5,10 +5,11 @@ date: 2013-07-03 18:52:00
 description: A two linkage arm that moves in straight lines, not arcs..? <iframe width="560" height="315" src="https://www.youtube.com/embed/thu5XfkRmoA" frameborder="0" allowfullscreen></iframe>Yes, it is possible. It's all in the (NXC) programming. To even begin making this motion, we need to figure out what set of arm angles (setU and setV here) will produce a certain Y and Z position for the arm's endpoint. We can leverage the law of cosines to do this.
 tags:
  - robotics
- - control loops
+ - control systems
+ - C
  - motion profiling
- - lego
- - mindstorms
+ - LEGO
+ - MINDSTORMS
 ---
 
 

@@ -5,7 +5,7 @@ date: 2015-04-16 15:46:00
 description: It seems that people just think "Oh, hey, I need a control loop. Better go with traditional, full blown PID." It definitely constrains our thinking, and ends up producing control loops that are overly complicated and don't represent the systems they're acting on. So, here's three tweaks to PID that can boost performance of control loops.
 tags:
  - robotics
- - control loops
+ - control systems
 ---
 
 It seems that people just think "Oh, hey, I need a control loop. Better go with traditional, full blown PID." It definitely constrains our thinking, and ends up producing control loops that are overly complicated and don't represent the systems they're acting on.

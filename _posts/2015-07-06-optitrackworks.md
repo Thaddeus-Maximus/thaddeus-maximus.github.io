@@ -5,10 +5,10 @@ date: 2015-07-06 10:45:56
 description: Well, we're now rolling... slowly and with a lot of noise. <iframe width="560" height="315" src="https://www.youtube.com/embed/7CqhziY8g_o" frameborder="0" allowfullscreen></iframe>
 tags:
  - robotics
- - control loops
+ - control systems
  - vision processing
- - lego
- - mindstorms
+ - LEGO
+ - MINDSTORMS
  - android
  - OptiTrack
 ---
