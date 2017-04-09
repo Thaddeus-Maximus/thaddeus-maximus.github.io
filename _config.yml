@@ -19,12 +19,12 @@ share:
   email: true
 
 social:
-  github: streetturtle
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
-  rss: feed.xml
+  github: thaddeus-maximus
+  stackoverflow:
+  linkedin: thaddeus-hughes-20b69a11a
+  instagram: tha_deus_ex_machina
+  lastfm: 
+  rss: 
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
