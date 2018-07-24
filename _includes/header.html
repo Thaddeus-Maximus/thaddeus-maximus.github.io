@@ -1,13 +1,8 @@
-<div id="headerwrap">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12 col-lg-offset-0">
-                <h1>MY NAME IS THAD. I BUILD THINGS.</h1>
-                <h3>SIMULATION / MECHANICAL / ELECTRONIC / SOFTWARE / FABRICATION / TEST / TUNE</h3>			
-            </div>
-            <!--<div class="col-lg-8 col-lg-offset-2 himg">
-                <img src="{{ "/assets/img/browser.png" | prepend: site.baseurl }}" class="img-responsive">-->
-            </div>
-        </div><!-- /row -->
-    </div> <!-- /container -->
-</div><!-- /headerwrap -->
+
+<header class="main_header">
+  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}B<span>ef</span>{% endif %}</a>
+  <nav class="main_menu">
+    <a href="{{site.baseurl}}/about/">About</a>
+    <a href="{{site.baseurl}}/contact/">Contact</a>
+  </nav>
+</header> <!-- End Section Header -->

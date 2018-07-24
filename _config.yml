@@ -1,78 +1,53 @@
-### GENERAL SETTINGS ###
+logo: # add logo name
+title: Thaddeus Hughes
+description: > # this means to ignore newlines until "baseurl:"
+  Passionate Engineer
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Site settings
-title: THADDEUS HUGHES
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://thaddeus-maximus.github.io"
+# Banner settings
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+banner-title: I'M THAD. I MAKE THINGS. # add banner title
+banner-desc: SIMULATION / MECHANICAL / ELECTRICAL / SOFTWARE / FABRICATION / TESTING # add banner description
+
+# Author settings
+author-pic: face.jpg # your photo
+author-name: Thaddeus Hughes
+about-author: # about author
+email: hughes.thad@gmail.com # your email
+phone: (309)-530-0909 # your pnone number
+website: http://thaddeus-maximus.github.io # you website
+
+# Social link
+google_url:    # add url link
+twitter_url:   # add url link
+instagram_url: # add url link
+pinterest_url: # add url link
+dribbble_url:  # add url link
+facebook_url:  # add url link
+
+# Disqus
+discus_identifier:  # add your discus identifier
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-colors:  #in hex code if not noted else
-  primary: "#364044" #"#F70031"
-  primary_rgb: "54,64,68" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#364044" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
-# Making projects separate from posts
-collections:
-  projects:
-    output: true
-    permalink: /projects/:title/
-  questions:
-    output: true
-    permalink: /questions/:title/
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url:
-  - title: instagram
-    url:
-  - title: tumblr
-    url:
-
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-# Members information. Shown on About page.
-members: null
-
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
-
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-
-# Testimonial content. Shown on Home and About page.
-testimonial: null
+sass:
+  sass_dir: _sass
