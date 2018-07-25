@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Quad Bike Electric Conversion"
+img: quadbike.jpg # Add image post (optional)
+date: 2017-12-18 12:55:00 +0300
+description: Upgrading a quad bike to have an electric assist
+tag: [Mechanical, Electrical, Design, Fabrication]
+---
+More pics pls

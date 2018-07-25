@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Grizzly Lathe Restoration"
+img: grizzly.jpg # Add image post (optional)
+date: 2017-04-04 12:55:00 +0300
+description: Restoring an abused 2010's Grizzly Lathe
+tag: [Fabrication, Restoration]
+---
+More pics pls

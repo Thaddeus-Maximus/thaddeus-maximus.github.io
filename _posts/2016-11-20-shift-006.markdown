@@ -1,0 +1,9 @@
+---
+layout: post
+title: "RGP006 Shift Actuator"
+img: shift_007.jpg # Add image post (optional)
+date: 2016-11-20 12:55:00 +0300
+description: RGP006 Shift Actuator
+tag: [Design, Fabrication, RoseGPE, Mechanical]
+---
+Shifty boi

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "RGP007 Clutch Actuator"
+img: clutch_007.jpg # Add image post (optional)
+date: 2018-02-11 12:55:00 +0300
+description: RGP007 Clutch Actuator
+tag: [Design, Fabrication, RoseGPE, Mechanical]
+---
+Clutchy boi

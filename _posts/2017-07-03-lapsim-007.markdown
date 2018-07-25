@@ -1,0 +1,9 @@
+---
+layout: post
+title: "RGP007 Lapsim Analysis"
+img: roselap_v5.png # Add image post (optional)
+date: 2017-07-03 12:55:00 +0300
+description: RoseLap Analysis on RGP007
+tag: [Simulation, RoseGPE]
+---
+Made roselap, made sweeps, blah blah
