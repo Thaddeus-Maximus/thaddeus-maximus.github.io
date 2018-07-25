@@ -3,7 +3,7 @@ layout: main
 ---
 
 {% for post in paginator.posts %}
-  <div class="chapter">
+  <div class="chapter" data-tags='{{post.tags | join: ","}}'>
     <a href="{{post.url | prepend: site.baseurl}}">
       {% if post.img %}
       <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">

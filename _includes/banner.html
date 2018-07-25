@@ -3,7 +3,24 @@
   <div class="wrapper">
     <div class="content">
       <h1 class="title">{% if site.banner-title %}{{ site.banner-title }}{% else %}Enjoy Freedom{% endif %}</h1>
-      <h2 class="sub_title">{% if site.banner-desc %}{{ site.banner-desc }}{% else %}"A journey of a thousand miles begins with a single step". — Lao Tzu{% endif %}</h2>
+      <h2 class="sub_title">
+      {% for tag in site.main_tags %}
+      	<a onclick='filter_main_tags("{{tag}}")'>{{tag}}</a>
+      	{% if tag != site.main_tags.last %} - {% endif %}
+      {% endfor %}
+      </h2>
     </div>
   </div>
+  <script type='text/javascript'>
+  function filter_main_tags(tag) {
+  	var chapters = document.getElementsByClassName('chapter');
+  	for (i=0;i<chapters.length;i++) {
+  		if (chapters[i].getAttribute('data-tags').toLowerCase().includes(tag.toLowerCase())) {
+  			chapters[i].style.opacity=1.0;
+  		} else {
+  			chapters[i].style.opacity=0.05;
+  		}
+  	}
+  }
+  </script>
 </section> <!-- End Section Banner -->
