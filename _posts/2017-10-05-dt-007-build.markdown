@@ -1,9 +1,0 @@
----
-layout: post
-title: "RGP007 Drivetrain Fab"
-img: dt_007_build.jpg # Add image post (optional)
-date: 2017-10-05 12:55:00 +0300
-description: RGP007 Drivetrain Fab
-tag: [Fabrication, RoseGPE, Mechanical]
----
-I made a drivetrain, worked great! no complaints.
