@@ -6,11 +6,13 @@ img: cortex.png
 description: A two linkage LEGO arm that moves in straight lines.
 tags:
  - robotics
- - control systems
+ - controls
  - C
  - motion profiling
  - LEGO
  - MINDSTORMS
+ - Software
+ - Mechanical
 ---
 
 

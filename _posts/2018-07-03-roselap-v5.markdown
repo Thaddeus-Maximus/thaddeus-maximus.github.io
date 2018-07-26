@@ -4,6 +4,6 @@ title: "RoseLap v5"
 img: roselap_v5.png # Add image post (optional)
 date: 2018-07-03 12:55:00 +0300
 description: RoseLap Version 5
-tag: [Simulation, RoseGPE]
+tag: [Simulation, RoseGPE, Teams, Systems, Software]
 ---
 I built v5 roselap, its pretty cool. You should check it out at https://github.com/RoseGPE/RoseLapWeb

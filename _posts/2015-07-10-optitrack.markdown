@@ -6,12 +6,13 @@ date: 2015-07-10 11:00:21
 description: OptiTrack
 tags:
  - robotics
- - control systems
+ - controls
  - vision processing
  - LEGO
  - MINDSTORMS
  - android
  - OptiTrack
+ - Software
 ---
 
 OptiTrack is stable (and maybe finished?)!

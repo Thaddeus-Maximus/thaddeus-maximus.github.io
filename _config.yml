@@ -52,4 +52,4 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 sass:
   sass_dir: _sass
 
-main_tags: ["SIMULATION","MECHANICAL","ELECTRICAL","SOFTWARE","FABRICATION","TESTING","TEAMS"]
+main_tags: ["SYSTEMS","SIMULATION","MECHANICAL","ELECTRICAL","SOFTWARE","FABRICATION","TEAMS","(SHOW ALL)"]

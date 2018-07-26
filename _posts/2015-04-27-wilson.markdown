@@ -4,7 +4,7 @@ title: "Wilson Lives!"
 img: wilson.jpg
 date: 2015-04-27 19:27:14
 description: Wilson is now driving! 
-tags: [Mechanical, Robotics, Electronics, Systems, Software, Controls]
+tags: [Mechanical, Robotics, Electrical, Software, Controls, Fabrication]
 ---
 
 Wilson is now driving!

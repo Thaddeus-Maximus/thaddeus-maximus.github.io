@@ -4,7 +4,7 @@ title: "RGP006 Drivetrain"
 img: dt_006_build.jpg # Add image post (optional)
 date: 2016-09-20 12:55:00 +0300
 description: RGP006 Drivetrain
-tag: [Design, Simulation, RoseGPE, Mechanical]
+tag: [Design, Simulation, RoseGPE, Mechanical, Teams, Fabrication]
 ---
 
 <img src="/images/rgp006-drivetrain/drivetrain-assembled-overview.jpg"/>

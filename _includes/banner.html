@@ -15,7 +15,13 @@
   function filter_main_tags(tag) {
   	var chapters = document.getElementsByClassName('chapter');
   	for (i=0;i<chapters.length;i++) {
-  		if (chapters[i].getAttribute('data-tags').toLowerCase().includes(tag.toLowerCase())) {
+  		if (tag.toLowerCase().includes('all') || tag.toLowerCase().includes('everything')) {
+  			chapters[i].style.opacity=1.0;
+  		} else if (tag.toLowerCase()=='teams' &&
+  			chapters[i].getAttribute('data-tags').toLowerCase().includes('teams') &&
+  			!chapters[i].getAttribute('data-tags').toLowerCase().includes('teams-super')){
+  			chapters[i].style.opacity=0.35;
+  		} else if (chapters[i].getAttribute('data-tags').toLowerCase().includes(tag.toLowerCase())) {
   			chapters[i].style.opacity=1.0;
   		} else {
   			chapters[i].style.opacity=0.05;

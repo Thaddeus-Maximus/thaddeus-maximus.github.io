@@ -4,6 +4,6 @@ title: "RGP007 Unsprung Mass"
 img: unspr_007_build.jpg # Add image post (optional)
 date: 2017-09-15 12:55:00 +0300
 description: RGP007 Unsprung Mass
-tag: [Design, Simulation, RoseGPE, Mechanical]
+tag: [Design, Simulation, RoseGPE, Mechanical, Fabrication, Teams]
 ---
 I designed some uprights. Pretty neat. Such FEA, onto manufacture

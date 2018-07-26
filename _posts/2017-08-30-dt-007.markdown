@@ -4,6 +4,6 @@ title: "RGP007 Drivetrain"
 img: dt_007_design.jpg # Add image post (optional)
 date: 2017-08-30 12:55:00 +0300
 description: RGP007 Drivetrain
-tag: [Design, RoseGPE, Mechanical, Simulation]
+tag: [Design, RoseGPE, Mechanical, Simulation, Teams, Fabrication]
 ---
 I designed a drivetrain. yay FEA plots

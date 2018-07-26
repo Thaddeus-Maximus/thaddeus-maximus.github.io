@@ -4,6 +4,6 @@ title: "RGP007"
 img: rgp007.jpg # Add image post (optional)
 date: 2018-06-28 12:55:00 +0300
 description: RGP007
-tag: [Design, Fabrication, RoseGPE, Mechanical, Simulation, Teams]
+tag: [Design, Fabrication, RoseGPE, Mechanical, Simulation, Systems, Teams, Teams-Super]
 ---
 Linky bois

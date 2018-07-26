@@ -7,11 +7,15 @@ description: What better use of vision processing than making something to follo
 tags:
  - robotics
  - vision processing
- - control systems
+ - controls
  - electronics
  - programming
  - OpenCV
  - python
+ - Mechanical
+ - Electrical
+ - Software
+ - Fabrication
 ---
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/OgVweByp_rM" frameborder="0" allowfullscreen></iframe>
