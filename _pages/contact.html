@@ -3,13 +3,19 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
-<section class="contact">
+<section class="about">
   <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>
-  
-  <div class="container_contact">
-  <h3 class="form_title">Send me a message</h3>
-  Email: hughes.thad@gmail.com
-  Email: hughest1@rose-hulman.edu
-  Phone: 309 530 0909
-  </div>
+    <div class="about_box">
+    <div class="author">
+  <div class="author_image">
+          <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="Author image">
+        </div>
+  <div class="author_info">
+  <h2 class="author_title">{% if site.author-name %}{{site.author-name}}{% else %}Dwayne Newman{% endif %}</h2>
+  <p>Email: <a href="mailto:hughes.thad@gmail.com">hughes.thad@gmail.com</a><br/>
+  Email: <a href="mailto:hughest1@rose-hulman.edu">hughest1@rose-hulman.edu</a><br/>
+  Phone: 309 530 0909</p>
+  </div></div>
+          </div>
+      </div>
 </section>
