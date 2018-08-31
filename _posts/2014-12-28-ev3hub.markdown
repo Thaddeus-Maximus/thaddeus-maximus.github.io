@@ -12,7 +12,7 @@ When you're doing FLL, it's very very common to have to merge together programs.
 
 So, I rolled my own!
 
-![Overview of EV3Hub]({{ site.url }}/images/ev3hub_overview.png)
+![Overview of EV3Hub]({{ site.url }}/assets/img/ev3hub_overview.png)
 
 Features:
 

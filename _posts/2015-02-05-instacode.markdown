@@ -21,7 +21,7 @@ NXT-G is convoluted, disgusting, resource-hungry, not cross-platform, and the re
 
 But not Instacode. [Download it here!](/hosted/instacode-release.zip)
 
-<img src="/images/instacode.png">
+<img src="/assets/img/instacode.png">
 
 Instacode runs off of python and tkinter, generating NXC code which gets compiled and deployed via the nbc app.
 

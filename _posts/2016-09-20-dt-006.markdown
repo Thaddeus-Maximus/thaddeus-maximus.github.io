@@ -7,7 +7,7 @@ description: RGP006 Drivetrain
 tag: [Design, Simulation, RoseGPE, Mechanical, Teams, Fabrication]
 ---
 
-<img src="/images/rgp006-drivetrain/drivetrain-assembled-overview.jpg"/>
+<img src="/assets/img/rgp006-drivetrain/drivetrain-assembled-overview.jpg"/>
 
 What's changed from last year? Well, quite a bit.
 
@@ -15,19 +15,19 @@ What's changed from last year? Well, quite a bit.
 
 The most obvious addition and change is an inboard brake, fastened directly to a Drexler FSAE differential. This reduces unsprung, rotational, and overall system mass, leading to better driving. The most interesting problem with this will be ensuring tire lockup- but this should not be a problem. Currently running a 30 degree ramp angle on decel to help lockup.
 
-![Tensioning system IRL](/images/rgp006-drivetrain/iso.jpg)
+![Tensioning system IRL](/assets/img/rgp006-drivetrain/iso.jpg)
 
 # Improved tensioning system, and taller ratios
 
 This year's tensioner was designed with geometry in mind. This features the same idler roller style setup as on RGP005, but rather than being lever-actuated, which leads to stress concentrations around bolt contact points, a slot system is used. This means loads are better distributed, and remain fairly consistent based on position, in addition to allowing a greater range of tensioning positions, and making packaging smooth. RGP005 physically could not use a 34T sprocket (without use of half-links), but RGP006 can use 28, 30, 32, 34, and 36 tooth sprockets, allowing a range of final drive ratios that can be changed based on driver experience.
 
-![A little upskirt...](/images/rgp006-drivetrain/upskirt.jpg)
+![A little upskirt...](/assets/img/rgp006-drivetrain/upskirt.jpg)
 
-![Tensioning system geometry](/images/rgp006-drivetrain/tensioner-geometry.png)
+![Tensioning system geometry](/assets/img/rgp006-drivetrain/tensioner-geometry.png)
 
 Swapping from a 13T to a 14T front sprocket increases vehicle acceleration. At FSAE Lincoln last year, drivers noted inability to even begin using fifth gear on the car. Using a taller ratio will allow better utilization of gears.
 
-![Tensioning system geometry](/images/rgp006-drivetrain/ratios.png)
+![Tensioning system geometry](/assets/img/rgp006-drivetrain/ratios.png)
 
 # Axle plunging system, and tripod geometry
 
@@ -37,7 +37,7 @@ Axle angle is amazingly shallow this year- between 1 and 7 degrees along the ent
 
 Unsatisfied with rubber boots, GPE switched to using McMaster-Carr bags to retain grease around our tripods a while back. The tradition continues this year, but with different brand bags. Some slightly thinner ones which may have simply been installed improperly on 005 experienced rips when we tested today, so we'll have to see how these hold up.
 
-![Bagging system](/images/rgp006-drivetrain/bag.jpg)
+![Bagging system](/assets/img/rgp006-drivetrain/bag.jpg)
 
 # Jacking truss
 
@@ -47,4 +47,4 @@ Another interesting problem is the need to stiffen up the two mounts relative to
 
 Why not solve both of these problems at once? As such, the jacking truss is born.
 
-![Jacking truss](/images/rgp006-drivetrain/jacking.jpg)
+![Jacking truss](/assets/img/rgp006-drivetrain/jacking.jpg)

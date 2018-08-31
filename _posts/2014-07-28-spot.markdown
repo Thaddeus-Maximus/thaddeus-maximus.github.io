@@ -28,13 +28,13 @@ On top of this frame, the gearboxes are mounted. They are built off of <a href="
 
 In the rear is a ½” bolt that is used as a hitch for wagons. On the front, to counter issues with braking while loaded with a wagon, there are two wheelie bars.
 
-<img src="/images/spot/mech.jpg">
+<img src="/assets/img/spot/mech.jpg">
 
 The power wiring for the robot is fairly simple. The battery’s power is connected to a toggle switch, then to a 30 amp auto-resetting breaker. This allows the robot’s power to be easily shut down in case of malfunction, or for Arduino reboots (where the pins are toggled and can send strange commands to the Jaguars). Power and ground are broken out at a terminal block near the front, so as to be easily interfaced with other systems in parallel. From this block, two Jaguar motor controllers are powered, which receive commands from the Arduino (more on this later), and then control power and direction of the motors. Two fans are mounted on the motors (these were found unneeded) for cooling, with a switch to toggle them on and off. A car power plug is mounted on the front, with a 20 amp auto-resetting breaker, for powering an inverter if need be.
 
 An Arduino is located near the front, which is connected over servo style PWM (pulse-width modulation) to send commands to the Jaguars. This is connected over USB to the PC, and the PC sends commands to the Arduino about what the Jaguars should do. 
 
-<img src="/images/spot/elec.jpg">
+<img src="/assets/img/spot/elec.jpg">
 
 The communication between the Arduino and the PC is rather simple. Since I’m using python on the PC, I’m using PySerial as a quick and robust library to do this. To send out a motor command, the PC gives two ASCII characters- between 4 and 124, with 64 being neutral, 4 being full reverse, and 124 being full forward- followed by ASCII character 0. The Arduino will timeout at 100 milliseconds. So, if there hasn’t been a recent command, or the serial communication to the PC is lost, the Arduino will turn off the motors, for safety purposes should the PC lag, or serial communication lost.
 
@@ -57,7 +57,7 @@ The first step into locating targets is getting the image. This is accomplished 
     
     res = cv2.bitwise_and(image,image, mask= mask) 
 
-<img src="/images/spot/0.png"><img src="/images/spot/1.png"><img src="/images/spot/2.png">
+<img src="/assets/img/spot/0.png"><img src="/assets/img/spot/1.png"><img src="/assets/img/spot/2.png">
 
 After we do this, we find all the contours- the outlines of groups of pixels. Then, we filter out the shapes by their perimeter (rough and quickly), compute the convex hulls of those that remain (which is the smallest bounding convex shape), and then sort these by their areas.
 
@@ -68,7 +68,7 @@ After we do this, we find all the contours- the outlines of groups of pixels. Th
 
 These convex hulled contours are displayed in blue:
 
-<img src="/images/spot/4.png">
+<img src="/assets/img/spot/4.png">
 
 After this, we iterate through each contour (from largest to smallest). We perform a set of checks to determine if the object is the target. The first step is to determine the rectangularity. We do this by computing the minimum bounding rectangle of the object, then comparing the area of the object to the area of the bounding rectangle. The rectangles that are computed are shown in red. (Note that as soon as a matching target is found, it will cease to look for any more; only the largest rectangles are drawn) If the object takes up over 80% of the area of the bounding rectangle, we consider it rectangular, and so proceed on to check if the aspect ratio is within 1:2 and 2:1. (Because we ignore rotation)
 
@@ -82,11 +82,11 @@ After this, we iterate through each contour (from largest to smallest). We perfo
     if abs(contour_area/float(w*h)) > 0.85 and
        0.5<abs(float(h)/w)<2:  
 
-<img src="/images/spot/5.png">
+<img src="/assets/img/spot/5.png">
 
 If the object is rectangular, we then need to determine if there is a circle in the middle. We iterate through all contours smaller than the current one, and compute the bounding circle. If the circle is sizable (radius is larger than an eighth of the rectangle’s height), within the rectangle, and the contour takes up at least 50% of the area of the circle, we know that the rectangle has a circle in it. For safety reasons, we finally check to see if the target isn’t too big (too close) or too small (too far; could be a false positive). If all this is good, then we know we’ve found the target to track (shown as the one with a green dot in the middle). 
 
-<img src="/images/spot/final_image.png">
+<img src="/assets/img/spot/final_image.png">
 
 This gets all put together in the full source code in the <code>def find_target()</code> function.
 
