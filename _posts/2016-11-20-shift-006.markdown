@@ -28,5 +28,8 @@ With this in mind, the first prototype was made. This made a few things quite ap
 
 After fixing these problems, a second revision of the mechanism was built that mostly addressed these issues. The shifter mounts to the case bolts and chain guard- for a total of 3 mounting points (making it fully defined). The sector gear was analyzed and supports for it drawn out further to better take the torque from the spur gear.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-E58AdV05kc" frameborder="0" allowfullscreen></iframe>
 
+As seen in the video, some cams on the shaft used for sensing position are not secured... so shifting goes slower as the motor just jams the actuator for a timeout time. With the engine off, we were getting consistent, rapid shifting.
 
+Apparently, though, these switches don't like the vibration of the car and intermettently contact. This needs to be investigated further; I wasn't actually present for this run.

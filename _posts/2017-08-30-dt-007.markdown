@@ -7,6 +7,8 @@ description: RGP007 Drivetrain
 tag: [Design, RoseGPE, Mechanical, Simulation, Teams, Fabrication]
 ---
 
+[Download the Design Docs](/assets/dt007.pdf)
+
 Building on successes and learning from failures of 006's drivetrain, 007's proved to be a wonderful system with little issues. The major issues with 006 were:
 - Failure of engine mount in rear on old car prompted buffing the tubes in this region
 - Roller tensioner kept disintegrating
@@ -19,6 +21,8 @@ To address these, respectively, I:
 - Moved the caliper to the bottom of the car, revealing the bleeder valve to technicians
 - Mounted the jacking bar/truss exclusively to the differential mount, rather than to the chassis as well (and shifted to simalarly sized sheetmetal throughout)
 
+In addition to the usual FEA analysis to ensure everything was kosher.
+
 This system faced only one issue: The shims for tensioning popped out. I foresaw this as a possibility, and made sure to design in 'ears' for safety wire to be installed such that the shim is retained even under severe vibration and compressive loads.
 
-
+![Barren Installation](/assets/img/rgp007-drivetrain/install_barren.jpg)

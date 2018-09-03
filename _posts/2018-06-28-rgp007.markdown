@@ -6,4 +6,19 @@ date: 2018-06-28 12:55:00 +0300
 description: RGP007
 tag: [Design, Fabrication, RoseGPE, Mechanical, Simulation, Systems, Teams, Teams-Super]
 ---
-Linky bois
+
+I served as the technical director, drivetrain lead, and unsprung mass lead for RGP007. It was fun. It was too much work. Major changes were as follows:
+- Redesigned rear wing for higher downforce
+- Redesigned unsprung mass for reduced weight and higher stiffness
+- Overhauled engine mounting and chain tensioning
+- Addition of turbocharger to engine package
+- Change of shocks to 4-way adjustable Ohlins
+- Electronically adjustable ARB in front and rear
+- Electronic clutch
+- Improved fuel tank funnelling (no more slosh!)
+
+We learned a lot of things. Among the most important were:
+- Always be working. Find a way to move around other people. If one thing is stalling you, forge ahead anyways.
+- The job is never done until all the details are. The details add up, big time.
+- Shock loads kill parts. This means that if your dyno is oversized, you should consider something to dampen the intense loads it will feed back into your engine... otherwise it might explode.
+- Tuning is important. Design your car to be easily tuned- even if it means sacrificing a bit of weight.
