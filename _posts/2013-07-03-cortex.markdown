@@ -17,7 +17,7 @@ tags:
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/thu5XfkRmoA" frameborder="0" allowfullscreen></iframe>
-Wait, a two linkage arm that moves in straight lines, not arcs..? Yes, it is possible.
+Wait, a two linkage arm that moves in straight lines, not arcs..? Yes, it is possible even with the limited processing power of the NXTs...
 
 It's all in the (NXC) programming. To even begin making this motion, we need to figure out what set of arm angles (setU and setV here) will produce a certain Y and Z position for the arm's endpoint. We can leverage the law of cosines to do this.
 
