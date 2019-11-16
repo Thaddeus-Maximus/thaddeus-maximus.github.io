@@ -53,3 +53,5 @@ sass:
   sass_dir: _sass
 
 main_tags: ["SYSTEMS","SIMULATION","MECHANICAL","ELECTRICAL","SOFTWARE","FABRICATION","TEAMS","(SHOW ALL)"]
+
+future: true
