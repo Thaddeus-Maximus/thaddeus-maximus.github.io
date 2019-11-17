@@ -17,13 +17,15 @@ All boards are solid wood. No veneer. No particleboard. No shortcuts.
 
 Red Oak End Grain Board - $90
 ![Red Oak Full]({{ site.url }}/assets/img/cuttingboards/redoak.jpg)
+![Red Oak Full]({{ site.url }}/assets/img/cuttingboards/redoak_upskirt.jpg)
 - I have two of these boards.
 - Approx. 2 x 10 x 13"
 - Includes handles on the sides, drip moat, and rubber feet.
 - Finished with pure Tung oil (may provoke tree nut allergies)
 
 Red Oak End Grain Mini Board - $50
-![Red Oak Mini]({{ site.url }}/assets/img/cuttingboards/miniredoak.jpg)
+![Red Oak Mini]({{ site.url }}/assets/img/cuttingboards/redoakmini.jpg)
+![Red Oak Mini]({{ site.url }}/assets/img/cuttingboards/redoakmini_upskirt.jpg)
 - I have four of these boards.
 - Approx. 2 x 10 x 5"
 - Includes handles on the sides, drip moat, and rubber feet.
