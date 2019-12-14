@@ -66,8 +66,5 @@ Red Oak End Grain Mini Board - $50
 
 Past boards / Sold:
 
-Hexy Mini Board - $60
-- I have one of these boards
-- Approx. 5.75 x 10.5 x 1.25"
-- Doesn't include rubber feet (but could be added if desired... let me know)
+Hexy Mini Board - $60 - SOLD!
 ![Hexy Mini]({{ site.url }}/assets/img/cuttingboards/hexymini.jpg)
