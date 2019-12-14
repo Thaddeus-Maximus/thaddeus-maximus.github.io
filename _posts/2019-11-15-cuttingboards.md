@@ -17,17 +17,34 @@ All boards are solid wood. No veneer. No particleboard. No shortcuts.
 
 All boards have been soaked in mineral oil and waxed to keep it in. Food grade and reliable.
 
+"Snake" 3D Board - $150
+- Made from Maple, Saepele, and Cherry.
+- I have one of these boards.
+- Includes handles on the sides and rubber feet.
+![Snake Full]({{ site.url }}/assets/img/cuttingboards/snake.jpg)
+
 Trappy Mini Board - $60
 - I have two of these boards (sizes are not matched between them)
 - Approx. 5.5 x 10.5 x 1.25"
 - Includes handles on the sides and rubber feet.
 ![Trappy Mini]({{ site.url }}/assets/img/cuttingboards/trappymini.jpg)
 
-Hexy Mini Board - $60
-- I have one of these boards
-- Approx. 5.75 x 10.5 x 1.25"
-- Doesn't include rubber feet (but could be added if desired... let me know)
-![Hexy Mini]({{ site.url }}/assets/img/cuttingboards/hexymini.jpg)
+"Boxes" 3D Board - $150
+- Made from Maple, Walnut, and Saepele.
+- I have one of these boards.
+- Includes handles on the sides and rubber feet.
+![Boxes Full]({{ site.url }}/assets/img/cuttingboards/boxes3d.jpg)
+
+White Oak Bricks - $90
+- I have two of these boards, matching sizes.
+- Includes handles on the sides and rubber feet.
+![White Oak Bricks]({{ site.url }}/assets/img/cuttingboards/whitebrick.jpg)
+
+Chevron Board - $90
+- Made from white oak, walnut, and mahogany.
+- I have one of this board
+- Includes handles on the sides and rubber feet.
+![Chevron Board]({{ site.url }}/assets/img/cuttingboards/chevron.jpg)
 
 Red Oak End Grain Board - $90
 - I have two of these boards.
@@ -47,27 +64,10 @@ Red Oak End Grain Mini Board - $50
 - Same materials as the "Snake" board.
 ![Snake Coasters]({{ site.url }}/assets/img/cuttingboards/snakecoasters.jpg)
 
-The following boards are finishing up - To be completed by ~ Dec 14. Images are representative and pre-sanding (color should be about right, they are wet with water in the images).
+Past boards / Sold:
 
-"Snake" 3D Board - $150
-- Made from Maple, Saepele, and Cherry.
-- I have one of these boards.
-- Includes handles on the sides and rubber feet.
-![Snake Full]({{ site.url }}/assets/img/cuttingboards/snake.jpg)
-
-"Boxes" 3D Board - $150
-- Made from Maple, Walnut, and Saepele.
-- I have one of these boards.
-- Includes handles on the sides and rubber feet.
-![Boxes Full]({{ site.url }}/assets/img/cuttingboards/boxes3d.jpg)
-
-White Oak Bricks - $90
-- I have two of these boards, matching sizes.
-- Includes handles on the sides and rubber feet.
-![White Oak Bricks]({{ site.url }}/assets/img/cuttingboards/whitebrick.jpg)
-
-Chevron Board - $90
-- Made from white oak, walnut, and mahogany.
-- I have one of this board
-- Includes handles on the sides and rubber feet.
-![Chevron Board]({{ site.url }}/assets/img/cuttingboards/chevron.jpg)
+Hexy Mini Board - $60
+- I have one of these boards
+- Approx. 5.75 x 10.5 x 1.25"
+- Doesn't include rubber feet (but could be added if desired... let me know)
+![Hexy Mini]({{ site.url }}/assets/img/cuttingboards/hexymini.jpg)
