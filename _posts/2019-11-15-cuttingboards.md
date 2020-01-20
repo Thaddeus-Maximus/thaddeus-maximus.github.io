@@ -17,18 +17,6 @@ All boards are solid wood. No veneer. No particleboard. No shortcuts.
 
 All boards have been soaked in mineral oil and waxed to keep it in. Food grade and reliable.
 
-"Snake" 3D Board - $150
-- Made from Maple, Saepele, and Cherry.
-- I have one of these boards.
-- Includes handles on the sides and rubber feet.
-![Snake Full]({{ site.url }}/assets/img/cuttingboards/snake.jpg)
-
-Trappy Mini Board - $60
-- I have two of these boards (sizes are not matched between them)
-- Approx. 5.5 x 10.5 x 1.25"
-- Includes handles on the sides and rubber feet.
-![Trappy Mini]({{ site.url }}/assets/img/cuttingboards/trappymini.jpg)
-
 "Boxes" 3D Board - $150
 - Made from Maple, Walnut, and Saepele.
 - I have one of these boards.
@@ -47,7 +35,7 @@ Chevron Board - $90
 ![Chevron Board]({{ site.url }}/assets/img/cuttingboards/chevron.jpg)
 
 Red Oak End Grain Board - $90
-- I have two of these boards.
+- I have one of this board.
 - Approx. 2 x 10 x 13"
 - Includes handles on the sides, drip moat, and rubber feet.
 ![Red Oak Full]({{ site.url }}/assets/img/cuttingboards/redoak.jpg)
@@ -64,7 +52,27 @@ Red Oak End Grain Mini Board - $50
 - Same materials as the "Snake" board.
 ![Snake Coasters]({{ site.url }}/assets/img/cuttingboards/snakecoasters.jpg)
 
-Past boards / Sold:
+# Past boards / Sold:
 
-Hexy Mini Board - $60 - SOLD!
+"Snake" 3D Board
+- Made from Maple, Saepele, and Cherry.
+- Includes handles on the sides and rubber feet.
+![Snake Full]({{ site.url }}/assets/img/cuttingboards/snake.jpg)
+
+Simple Stripe
+- Made from Maple, Cherry, Mahogany, and Wenge.
+![Simple Stripe]({{ site.url }}/assets/img/cuttingboards/simplestripe.jpg)
+
+Trappy Mini Board
+- Approx. 5.5 x 10.5 x 1.25"
+- Includes handles on the sides and rubber feet.
+![Trappy Mini]({{ site.url }}/assets/img/cuttingboards/trappymini.jpg)
+
+Hexy Mini Board - $60
 ![Hexy Mini]({{ site.url }}/assets/img/cuttingboards/hexymini.jpg)
+
+Red Oak End Grain Board
+- Approx. 2 x 10 x 13"
+- Includes handles on the sides, drip moat, and rubber feet.
+![Red Oak Full]({{ site.url }}/assets/img/cuttingboards/redoak.jpg)
+![Red Oak Full]({{ site.url }}/assets/img/cuttingboards/redoak_upskirt.jpg)
