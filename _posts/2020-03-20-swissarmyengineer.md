@@ -2,7 +2,7 @@
 layout: post
 title: "Swiss Army Engineer"
 date: 2020-03-20 18:52:00
-img: cortex.png
+img: knife.jpg
 description: A set of analysis webapps to analyze typical problems.
 tags:
  - robotics
