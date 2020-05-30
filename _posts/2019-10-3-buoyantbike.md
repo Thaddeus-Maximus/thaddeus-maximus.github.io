@@ -6,8 +6,8 @@ img: buoyantbike.jpg
 description: Bike. Water. Waterbike. Buoyant Bike?
 tags:
  - woodworking
- - mechanical
- - fabrication
+ - Mechanical
+ - Fabrication
 ---
 
 This is a terrible idea. I'm glad I did it.
