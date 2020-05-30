@@ -281,7 +281,7 @@
 		compute();
 	}
 
-	function NaNto1(x) {
+	function NaNTo(1,x) {
 		if (isNaN(x))
 			return 1;
 		return x;
@@ -289,14 +289,14 @@
 
 	function calc_ratio() {
 		var G = 1;
-		G *= NaNto1(gidv("G1B"));
-		G *= NaNto1(gidv("G2B"));
-		G *= NaNto1(gidv("G3B"));
-		G *= NaNto1(gidv("G4B"));
-		G /= NaNto1(gidv("G1A"));
-		G /= NaNto1(gidv("G2A"));
-		G /= NaNto1(gidv("G3A"));
-		G /= NaNto1(gidv("G4A"));
+		G *= NaNTo(1,gidv("G1B"));
+		G *= NaNTo(1,gidv("G2B"));
+		G *= NaNTo(1,gidv("G3B"));
+		G *= NaNTo(1,gidv("G4B"));
+		G /= NaNTo(1,gidv("G1A"));
+		G /= NaNTo(1,gidv("G2A"));
+		G /= NaNTo(1,gidv("G3A"));
+		G /= NaNTo(1,gidv("G4A"));
 
 		document.getElementById("G").value = G;
 
