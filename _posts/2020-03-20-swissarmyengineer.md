@@ -12,4 +12,4 @@ tags:
  - Simulation
 ---
 
-<a href="http://thaddeus-maximus.github.io/swissarmyengineer">Go to the site...</a>
+<a href="http://thaddeus-maximus.github.io/everycalc">Go to the site...</a>
