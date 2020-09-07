@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "EV3HUB: Collaborative EV3 Programming"
-img: ev3hub.png
+layout: post.html
+title: EV3Hub
+image: ev3hub.png
 date: 2014-12-28 18:00:00
 description: When you're doing FLL, it's very very common to have to merge together programs. This leads of course to mayhem of losing work, overwriting code, etc. Something like github would be great, but EV3-G's save format is binary garbage that can't be really used in repository systems as it is.
-tags: [Software, Power Surge, FLL, Robotics]
+tags: [Software, Power Surge, FLL, Robotics, usable-feature, comprobotics, robotics]
 ---
 
 
@@ -12,7 +12,7 @@ When you're doing FLL, it's very very common to have to merge together programs.
 
 So, I rolled my own!
 
-![Overview of EV3Hub]({{ site.url }}/assets/img/ev3hub_overview.png)
+![Overview of EV3Hub]({{ site.url }}/assets/images/ev3hub_overview.png)
 
 Features:
 

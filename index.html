@@ -1,18 +1,188 @@
----
-layout: main
----
+<!DOCTYPE html>
 
-{% for post in paginator.posts %}
-  <div class="chapter" data-tags='{{post.tags | join: ","}}'>
-    <a href="{{post.url | prepend: site.baseurl}}">
-      {% if post.img %}
-      <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-      {% endif %}
+<html>
+<head>
+    {% include 'page.header.html' %}
+
+    {% if site.title %}<title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title and site.subtitle %} – {{ site.subtitle }}{% endif %}</title>{% endif %}
+
+<!-- Really, what I'd like is what I had in the past, but separated out into "for you", "projects" and "musings"
+  Alternatively: "Free Software", "Things", "Past Projects", "Thoughts", "External References"
+  Alternatively: "Free Software", "For Sale", "FSAE", "FRC", "Oddballs", "Get In Touch"
+  Alternatively: "EveryCalc", "Cutting Boards", "FSAE", "FRC", "Oddballs", "Get In Touch"
+
+  I'm Thad. I Make <INSERT DROPDOWN HERE />
+  Thad's <INSERT DROPDOWN HERE />
+  Mural, linking to external pages
+
+  
+  
+-->
+
+<script>
+$(document).ready( function () {
+  $("#tilewall").tileWall({
+
+    //  minimum milliseconds between two resize events to refresh the tile wall
+    debounceTime: 100,
+
+    // if > 0, hide navigation tiles on viewports less wide than the given pixels
+    hideNavTilesOnViewportWidthSmallerThan: 0,
+
+    // maximum number of columns
+    maxNumCols: 5,
+
+    // minimum number of columns
+    minNumCols: 3,
+
+    // minimum width of a tile
+    minTileWidth: 250,
+
+    // if > 0, shrink all tiles to 1x1 size on viewports less wide than the given pixels
+    shrinkTilesOnViewportWidthSmallerThan: 300,
+
+    // CSS class for tiles
+    tileClassName: "tile",
+
+    // space between tiles
+    tileMargin: 0,
+
+    // use (1) or don't use (0) css transitions
+    transition: 0 
+    
+  })
+});
+</script>
+
+</head>
+
+{% block content %}
+<div id="main-header">I'm <em>Thad</em>. I make things.</div>
+
+<div id="tilewall">
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="0">
+    <a href="{{ get_url('contact') }}">
+      <img src="{{ get_asset('images/switchboard.jpeg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>Contact</em> and <em>About</em>
+      </div></div>
     </a>
-    <div class="chapter_inner">
-      <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
-      <h3 class="chapter_title">{{post.title}}</h3>
-    </div>
   </div>
-  <!-- Hey! I'm a comment. whatever man. taps mic PROFUSELY-->
-{% endfor %}
+  <div class="tile" 
+       data-width="2" 
+       data-height="1" 
+       data-priority="100">
+    <a href="{{ get_url('everycalc') }}">
+      <img src="{{ get_asset('images/everycalc.png') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>EveryCalc</em>, a suite of analysis tools for common engineering tasks that <em>you can use!</em>
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="40">
+    <a href="{{ get_url('cuttingboards') }}">
+      <img src="{{ get_asset('images/cuttingboards/hexymini.jpg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>Cutting Boards</em> and other <em>Woodwork</em> for sale!
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="2">
+    <a href="{{ get_url('machinery') }}">
+      <img src="{{ get_asset('images/southbend/ways.jpg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>Physical Tools</em> I've made or fixed.
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="2" 
+       data-height="1" 
+       data-priority="50">
+    <a href="{{ get_url('fsae') }}">
+      <img src="{{ get_asset('images/dt_006_build.jpg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        I spent many years in <em>Formula SAE</em> building <em>racecars</em>.
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="2">
+    <a href="https://github.com/RoseGPE/RoseLapWeb">
+      <img src="{{ get_asset('images/roselap_v5.png') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>RoseLap</em> is a laptime simulation tool (that is currently under major overhaul)
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="2" 
+       data-height="1" 
+       data-priority="2">
+    <a href="{{ get_url('comprobotics') }}">
+      <img src="{{ get_asset('images/comprobotics.jpg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        I've been involved for years in <em>Competitive/Educational Robotics</em>.
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="2" 
+       data-height="1" 
+       data-priority="2">
+    <a href="{{ get_url('bikes') }}">
+      <img src="{{ get_asset('images/buoyantbike.jpg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        "Bikes"... like a <em>Buoyant Bike</em>.
+      </div></div>
+    </a>
+  </div>
+  <!--<div class="tile" 
+       data-width="2" 
+       data-height="1" 
+       data-priority="2">
+    <a href="{{ get_url('blog') }}">
+      <img src="{{ get_asset('images/typewriter.jpeg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>Musings about The Trade</em>.
+      </div></div>
+    </a>
+  </div>-->
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="10">
+    <a href="{{ get_url('mechatronics_book') }}">
+      <img src="{{ get_asset('images/mechatronics_book.jpeg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        My own <em>curriculum/text</em> for mechatronics.
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="2">
+    <a href="{{ get_url('ev3hub') }}">
+      <img src="{{ get_asset('images/ev3hub.png') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>EV3Hub</em> is a version control system for LEGO Mindstorms EV3 that <em>your FLL team could use!</em>
+      </div></div>
+    </a>
+  </div>
+</div>
+
+{% endblock %}
+
+</html>

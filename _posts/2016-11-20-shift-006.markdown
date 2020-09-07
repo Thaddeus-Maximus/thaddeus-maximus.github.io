@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post.html
 title: "RGP006 Shift Actuator"
-img: shift_007.jpg # Add image post (optional)
+image: shift_007.jpg # Add image post (optional)
 date: 2016-11-20 12:55:00 +0300
 description: RGP006 Shift Actuator
-tag: [Design, Fabrication, RoseGPE, Mechanical, Electrical, Teams]
+tags: [Design, Fabrication, RoseGPE, Mechanical, Electrical, Teams, fsae]
 ---
 
 Past members on the RoseGPE team have tried to develop paddle shifting for thair cars, with mostly poor success. Pneumatics are heavy. Linear actuators are lossy. We knew that the system needed to be:

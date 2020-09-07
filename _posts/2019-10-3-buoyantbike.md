@@ -1,13 +1,15 @@
 ---
-layout: post
+layout: post.html
 title: "Buoyant Bike"
 date: 2019-10-3 20:25:00
-img: buoyantbike.jpg
+image: buoyantbike.jpg
 description: Bike. Water. Waterbike. Buoyant Bike?
 tags:
  - woodworking
  - Mechanical
  - Fabrication
+ - odd
+ - bikes
 ---
 
 This is a terrible idea. I'm glad I did it.

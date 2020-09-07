@@ -1,15 +1,15 @@
 ---
-layout: post
+layout: post.html
 title: "Quad Bike Electric Conversion"
-img: quadbike.jpg # Add image post (optional)
+image: quadbike.jpg # Add image post (optional)
 date: 2017-12-18 12:55:00 +0300
 description: Upgrading a quad bike to have an electric assist
-tag: [Mechanical, Electrical, Design, Fabrication]
+tags: [Mechanical, Electrical, Design, Fabrication, odd, bikes]
 ---
 
 My grandpa purchased a quadracycle or quad bike.
 
-![Iso](/assets/img/gpa-quadbike/iso.jpg)
+![Iso](/assets/images/gpa-quadbike/iso.jpg)
 
 It's kinda hard to take up hills. But it's wicked fun to ride. Could this be improved? Absolutely! I electrified it!
 
@@ -17,7 +17,7 @@ I did some rough hand calculations and estimated that it would take at least 1 H
 
 But first, a prototype.
 
-![Iso](/assets/img/gpa-quadbike/proto-iso.jpg)
+![Iso](/assets/images/gpa-quadbike/proto-iso.jpg)
 
 I did this all over the course of a weekend with a south bend lathe, a MIG gun, grinder, scrap metal, and not much else. I was lucky enough to have a one-way bearing...
 

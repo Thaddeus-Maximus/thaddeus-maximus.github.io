@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: post.html
 title: "Instacode: Hyper fast NXT programming"
-img: instacode.png
+image: instacode.png
 date: 2015-02-05 12:00:00
 description: NXT-G is convoluted, disgusting, resource-hungry, not cross-platform, and the resulting code isn't precise. But not Instacode.
 tags:
@@ -15,13 +15,15 @@ tags:
  - programming
  - language
  - Software
+ - usable
+ - comprobotics
 ---
 
 NXT-G is convoluted, disgusting, resource-hungry, not cross-platform, and the resulting code isn't precise.
 
 But not Instacode. [Download it here!](/hosted/instacode-release.zip)
 
-<img src="/assets/img/instacode.png">
+<image src="/assets/images/instacode.png">
 
 Instacode runs off of python and tkinter, generating NXC code which gets compiled and deployed via the nbc app.
 

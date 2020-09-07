@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post.html
 title: "CORTEX"
 date: 2013-07-03 18:52:00
-img: cortex.png
+image: cortex.png
 description: A two linkage LEGO arm that moves in straight lines.
 tags:
  - robotics

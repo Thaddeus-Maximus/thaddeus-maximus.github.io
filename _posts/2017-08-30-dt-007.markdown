@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: post.html
 title: "RGP007 Drivetrain"
-img: dt_007_design.jpg # Add image post (optional)
+image: dt_007_design.jpg # Add image post (optional)
 date: 2017-08-30 12:55:00 +0300
 description: RGP007 Drivetrain
-tag: [Design, RoseGPE, Mechanical, Simulation, Teams, Fabrication]
+tags: [Design, RoseGPE, Mechanical, Simulation, Teams, Fabrication, fsae]
 ---
 
 [Download the Design Docs](/assets/dt007.pdf)
@@ -25,4 +25,4 @@ In addition to the usual FEA analysis to ensure everything was kosher.
 
 This system faced only one issue: The shims for tensioning popped out. I foresaw this as a possibility, and made sure to design in 'ears' for safety wire to be installed such that the shim is retained even under severe vibration and compressive loads.
 
-![Barren Installation](/assets/img/rgp007-drivetrain/install_barren.jpg)
+![Barren Installation](/assets/images/rgp007-drivetrain/install_barren.jpg)

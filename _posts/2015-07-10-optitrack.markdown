@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: post.html
 title: "OptiTrack"
-img: optitracker.png
+image: optitracker.png
 date: 2015-07-10 11:00:21
 description: OptiTrack
 tags:
@@ -13,6 +13,7 @@ tags:
  - android
  - OptiTrack
  - Software
+ - odd
 ---
 
 OptiTrack is stable (and maybe finished?)!

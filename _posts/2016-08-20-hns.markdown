@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post.html
 title: "Hughes Net. Sys. Internship"
 date: 2016-08-20 18:52:00
-img: hns.jpg
+image: hns.jpg
 description: My Internship with Hughes Network Systems
 tags:
  - Teams

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post.html
 title: "CAT Internship"
 date: 2017-08-20 18:52:00
-img: cat.jpg
+image: cat.jpg
 description: My Internship with CATERPILLAR
 tags:
  - Teams

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: post.html
 title: "Textron S.V. Internship"
 date: 2018-08-24 18:52:00
-img: tsv.jpg
+image: tsv.jpg
 description: My Internship with Textron Specialized Vehicles
 tags:
  - Teams
