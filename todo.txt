@@ -1,0 +1,25 @@
+- Frontpage image editing
+- Makefile for gh-pages deploy
+- Remove dates from markdown filenames
+
+
+Flesh out these posts
+- Southbend
+- Supercrutch
+- RGP007 Drivetrain
+- RGP007 Lapsim Analysis
+- RGP007 Unsprung
+- RGP007
+- RGP008 Steering Components
+- RoseLap (v5, v6)
+
+Edit these posts
+- EV3Hub
+- Instacode
+- Wilson
+- OptiTrack
+
+Blog posts
+- CAD as Code
+
+Resume
