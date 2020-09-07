@@ -1,0 +1,71 @@
+{% extends 'layout.html' %}
+
+
+{% set title = 'FSAE' %}
+
+{% block breadcrumbs %}
+    <ul id="breadcrumbs">
+        <li><a href="{{ get_url() }}">Home</a></li>
+        <li>Formula SAE</li>
+    </ul>
+{% endblock %}
+
+
+{% block customscript %}
+<script>
+$(document).ready( function () {
+  $("#tilewall").tileWall({
+
+    //  minimum milliseconds between two resize events to refresh the tile wall
+    debounceTime: 100,
+
+    // if > 0, hide navigation tiles on viewports less wide than the given pixels
+    hideNavTilesOnViewportWidthSmallerThan: 0,
+
+    // maximum number of columns
+    maxNumCols: 7,
+
+    // minimum number of columns
+    minNumCols: 3,
+
+    // minimum width of a tile
+    minTileWidth: 250,
+
+    // if > 0, shrink all tiles to 1x1 size on viewports less wide than the given pixels
+    shrinkTilesOnViewportWidthSmallerThan: 300,
+
+    // CSS class for tiles
+    tileClassName: "tile",
+
+    // space between tiles
+    tileMargin: 0,
+
+    // use (1) or don't use (0) css transitions
+    transition: 0
+    
+  })
+});
+</script>
+{% endblock %}
+
+{% block content %}
+  <h1 class="post-title">Formula SAE</h1>
+  <h2 class="post-meta">"To finish first, you must first finish."</h2>
+
+  <div id="tilewall">
+      {% for post in posts.items -%}
+      {% if "fsae" in post.tags -%}
+      <div class="tile" >
+        <a href="{{ get_url(post.url) }}">
+          <span style="display:none" class="timestamp">{{ post.timestamp }}</span>
+          <img src="{{ get_asset('images/' + post.image) }}" />
+          <div class="tile-overlay"><div class="tile-overlay-text">
+            {{ post.title }}
+          </div></div>
+        </a>
+      </div>
+      {%- endif %}
+      {%- endfor %}
+  </div>
+{% endblock %}
+

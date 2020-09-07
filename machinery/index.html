@@ -1,0 +1,73 @@
+{% extends 'layout.html' %}
+
+
+{% set title = 'Machinery' %}
+
+{% block breadcrumbs %}
+    <ul id="breadcrumbs">
+        <li><a href="{{ get_url() }}">Home</a></li>
+        <li>Machinery</li>
+    </ul>
+{% endblock %}
+
+
+{% block customscript %}
+<script>
+$(document).ready( function () {
+  $("#tilewall").tileWall({
+
+    //  minimum milliseconds between two resize events to refresh the tile wall
+    debounceTime: 100,
+
+    // if > 0, hide navigation tiles on viewports less wide than the given pixels
+    hideNavTilesOnViewportWidthSmallerThan: 0,
+
+    // maximum number of columns
+    maxNumCols: 7,
+
+    // minimum number of columns
+    minNumCols: 3,
+
+    // minimum width of a tile
+    minTileWidth: 250,
+
+    // if > 0, shrink all tiles to 1x1 size on viewports less wide than the given pixels
+    shrinkTilesOnViewportWidthSmallerThan: 300,
+
+    // CSS class for tiles
+    tileClassName: "tile",
+
+    // space between tiles
+    tileMargin: 0,
+
+    // use (1) or don't use (0) css transitions
+    transition: 0
+    
+  })
+});
+</script>
+{% endblock %}
+
+{% block content %}
+        <h1 class="post-title">Equipment and Tools</h1>
+        <h2 class="post-meta">"Man is a tool-using animal. Without tools he is nothing, with tools he is all." - Thomas Carlyle</h2>
+
+    <p>I've been around heavy equipment for all my life, and so have done a lot of general upkeeping and fixing. Since I learned to use precision fabrication equipment, I've started to get more into equipment restoration and toolmaking.</p>
+
+  <div id="tilewall">
+      {% for post in posts.items -%}
+      {% if "machinery" in post.tags -%}
+      <div class="tile" >
+        <a href="{{ get_url(post.url) }}">
+          <span style="display:none" class="timestamp">{{ post.timestamp }}</span>
+          <img src="{{ get_asset('images/' + post.image) }}" />
+          <div class="tile-overlay"><div class="tile-overlay-text">
+            {{ post.title }}
+          </div></div>
+        </a>
+      </div>
+      {%- endif %}
+      {%- endfor %}
+  </div>
+{% endblock %}
+

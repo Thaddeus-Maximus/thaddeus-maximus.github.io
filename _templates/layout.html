@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+
+    {% if site.title %}<title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title and site.subtitle %} – {{ site.subtitle }}{% endif %}</title>{% endif %}
+    {% block customscript %}{% endblock %}
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1 id="title"><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+            {% if site.subtitle %}<h2 id="subtitle">{{ site.subtitle }}</h2>{% endif %}
+
+            <ul class="nav">
+                <li><a href="{{ get_url() }}">Main</a></li>
+                <li><a href="{{ get_url('everycalc/') }}">EveryCalc</a></li>
+                <li><a href="{{ get_url('blog/') }}">Blog</a></li>
+                <li><a href="{{ get_url('fsae/') }}">FSAE</a></li>
+                <li><a href="{{ get_url('comprobotics/') }}">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="{{ get_url('contact/') }}">Contact</a></li>
+                <li><a href="https://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="https://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="{{ get_url('feed.xml') }}">RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>{% if site.author %}© {{ none|date('%Y') }} {{ site.author }} – {% endif %}powered by <a href="https://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>
+
