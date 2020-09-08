@@ -11,6 +11,7 @@
 
 {% block content %}
     {% for post in posts.items %}
+        {% if "blog" in post.tags %}
         <dl class="archives">
             <dt class="archives-post-date">{{ post.timestamp|date('%b %d') }}</dt>
             <dd class="archives-post-title"><a href="{{ get_url(post.url) }}">{{ post.title }}</a></dd>
@@ -19,6 +20,7 @@
                 <dd class="archives-post-tags">Tagged <span>»</span> {% for tag in post.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd>
             {% endif %}
         </dl>
+        {% endif %}
     {% endfor %}
 {% endblock %}
 

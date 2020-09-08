@@ -9,7 +9,7 @@ tags:
  - blog
 ---
 
-[A Love Letter to Cardboard](assets/images/cardboard.jpeg)
+![A Love Letter to Cardboard](/assets/images/cardboard.jpeg)
 
 [Steel is the king of building materials. Plywood is the queen.](https://www.youtube.com/watch?v=pVxldyIa0Bg)
 But no court is properly full without a jester.

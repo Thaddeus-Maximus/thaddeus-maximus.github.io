@@ -5,7 +5,7 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2020-09-07T00:00:21Z</updated>
+    <updated>2020-09-08T15:26:28Z</updated>
 
     <author>
         <name>Thad Hughes</name>
@@ -13,6 +13,32 @@
         <uri>/</uri>
     </author>
 
+    
+        <entry>
+            <title>A Love Letter to Cardboard</title>
+            <link rel="alternate" href="/ode_to_cardboard/" type="text/html" />
+            <id>/ode_to_cardboard/</id>
+            <updated>2020-09-08T15:26:26Z</updated>
+
+            <summary type="html">&lt;img src=&#34;/assets/images/cardboard.jpeg&#34; alt=&#34;A Love Letter to Cardboard&#34;&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/images/cardboard.jpeg&#34; alt=&#34;A Love Letter to Cardboard&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=pVxldyIa0Bg&#34;&gt;Steel is the king of building materials. Plywood is the queen.&lt;/a&gt;
+But no court is properly full without a jester.
+The jester says things that should not be said. He predicts folly and demise to them, letting the repute of the king and queen go untarnished.&lt;/p&gt;
+
+&lt;p&gt;Cardboard comes in many flavors. Plain stock is effectively thick, brown paper. It cuts and folds easily, with little bias to grain direction.
+Single wall board is the most common type. It&amp;rsquo;s corrugations provide strength from bending in one axis, but permit bends in the other direction. A blessing and a curse, this allows for some interesting construction methods.
+Double wall board stacks two layers of corrugated material parallel to each other. This provides additional strength, and makes bending harder.
+However, when the board learns of the queen&amp;rsquo;s ways, he may find ever more strength.&lt;/p&gt;
+
+&lt;p&gt;The commercial overlords fear the power of an overpowered jester, and so seek to limit his power. But by stacking layers perpindicular, the court&amp;rsquo;s orthotropic member becomes less so- gaining complete out of plane fortitude.&lt;/p&gt;
+
+&lt;p&gt;Part of his utility is, of course, his replacability. But a jester is replaced only by another jester. His role is unparalleled. Creating large sheetmetal parts is costly and time-consuming, and plastic is only slightly less so. Cardboard can be cut quickly on a laser- nearly an order of magnitude faster than plywood. It can be cut with knife and welded with hot glue. Shaped, reformed, and thrown in the dungeon without penalty, and pulled off the streets for free.&lt;/p&gt;
+
+&lt;p&gt;While if he were to seize the throne, our world would turn to pulp&amp;hellip; he serves at hand and foot, keeping our kingdom from ruin.&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Contact &amp; About Thad</title>
@@ -514,17 +540,6 @@
 &lt;p&gt;Why not solve both of these problems at once? As such, the jacking truss is born.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/assets/images/rgp006-drivetrain/jacking.jpg&#34; alt=&#34;Jacking truss&#34;&gt;&lt;/p&gt;
-</content>
-        </entry>
-    
-        <entry>
-            <title>Hughes Net. Sys. Internship</title>
-            <link rel="alternate" href="/hns/" type="text/html" />
-            <id>/hns/</id>
-            <updated>2016-08-20T00:28:00Z</updated>
-
-            <summary type="html">I performed thermal and shock testing on the Giotto radio platform, assisted the test department in creating test fixtures for assembly line, and designed a pressure test fixture.</summary>
-            <content type="html">&lt;p&gt;I performed thermal and shock testing on the Giotto radio platform, assisted the test department in creating test fixtures for assembly line, and designed a pressure test fixture.&lt;/p&gt;
 </content>
         </entry>
     
