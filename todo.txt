@@ -12,6 +12,7 @@ Flesh out these posts
 - RGP007
 - RGP008 Steering Components
 - RoseLap (v5, v6)
+- Benchman2k
 
 Edit these posts
 - EV3Hub
