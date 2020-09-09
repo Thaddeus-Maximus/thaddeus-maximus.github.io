@@ -10,6 +10,8 @@ I'm an engineer from a small farm in Illinois. I grew up fixing equipment and ge
 
 I currently engineer for [DEKA R&D](https://www.dekaresearch.com) in New Hampshire, upkeep the [Manchester Makerspace](http://manchestermakerspace.org), and help FRC #501.
 
+[My Resume.](/assets/resume.pdf)
+
 I like to keep lots of irons in many fires. I'm involved with many things:
 
  * Mechanical Design

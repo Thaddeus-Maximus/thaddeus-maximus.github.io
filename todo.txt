@@ -1,6 +1,6 @@
-- Frontpage image editing
-- Makefile for gh-pages deploy
-- Remove dates from markdown filenames
+[] Frontpage image editing
+[x] Makefile for gh-pages deploy
+[x] Remove dates from markdown filenames
 
 
 Flesh out these posts
@@ -22,5 +22,8 @@ Edit these posts
 
 Blog posts
 - CAD as Code
+- Design for Tuning, Design for Testing, Design for Random Assembly
+- Being a godly engineer
+- How to comment in CAD
 
-Resume
+[] Resume
