@@ -11,9 +11,11 @@
 <body>
     <div id="container">
         <div id="sidebar">
-            <h1 id="title"><a href="{{ get_url() }}">{{ site.title }}</a></h1>
-            {% if site.subtitle %}<h2 id="subtitle">{{ site.subtitle }}</h2>{% endif %}
-
+            <center>
+                <h1 id="title"><a href="{{ get_url() }}">I'm <em>Thad</em>.</a></h1>
+                {% if site.subtitle %}<h2 id="subtitle">{{ site.subtitle }}</h2>{% endif %}
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
             <ul class="nav">
                 <li><a href="{{ get_url() }}">Main</a></li>
                 <li><a href="{{ get_url('everycalc/') }}">EveryCalc</a></li>
@@ -34,6 +36,10 @@
             <div id="footer">
                 <p>{% if site.author %}© {{ none|date('%Y') }} {{ site.author }} – {% endif %}powered by <a href="https://mynt.uhnomoli.com/">mynt</a></p>
             </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="{{ get_url() }}">I'm <em>Thad</em>.</a></h1>
         </div>
 
         <div id="content">

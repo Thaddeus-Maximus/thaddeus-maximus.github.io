@@ -53,7 +53,8 @@ body
     background:
         //color: $bg
         size: 25px 25px
-        image: radial-gradient(circle, $bg-grid 1.5px, $sbg 1.5px)
+        image: linear-gradient(0deg, $bg-grid 1.5px, transparent 1.5px), linear-gradient(90deg, $bg-grid 1.5px, $sbg 1.5px)
+        //radial-gradient(circle, $bg-grid 1.5px, $sbg 1.5px)
         //image: url('../images/bg.png')
         //position: left top
         //repeat: repeat
@@ -92,7 +93,7 @@ dl.horizontal
 h1, h2, h3, h4, h5, h6
     color: $fg-l
     font:
-        style: italic
+        style: normal
         weight: normal
 
 h1, h2
@@ -270,6 +271,9 @@ sup
 
     width: $container
 
+    @media screen and (max-width: $transwid)
+        width: 100%
+
 #sidebar
     position: fixed
     top: 0px
@@ -279,6 +283,23 @@ sup
     padding: 0px $baseline
 
     width: $sidebar
+
+    @media screen and (max-width: $transwid)
+        display: none
+
+#topbar
+    display: none
+    width: 100%
+    padding: $baseline
+    text-align: center
+    margin-left: 0px
+    margin-right: 0px
+    padding-left: 0px
+    padding-right: 0px
+
+    @media screen and (max-width: $transwid)
+        display: block
+
 
 #title
     margin-top: $baseline
@@ -297,6 +318,9 @@ sup
     padding: 0px $baseline
 
     width: $sidebar
+
+    @media screen and (max-width: $transwid)
+        display: none
 
 #breadcrumbs
     position: fixed
@@ -318,6 +342,10 @@ sup
 
     #breadcrumbs + &
         margin-top: $baseline * 4
+
+    @media screen and (max-width: $transwid)
+        margin-left: 0px
+        width: 100%
 
 .post-list
     & > .post-title, & > .post-meta
@@ -374,7 +402,7 @@ div.code
 //
 // STYLE
 //
-#sidebar
+#sidebar, #topbar
     background:
         color: $sbg-l
         //image: url('../images/sbg.png')
@@ -565,8 +593,22 @@ em
     font-family: "Patua One", "Ubuntu Mono", sans-serif
     font-size: 72pt
     margin: 0px
-    margin-top: 90px
-    height: 130px
+    margin-top: 5px
+    margin-bottom: 5px
+    height: 180px
     text-align: center
     vertical-align: middle
     color: $fg
+
+#main-header-banner
+    background-image: url("/assets/images/header.svg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 750px 150px
+    height: 100%
+    margin: 0px
+    padding: 0px
+
+    @media screen and (max-width: $transwid)
+        background-size: 150px 150px
+        background-image: url("/assets/images/cross.svg")

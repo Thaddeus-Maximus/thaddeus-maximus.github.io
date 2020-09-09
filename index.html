@@ -57,7 +57,9 @@ $(document).ready( function () {
 </head>
 
 {% block content %}
-<div id="main-header">I'm <em>Thad</em>. I make things.</div>
+<div id="main-header">
+  <div id="main-header-banner"></div>  
+</div>
 
 <div id="tilewall">
   <div class="tile" 
@@ -109,7 +111,7 @@ $(document).ready( function () {
        data-height="1" 
        data-priority="50">
     <a href="{{ get_url('fsae') }}">
-      <img src="{{ get_asset('images/dt_006_build.jpg') }}" />
+      <img src="{{ get_asset('images/stylized/dt_006_build.jpg') }}" />
       <div class="tile-overlay"><div class="tile-overlay-text">
         I spent many years in <em>Formula SAE</em> building <em>racecars</em>.
       </div></div>
