@@ -159,9 +159,8 @@ th {
   text-align: left; }
 
 a {
-  color: #141414;
-  text-decoration: none;
-  transition: color 0.2s; }
+  color: #268bd2;
+  text-decoration: underline; }
   a:hover {
     color: #141414; }
 
