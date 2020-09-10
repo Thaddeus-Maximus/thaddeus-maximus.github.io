@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
+
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>OptiTrack : Blog – I'm Thad.</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="/">Main</a></li>
+                <li><a href="/everycalc/">EveryCalc</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/fsae/">FSAE</a></li>
+                <li><a href="/comprobotics/">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/assets/resume.pdf">Resume</a></li>
+                <li><a href="https://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="https://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="/feed.xml">RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2020 Thad Hughes – powered by <a href="https://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
+    <div class="post">
+        <h1 class="post-title">OptiTrack</h1>
+        <h2 class="post-meta">2015-07-10 11:00:21 <span>»</span> <a href="/archives/android/">android</a>, <a href="/archives/controls/">controls</a>, <a href="/archives/LEGO/">LEGO</a>, <a href="/archives/MINDSTORMS/">MINDSTORMS</a>, <a href="/archives/odd/">odd</a>, <a href="/archives/OptiTrack/">OptiTrack</a>, <a href="/archives/robotics/">robotics</a>, <a href="/archives/Software/">Software</a>, <a href="/archives/vision-processing/">vision processing</a></h2>
+
+        <p>OptiTrack is stable (and maybe finished?)!</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L4di5AzicZc" frameborder="0" allowfullscreen></iframe>
+
+<p>Finally up to speeds of 1.7 feet per second. Unsure if I&rsquo;ll be adding anything more to this project or not.</p>
+
+<p><a href="https://github.com/Thaddeus-Maximus/OptiTracker">Here&rsquo;s the code repo: <a href="https://github.com/Thaddeus-Maximus/OptiTracker">https://github.com/Thaddeus-Maximus/OptiTracker</a></a></p>
+<h1>Development:</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7CqhziY8g_o" frameborder="0" allowfullscreen></iframe>
+
+<p>I&rsquo;m basically starting a frame by taking a sample of the last line of pixels, iterating through it, and trying to find a point where there&rsquo;s a massive change in color value. When I find a positive and a negative one that&rsquo;s close to the center, I average the two values to find the X location, and subtract them to find a line width (which I don&rsquo;t use&hellip; yet). I then recursively call the function (for a limited number of times), passing in the same parameters. Once a single point is found, readings improve; I prioritize readings that are closer to the last point if their derivative/color change is still fairly high.</p>
+
+<p>This method seems rather robust; I&rsquo;ll see how it performs on a concrete floor with tape; hopefully it shouldn&rsquo;t be a noisy space and my readings will fare well!</p>
+
+<p>Here&rsquo;s a NXC code dump:</p>
+<pre><code>&#x2F;*
+ * @param in the value to constrain
+ * @param limit the magnitude to constrain to
+ *&#x2F;
+float limitTo(float in, float limit){
+  if(in&lt;-limit) return -limit;
+  else if(in&gt;limit) return limit;
+  else return in;
+}
+
+&#x2F;*
+ * @param port the motor port to run
+ * @param power the speed to run it at, scaled from -100 to +100
+ * @param brake whether or not to brake when power = 0
+ *&#x2F;
+inline void runMotor(byte port, int power, bool brake=false){
+  if(power&gt;100)
+    power=100;
+  if(power&lt;-100)
+    power=-100;
+  if (power&gt;0){
+    OnFwdEx(port, power, RESET_NONE);
+  }else if(power&lt;0){
+    OnRevEx(port, -power, RESET_NONE);
+  }else if(brake){
+    OffEx(port, RESET_NONE);
+  }else{
+    CoastEx(OUT_BC,RESET_NONE);
+  }
+}
+
+&#x2F;&#x2F; Direction to turn the wheel pod to in degrees
+float wheelPodSetpoint=0;
+
+&#x2F;*
+ * Turn on the drivetrain to output values corresponding to the given vectors.
+ * @param y the forwards-backwards speed vector
+ * @param w the rotational speed vector
+ *&#x2F;
+void drive (int y, int w) {
+    if (abs(w)&lt;2) {
+        &#x2F;&#x2F; If the rotation vector is negligible, just skip expensive computations and write the values.
+        wheelPodSetpoint = 0;
+
+        runMotor(OUT_B, -y, false);
+        runMotor(OUT_C, -y, false);
+    } else {
+        &#x2F;&#x2F; Get basic gist of the vectors
+        int left = y-w;
+        int right = y+w;
+        &#x2F;&#x2F; Scale them down appropriately
+        if (abs(left)&gt;abs(right)) {
+            if (abs(left)&gt;100) {
+                right = right*abs(left)&#x2F;100;
+                left = abs(left)&#x2F;left*100;
+            }
+        } else {
+            if (abs(right)&gt;100) {
+                left = left*abs(right)&#x2F;100;
+                right = abs(right)&#x2F;right*100;
+            }
+        }
+        &#x2F;&#x2F; Write values out
+        runMotor(OUT_B, -left, false);
+        runMotor(OUT_C, -right, false);
+        &#x2F;&#x2F; Compute turning radius, measured in wheelbase width&#x2F;2
+        float radius = (-left-right)&#x2F;(right-left); 
+        &#x2F;&#x2F; compute angle to turn to. The wheel pod is the wheelbase width back from the drive axle, so we use 2.0 instead of 1.0.
+        wheelPodSetpoint = atan2d(2.0,radius);
+    }
+}
+
+&#x2F;&#x2F; Holds the wheel pod at the desired setpoint
+task wheelPodRegulator() {
+  ResetTachoCount(OUT_A);
+  while(true){
+    &#x2F;&#x2F; Get general error
+    float error = -wheelPodSetpoint-((MotorRotationCount(OUT_A))*40.0&#x2F;56.0);
+    &#x2F;&#x2F; Optimize error by subtracting or adding 180 to it until it is within the range of -90,+90.
+    while(error&gt;90) error-=180;
+    while(error&lt;-90) error+=180;
+    &#x2F;&#x2F; Set output value
+    runMotor(OUT_A,error*10);
+
+    Wait(10);
+  }
+}
+
+task main() {
+    start wheelPodRegulator;
+
+    int steering=0;
+    while(true) {
+        string res;
+        if(ReceiveMessage(0,true,res)==NO_ERR) {
+            &#x2F;&#x2F; StrToNum because there&#x27;s no clear documentation on how to actually send a NXC-readable number directly...
+            steering = -StrToNum(res)&#x2F;30;
+        }
+        drive(35,steering);
+        Wait(1);
+
+    }
+    while(true);
+}
+</code></pre>
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>

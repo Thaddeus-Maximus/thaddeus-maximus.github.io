@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
+
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>Wilson Lives! : Blog – I'm Thad.</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="/">Main</a></li>
+                <li><a href="/everycalc/">EveryCalc</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/fsae/">FSAE</a></li>
+                <li><a href="/comprobotics/">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/assets/resume.pdf">Resume</a></li>
+                <li><a href="https://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="https://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="/feed.xml">RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2020 Thad Hughes – powered by <a href="https://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
+    <div class="post">
+        <h1 class="post-title">Wilson Lives!</h1>
+        <h2 class="post-meta">2015-04-27 19:27:14 <span>»</span> <a href="/archives/comprobotics/">comprobotics</a>, <a href="/archives/Controls/">Controls</a>, <a href="/archives/Electrical/">Electrical</a>, <a href="/archives/Fabrication/">Fabrication</a>, <a href="/archives/Mechanical/">Mechanical</a>, <a href="/archives/Robotics/">Robotics</a>, <a href="/archives/Software/">Software</a></h2>
+
+        <p>Wilson is now driving!</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GTRMEl4-ePc" frameborder="0" allowfullscreen></iframe>
+
+<p>There&rsquo;s just enough room to squeeze on a full 2014 FRC control system, which MetalCow (at least right now) has laying around. It&rsquo;s plenty of processing power at the moment- though I envision that I&rsquo;ll later switch to a Raspberry Pi or some other simalar board. A jaguar motor controller is hooked up to each motor over PWM. They&rsquo;re a little big, but they fit, we have them, they aren&rsquo;t in demand for other purposes, and they&rsquo;re quiet.</p>
+
+<p><image src="/assets/images/wilson/427.jpg"></p>
+
+<p>Kiwibots are very agile and not very pushy. And this one is small. Perfect to play soccer! So I added a ball collector/flinger with the FRC KOP window motors. For the 2012 FRC basketballs, they provide plenty of intake power, but not enough propulsion for my liking. I&rsquo;ll probably add some sort of actual kicker mechanism.</p>
+
+<p><image src="/assets/images/wilson/intake.jpg"></p>
+
+<p>Java is nice for code. So I&rsquo;m sticking with it for right now. I&rsquo;m using a <a href="http://www.kauailabs.com/store/index.php?route=product/product&product_id=50">Kauai Labs nav6 IMU</a> linked to the cRIO for gyroscope stuff.</p>
+
+<p>Here&rsquo;s the drivetrain class code:</p>
+<pre><code>package edu.wpi.first.wpilibj.templates;
+
+import com.kauailabs.nav6.frc.BufferingSerialPort;
+import com.kauailabs.nav6.frc.IMU;
+import com.sun.squawk.util.MathUtils;
+import edu.wpi.first.wpilibj.Jaguar;
+import edu.wpi.first.wpilibj.Timer;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.visa.VisaException;
+
+public class KiwiDrive {
+    Jaguar motorFR = new Jaguar(3);
+    Jaguar motorFL = new Jaguar(2);
+    Jaguar motorB = new Jaguar(1);
+
+    double distBX = 0.0*1.154;
+    double distBY = -1.0*1.154;
+    double distFRX = 0.866*1.154;
+    double distFRY = 0.5*1.154;
+    double distFLX = -0.866*1.154;
+    double distFLY = 0.5*1.154;
+
+
+    BufferingSerialPort imuSerialPort = null;
+    IMU imu = null;
+
+    boolean regulated = false;
+    Timer lockonFilter = null;
+    boolean fieldOriented = false;
+    double targetHeading = 0;
+
+    public double[] headingErrorHistory = new double[50];
+    public int headingErrorIndex = 0;
+
+    public KiwiDrive() {
+        try{
+            imuSerialPort = new BufferingSerialPort (57600);
+            imu = new IMU(imuSerialPort, (byte)75);
+        }catch(VisaException e){
+            imuSerialPort = null;
+            imu = null;
+        }
+        for(int i=0;i&lt;headingErrorHistory.length;i++)
+            headingErrorHistory[i]=0;
+    }
+
+    public void toggleRegulation() {
+        regulated = !regulated;
+        if (regulated)
+            for(int i=0;i&lt;headingErrorHistory.length;i++)
+                headingErrorHistory[i]=0;
+    }
+
+    public void toggleFieldOriented() {
+        if (fieldOriented) fieldOriented = false;
+        else {
+            fieldOriented = true;
+            targetHeading = 0;
+            for(int i=0;i&lt;headingErrorHistory.length;i++)
+                headingErrorHistory[i]=0;
+            if(imu != null)
+                imu.zeroYaw();
+        }
+    }
+
+    public double getCurrentHeading() {
+        if (imu == null)
+            return 0;
+
+        &#x2F;*if(firstIteration &amp;&amp; !imu.isCalibrating()){
+            System.out.println(&quot;Finished calibrating nav6...&quot;);
+            Timer.delay(0.3);
+            imu.zeroYaw();
+            firstIteration=false;
+        }*&#x2F;
+        return imu.getYaw();
+    }
+
+    public void setHeading(double newHeading) {
+        targetHeading = newHeading;
+        if (!regulated)
+            for(int i=0;i&lt;headingErrorHistory.length;i++)
+               headingErrorHistory[i]=0;
+        regulated = true;
+    }
+
+    public double getHeadingError() {
+        if (imu == null)
+            return 0;
+        double error = targetHeading - getCurrentHeading();
+        while (error&gt;180) error-=360;
+        while (error&lt;-180) error+=360;
+        return error;
+    }
+
+    public void putRequiredDashboardValues() {
+        try{SmartDashboard.getNumber(&quot;HeadingResponseKP&quot;);
+        }catch(Exception e){SmartDashboard.putNumber(&quot;HeadingResponseKP&quot;, 75);
+        }
+        try{SmartDashboard.getNumber(&quot;HeadingResponseKPE&quot;);
+        }catch(Exception e){SmartDashboard.putNumber(&quot;HeadingResponseKPE&quot;, 0.75);
+        }
+        try{SmartDashboard.getNumber(&quot;HeadingResponseKI&quot;);
+        }catch(Exception e){SmartDashboard.putNumber(&quot;HeadingResponseKI&quot;, 10000);
+        }
+        try{SmartDashboard.getNumber(&quot;HeadingResponseKD&quot;);
+        }catch(Exception e){SmartDashboard.putNumber(&quot;HeadingResponseKD&quot;, 180);
+        }
+    }
+
+    public double getHeadingResponse() {
+        double thisError = getHeadingError();
+
+        double integral = 0;
+        for (int i=0;i&lt;headingErrorHistory.length;i++)
+            integral += headingErrorHistory[i];
+
+        double derivative = thisError-headingErrorHistory[headingErrorIndex];
+
+        headingErrorIndex++;
+        if (headingErrorIndex&gt;=headingErrorHistory.length)
+            headingErrorIndex=0;
+        headingErrorHistory[headingErrorIndex] = thisError;
+
+
+        return signnum(thisError)*MathUtils.pow(Math.abs(thisError&#x2F;SmartDashboard.getNumber(&quot;HeadingResponseKP&quot;,75)), SmartDashboard.getNumber(&quot;HeadingResponseKPE&quot;,0.75))
+                + integral&#x2F;SmartDashboard.getNumber(&quot;HeadingResponseKI&quot;,10000)
+                + derivative&#x2F;SmartDashboard.getNumber(&quot;HeadingResponseKD&quot;,180);
+    }
+
+    public void rawDriveXYW(double x, double y, double w, double t, boolean throttleW) {
+        &#x2F;&#x2F; Compute vectors
+        double powerB=0, powerFL=0, powerFR=0;
+        if (throttleW){
+            powerB = (-w-x*distBY+y*distBX)*t;
+            powerFL = (-w-x*distFLY+y*distFLX)*t;
+            powerFR = (-w-x*distFRY+y*distFRX)*t;
+        } else {
+            powerB = (-x*distBY+y*distBX)*t-w;
+            powerFL = (-x*distFLY+y*distFLX)*t-w;
+            powerFR = (-x*distFRY+y*distFRX)*t-w;
+        }
+        &#x2F;&#x2F; Get their absolute values
+        double absPowerB = Math.abs(powerB);
+        double absPowerFL = Math.abs(powerFL);
+        double absPowerFR = Math.abs(powerFR);
+
+        &#x2F;&#x2F; Normalize vectors to the throttle.
+        if (absPowerB &gt; absPowerFL &amp;&amp; absPowerB &gt; absPowerFR) {
+            &#x2F;&#x2F; B is biggest
+            if (absPowerB &gt; t) {
+                powerFL = powerFL * t&#x2F;absPowerB;
+                powerFR = powerFR * t&#x2F;absPowerB;
+                powerB = t*signnum(powerB);
+            }
+        }else if (absPowerFL &gt; absPowerB &amp;&amp; absPowerFL &gt; absPowerFR) {
+            &#x2F;&#x2F; FL is biggest
+            if (absPowerFL &gt; t) {
+                powerB = powerB * t&#x2F;absPowerFL;
+                powerFR = powerFR * t&#x2F;absPowerFL;
+                powerFL = t*signnum(powerFL);
+            }
+        }else {
+            &#x2F;&#x2F; FR must be the biggest
+            if (absPowerFR &gt; t) {
+                powerFL = powerFL * t&#x2F;absPowerFR;
+                powerB = powerB * t&#x2F;absPowerFR;
+                powerFR = t*signnum(powerFR);
+            }
+        }
+
+        motorFR.set(powerFR);
+        motorFL.set(powerFL);
+        motorB.set(powerB);
+    }
+    public void rawDriveXYW(double x, double y, double w, double t){
+        rawDriveXYW(x,y,w,t,true);
+    }
+
+    &#x2F;&#x2F; Drive with North-Zero-Clockwise polar coordinates
+    public void rawDriveAMW(double angle, double magnitude, double w, double t, boolean throttleW) {
+        rawDriveXYW(Math.sin(angle)*magnitude, Math.cos(angle)*magnitude, w, t, throttleW);
+    }
+    public void rawDriveAMW(double angle, double magnitude, double w, double t) {
+        rawDriveAMW(angle, magnitude, w, t, true);
+    }
+
+    public void driveXYW(double x, double y, double w, double t) {
+        if (fieldOriented) {
+            double angle = MathUtils.atan2(x, y);
+            double magnitude = Math.sqrt(x*x+y*y);
+            if (regulated &amp;&amp; Math.abs(w)&lt;0.2) {
+                if (lockonFilter == null) {
+                    lockonFilter = new Timer();
+                    lockonFilter.start();
+                }
+                if (lockonFilter.get()&gt;0.3) {
+                    rawDriveAMW(angle-Math.toRadians(getCurrentHeading()),magnitude,getHeadingResponse(),t,false);
+                } else {
+                    getHeadingResponse();
+                    rawDriveAMW(angle-Math.toRadians(getCurrentHeading()),magnitude,0,t);
+                    targetHeading=getCurrentHeading();
+                }
+            } else {
+                getHeadingResponse();
+                lockonFilter = null;
+                rawDriveAMW(angle-Math.toRadians(getCurrentHeading()),magnitude,w,t);
+                targetHeading=getCurrentHeading();
+            }
+        } else {
+            if (regulated &amp;&amp; Math.abs(w)&lt;0.2) {
+                if (lockonFilter == null) {
+                    lockonFilter = new Timer();
+                    lockonFilter.start();
+                }
+                if (lockonFilter.get()&gt;0.3) {
+                    rawDriveXYW(x,y,getHeadingResponse(),t,false);
+                } else {
+                    getHeadingResponse();
+                    rawDriveXYW(x,y,0,t);
+                    targetHeading=getCurrentHeading();
+                }
+            } else {
+                getHeadingResponse();
+                lockonFilter = null;
+                rawDriveXYW(x,y,w,t);
+                targetHeading=getCurrentHeading();
+            }
+        }
+    }
+
+    public double signnum(double num){
+        if (num==0)
+            return 0;
+        else if (num&gt;0)
+            return 1;
+        else
+            return -1;
+    }
+}
+</code></pre>
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>
