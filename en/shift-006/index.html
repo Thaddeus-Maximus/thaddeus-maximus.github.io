@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
+
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>RGP006 Shift Actuator : Blog – I'm Thad.</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="/">Main</a></li>
+                <li><a href="/everycalc/">EveryCalc</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/fsae/">FSAE</a></li>
+                <li><a href="/comprobotics/">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/assets/resume.pdf">Resume</a></li>
+                <li><a href="https://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="https://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="/feed.xml">RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2020 Thad Hughes – powered by <a href="https://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
+    <div class="post">
+        <h1 class="post-title">RGP006 Shift Actuator</h1>
+        <h2 class="post-meta">2016-11-20 12:55:00 +0300 <span>»</span> <a href="/archives/Design/">Design</a>, <a href="/archives/Electrical/">Electrical</a>, <a href="/archives/Fabrication/">Fabrication</a>, <a href="/archives/fsae/">fsae</a>, <a href="/archives/Mechanical/">Mechanical</a>, <a href="/archives/RoseGPE/">RoseGPE</a>, <a href="/archives/Teams/">Teams</a></h2>
+
+        <p>Past members on the RoseGPE team have tried to develop paddle shifting for thair cars, with mostly poor success. Pneumatics are heavy. Linear actuators are lossy. We knew that the system needed to be:
+- Efficient in terms of power; electrical power is sparse
+- Fast; more speed = more better
+- Fully robust; if it mis-shifts, it can&rsquo;t get stuck</p>
+
+<p>With this in mind, I wanted to develop something that was dead-nuts simple mechanically with high efficiency. A few concepts were considered:
+- 4-bar linkage from a planetary gearbox
+- Full spur gearbox
+- Worm gearbox
+- Sector gear driven by planetary gearbox</p>
+
+<p>Of these, the 4-bar and sector gears offered the highest efficiency and ease of manufacture. The sector gear option would require, of course, a custom sector gear- a costly EDM operation. However, this option offers the smoothest power delivery at high travels.</p>
+
+<p>With this in mind, the first prototype was made. This made a few things quite apparent:
+- Mounting to the YFZ450R around the shift shaft region is HARD. There are few bolts.
+- Mesh is important!
+- The engine CAD is horribly wrong
+- Even if a component is a simple prototype part, it doesn&rsquo;t hurt to analyze it- the load paths could be so bad that the part is useless.</p>
+
+<p>After fixing these problems, a second revision of the mechanism was built that mostly addressed these issues. The shifter mounts to the case bolts and chain guard- for a total of 3 mounting points (making it fully defined). The sector gear was analyzed and supports for it drawn out further to better take the torque from the spur gear.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-E58AdV05kc" frameborder="0" allowfullscreen></iframe>
+
+<p>As seen in the video, some cams on the shaft used for sensing position are not secured&hellip; so shifting goes slower as the motor just jams the actuator for a timeout time. With the engine off, we were getting consistent, rapid shifting.</p>
+
+<p>Apparently, though, these switches don&rsquo;t like the vibration of the car and intermettently contact. This needs to be investigated further; I wasn&rsquo;t actually present for this run.</p>
+
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>

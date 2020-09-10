@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
+
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>RGP006 Drivetrain : Blog – I'm Thad.</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="/">Main</a></li>
+                <li><a href="/everycalc/">EveryCalc</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/fsae/">FSAE</a></li>
+                <li><a href="/comprobotics/">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/assets/resume.pdf">Resume</a></li>
+                <li><a href="https://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="https://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="/feed.xml">RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2020 Thad Hughes – powered by <a href="https://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
+    <div class="post">
+        <h1 class="post-title">RGP006 Drivetrain</h1>
+        <h2 class="post-meta">2016-09-20 12:55:00 +0300 <span>»</span> <a href="/archives/Design/">Design</a>, <a href="/archives/Fabrication/">Fabrication</a>, <a href="/archives/fsae/">fsae</a>, <a href="/archives/Mechanical/">Mechanical</a>, <a href="/archives/RoseGPE/">RoseGPE</a>, <a href="/archives/Simulation/">Simulation</a>, <a href="/archives/Teams/">Teams</a></h2>
+
+        <p><image src="/assets/images/rgp006-drivetrain/drivetrain-assembled-overview.jpg"/></p>
+
+<p>What&rsquo;s changed from last year? Well, quite a bit.</p>
+<h1>Inboard braking system</h1>
+<p>The most obvious addition and change is an inboard brake, fastened directly to a Drexler FSAE differential. This reduces unsprung, rotational, and overall system mass, leading to better driving. The most interesting problem with this will be ensuring tire lockup- but this should not be a problem. Currently running a 30 degree ramp angle on decel to help lockup.</p>
+
+<p><img src="/assets/images/rgp006-drivetrain/iso.jpg" alt="Tensioning system IRL"></p>
+<h1>Improved tensioning system, and taller ratios</h1>
+<p>This year&rsquo;s tensioner was designed with geometry in mind. This features the same idler roller style setup as on RGP005, but rather than being lever-actuated, which leads to stress concentrations around bolt contact points, a slot system is used. This means loads are better distributed, and remain fairly consistent based on position, in addition to allowing a greater range of tensioning positions, and making packaging smooth. RGP005 physically could not use a 34T sprocket (without use of half-links), but RGP006 can use 28, 30, 32, 34, and 36 tooth sprockets, allowing a range of final drive ratios that can be changed based on driver experience.</p>
+
+<p><img src="/assets/images/rgp006-drivetrain/upskirt.jpg" alt="A little upskirt..."></p>
+
+<p><img src="/assets/images/rgp006-drivetrain/tensioner-geometry.png" alt="Tensioning system geometry"></p>
+
+<p>Swapping from a 13T to a 14T front sprocket increases vehicle acceleration. At FSAE Lincoln last year, drivers noted inability to even begin using fifth gear on the car. Using a taller ratio will allow better utilization of gears.</p>
+
+<p><img src="/assets/images/rgp006-drivetrain/ratios.png" alt="Tensioning system geometry"></p>
+<h1>Axle plunging system, and tripod geometry</h1>
+<p>We&rsquo;ve traditionally used <a href="http://www.taylor-race.com/items.cfm?category=Drive%20Axle%20Components&amp;subcategory1=Axles&amp;subcategory2=Tripod">Taylor Race Engineering Axles</a>. Last year faced issues with tripods popping out on the right side due to too short of axles; this has been fixed and doubly fixed with properly cut snap ring grooves. Previously, we&rsquo;ve ground in the grooves to the hardened 4340 steel. This year, I ground my own carbide snap ring groover and used that, which produced much better grooves.</p>
+
+<p>Axle angle is amazingly shallow this year- between 1 and 7 degrees along the entire suspension travel. This will also help with axle smoothness, and increase efficiency.</p>
+
+<p>Unsatisfied with rubber boots, GPE switched to using McMaster-Carr bags to retain grease around our tripods a while back. The tradition continues this year, but with different brand bags. Some slightly thinner ones which may have simply been installed improperly on 005 experienced rips when we tested today, so we&rsquo;ll have to see how these hold up.</p>
+
+<p><img src="/assets/images/rgp006-drivetrain/bag.jpg" alt="Bagging system"></p>
+<h1>Jacking truss</h1>
+<p>The differential mount, being the rearmost component of the car and centered, has been prime position for the jacking bar to go on. Historically, it&rsquo;s been a simply supported bar between two struts on the main diff mounts.</p>
+
+<p>Another interesting problem is the need to stiffen up the two mounts relative to each other.</p>
+
+<p>Why not solve both of these problems at once? As such, the jacking truss is born.</p>
+
+<p><img src="/assets/images/rgp006-drivetrain/jacking.jpg" alt="Jacking truss"></p>
+
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>
