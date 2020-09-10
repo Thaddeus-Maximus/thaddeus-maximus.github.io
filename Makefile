@@ -9,4 +9,4 @@ deploy:
 	git add en && git commit -am "Deployment"
 	#git subtree push --prefix en origin gh-pages
 	git push origin `git subtree split --prefix en master`:gh-pages --force
-	git rm -r en
+	#git rm -r en
