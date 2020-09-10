@@ -1,4 +1,5 @@
-[] Frontpage image editing
+[x] Frontpage image editing
+[ ] Images for all front page items
 [x] Makefile for gh-pages deploy
 [x] Remove dates from markdown filenames
 
@@ -12,18 +13,18 @@ Flesh out these posts
 - RGP007
 - RGP008 Steering Components
 - RoseLap (v5, v6)
-- Benchman2k
+[x] Benchman2k
 
 Edit these posts
-- EV3Hub
-- Instacode
-- Wilson
-- OptiTrack
+[x] EV3Hub
+[x] Instacode
+[x] Wilson
+[x] OptiTrack
 
 Blog posts
-- CAD as Code
-- Design for Tuning, Design for Testing, Design for Random Assembly
-- Being a godly engineer
-- How to comment in CAD
+[ ] CAD as Code
+[ ] Design for Tuning, Design for Testing, Design for Random Assembly
+[ ] Being a godly engineer
+[ ] How to comment in CAD
 
-[] Resume
+[x] Resume

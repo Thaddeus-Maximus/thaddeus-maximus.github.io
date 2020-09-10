@@ -7,19 +7,21 @@ description: Wilson is now driving!
 tags: [Mechanical, Robotics, Electrical, Software, Controls, Fabrication, comprobotics]
 ---
 
-Wilson is now driving!
+Kiwi bots are fun. They can be really small, too.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GTRMEl4-ePc" frameborder="0" allowfullscreen></iframe>
 
-There's just enough room to squeeze on a full 2014 FRC control system, which MetalCow (at least right now) has laying around. It's plenty of processing power at the moment- though I envision that I'll later switch to a Raspberry Pi or some other simalar board. A jaguar motor controller is hooked up to each motor over PWM. They're a little big, but they fit, we have them, they aren't in demand for other purposes, and they're quiet.
+There's just enough room to squeeze on a full 2014 FRC control system, which [MetalCow](http://metalcowrobotics.com) had laying around. A jaguar motor controller is hooked up to each motor over PWM. They're a little big, but they fit, we have them, they aren't in demand for other purposes, and they're quiet.
 
-<image src="/assets/images/wilson/427.jpg">
+![](/assets/images/wilson/427.jpg)
 
 Kiwibots are very agile and not very pushy. And this one is small. Perfect to play soccer! So I added a ball collector/flinger with the FRC KOP window motors. For the 2012 FRC basketballs, they provide plenty of intake power, but not enough propulsion for my liking. I'll probably add some sort of actual kicker mechanism.
 
-<image src="/assets/images/wilson/intake.jpg">
+![](/assets/images/wilson/intake.jpg)
 
-Java is nice for code. So I'm sticking with it for right now. I'm using a <a href="http://www.kauailabs.com/store/index.php?route=product/product&product_id=50">Kauai Labs nav6 IMU</a> linked to the cRIO for gyroscope stuff.
+Java is nice for code. So I'm sticking with it for right now. I'm using a [Kauai Labs nav6 IMU](http://www.kauailabs.com/store/index.php?route=product/product&product_id=50) linked to the cRIO for gyroscope feedback.
+
+This is also a testbed to show off field-oriented drive, and "headSnap", which allows the user to directly command an absolute rotation.
 
 Here's the drivetrain class code:
 
