@@ -1,0 +1,13 @@
+---
+layout: post.html
+title: "Benchman 2000"
+date: 2017-11-20 18:52:00
+image: benchman2k.jpg
+description: Revitalizing an old Benchman 2000 CNC mill
+tags:
+ - Mechanical
+ - Fabrication
+ - machinery
+---
+
+With some help on the electrical side of things, I helped bring an old Benchman 2000 vertical CNC mill out of storage and back into use by students, and teach them how to use HSMWorks for CAM with it. We can make some pretty sick parts, like sprockets even!
