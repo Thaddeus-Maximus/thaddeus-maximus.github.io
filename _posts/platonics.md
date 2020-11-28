@@ -16,5 +16,7 @@ The smaller icosahedrons are approximately 16"/20" flat-flat/tip-tip, a great si
 
 ![Icosahedron, Painted Red]({{ site.url }}/assets/images/platonics/ico_painted.jpg)
 
+![Makes a Perfect Stool or Ottoman]({{ site.url }}/assets/images/platonics/stool.jpg)
+
 ![Icosahedrons, Drying, Masked up]({{ site.url }}/assets/images/platonics/ico_barren.jpg)
 

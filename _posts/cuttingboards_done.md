@@ -10,6 +10,13 @@ tags:
  - woodwork
 ---
 
+"Boxes" 3D Board 
+- Bespoke Item
+- Made from Maple, Walnut, and Saepele.
+- Includes handles on the sides and rubber feet.
+
+![Boxes Full]({{ site.url }}/assets/images/cuttingboards/timsboxes.jpg)
+
 "Snake" 3D Board
 - Made from Maple, Saepele, and Cherry.
 - Includes handles on the sides and rubber feet.
@@ -37,3 +44,9 @@ Red Oak End Grain Board
 
 ![Red Oak Full]({{ site.url }}/assets/images/cuttingboards/redoak.jpg)
 ![Red Oak Full]({{ site.url }}/assets/images/cuttingboards/redoak_upskirt.jpg)
+
+"Boxes" 3D Board
+- Made from Maple, Walnut, and Saepele.
+- Includes handles on the sides and rubber feet.
+
+![Boxes Full]({{ site.url }}/assets/images/cuttingboards/boxes3d.jpg)

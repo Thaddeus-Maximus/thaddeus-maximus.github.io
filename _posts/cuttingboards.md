@@ -18,18 +18,24 @@ All boards are solid wood. No veneer. No particleboard. No shortcuts.
 
 All boards have been soaked in mineral oil and waxed to keep it in. Food grade and reliable.
 
-"Boxes" 3D Board - $150
-- Made from Maple, Walnut, and Saepele.
-- I have one of these boards.
-- Includes handles on the sides and rubber feet.
-
-![Boxes Full]({{ site.url }}/assets/images/cuttingboards/boxes3d.jpg)
-
 White Oak Bricks - $90
 - I have two of these boards, matching sizes.
 - Includes handles on the sides and rubber feet.
 
 ![White Oak Bricks]({{ site.url }}/assets/images/cuttingboards/whitebrick.jpg)
+
+Tiny Checkerboard - $50
+- I have one of these boards, matching sizes.
+- Includes handles on the sides and rubber feet.
+- Walnut and Maple.
+
+![Tiny Checkerboard]({{ site.url }}/assets/images/cuttingboards/smallchecker.jpg)
+
+Offset Stripe - $40
+- Barren, flat board.
+- Maple, Cherry, Mahogany, and Wenge.
+
+![Offset Stripe]({{ site.url }}/assets/images/cuttingboards/offsetstripe.jpg)
 
 Chevron Board - $90
 - Made from white oak, walnut, and mahogany.

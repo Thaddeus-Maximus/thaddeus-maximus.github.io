@@ -5,7 +5,7 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2020-11-04T00:27:59Z</updated>
+    <updated>2020-11-28T02:22:32Z</updated>
 
     <author>
         <name>Thad Hughes</name>
@@ -15,10 +15,76 @@
 
     
         <entry>
+            <title>Slab Flattening Jig</title>
+            <link rel="alternate" href="/flatteningjig/" type="text/html" />
+            <id>/flatteningjig/</id>
+            <updated>2020-11-28T02:22:00Z</updated>
+
+            <summary type="html">&lt;img src=&#34;/assets/images/flatteningjig/flattening_jig_iso.jpg&#34; alt=&#34;Overview of refined machine&#34;&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/images/flatteningjig/flattening_jig_iso.jpg&#34; alt=&#34;Overview of refined machine&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the most annoying part about &lt;a href=&#34;/cuttingboards&#34;&gt;making end grain cuttingboards&lt;/a&gt; is flattening them after all the glueups. You can&amp;rsquo;t use a planer, you basically have to either sand, or do something else&amp;hellip; like an overhead router! That&amp;rsquo;s all this is: an uncontrolled overhead router.&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>Platonic Solids</title>
+            <link rel="alternate" href="/platonics/" type="text/html" />
+            <id>/platonics/</id>
+            <updated>2020-11-28T02:11:54Z</updated>
+
+            <summary type="html">Email me at &lt;a href=&#34;mailto:hughes.thad@gmail.com&#34;&gt;hughes.thad@gmail.com&lt;/a&gt; for inquiries - or if you&amp;rsquo;re getting this through the DEKA postings hunt me down or shoot me an email.
+The smaller icosahedrons are approximately 16&amp;quot;/20&amp;quot; flat-flat/tip-tip, a great size for an ottoman. The big ones are 20&amp;quot;/25&amp;quot;. I&amp;rsquo;m asking $60-100 depending on size and painting requested (if any).</summary>
+            <content type="html">&lt;p&gt;Email me at &lt;a href=&#34;mailto:hughes.thad@gmail.com&#34;&gt;hughes.thad@gmail.com&lt;/a&gt; for inquiries - or if you&amp;rsquo;re getting this through the DEKA postings hunt me down or shoot me an email.
+The smaller icosahedrons are approximately 16&amp;quot;/20&amp;quot; flat-flat/tip-tip, a great size for an ottoman. The big ones are 20&amp;quot;/25&amp;quot;. I&amp;rsquo;m asking $60-100 depending on size and painting requested (if any).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/platonics/ico_painted.jpg&#34; alt=&#34;Icosahedron, Painted Red&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/platonics/stool.jpg&#34; alt=&#34;Makes a Perfect Stool or Ottoman&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/platonics/ico_barren.jpg&#34; alt=&#34;Icosahedrons, Drying, Masked up&#34;&gt;&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>Bookshelf</title>
+            <link rel="alternate" href="/bookshelf/" type="text/html" />
+            <id>/bookshelf/</id>
+            <updated>2020-11-28T02:09:11Z</updated>
+
+            <summary type="html">&lt;img src=&#34;/assets/images/woodworking/bookshelf_barren.jpg&#34; alt=&#34;Bookshelf Standing Freely&#34;&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/images/woodworking/bookshelf_barren.jpg&#34; alt=&#34;Bookshelf Standing Freely&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/woodworking/bookshelf_loaded.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
+            <title>My Own Toolboxes</title>
+            <link rel="alternate" href="/toolboxes/" type="text/html" />
+            <id>/toolboxes/</id>
+            <updated>2020-11-28T02:07:32Z</updated>
+
+            <summary type="html">&lt;img src=&#34;/assets/images/toolboxes/incar.jpg&#34; alt=&#34;Toolboxes sitting in my car&#34;&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/images/toolboxes/incar.jpg&#34; alt=&#34;Toolboxes sitting in my car&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Toolboxes are never right. But they can be better. I figured I might as well give a decent go at making some toolboxes for the back of my car. I follow the Adam Savage mentality that drawers are generally evil- I want access to my tools with as little inhibition as possible!&lt;/p&gt;
+
+&lt;p&gt;Made from baltic birch, with some aluminum reinforcing framing on the edges to prevent splintering.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/toolboxes/framed.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/assets/images/toolboxes/side.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/assets/images/toolboxes/brace.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cad.onshape.com/documents/894b98806598f0b26a7a7e69/w/7f1043aac4573dc6f7865a94/e/03d1501270ebee4a3e91e3ce&#34;&gt;OnShape CAD&lt;/a&gt; for those who are interested.&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
             <title>Cutting Boards For Sale</title>
             <link rel="alternate" href="/cuttingboards/" type="text/html" />
             <id>/cuttingboards/</id>
-            <updated>2020-11-04T00:21:23Z</updated>
+            <updated>2020-11-28T02:01:23Z</updated>
 
             <summary type="html">I&amp;rsquo;m making cutting/charcuterie boards for sale locally. I&amp;rsquo;m just getting into this. Quantities limited and offerrings are changing. We&amp;rsquo;ll see how much demand for this there is - it&amp;rsquo;s something I enjoy doing!</summary>
             <content type="html">&lt;p&gt;I&amp;rsquo;m making cutting/charcuterie boards for sale locally. I&amp;rsquo;m just getting into this. Quantities limited and offerrings are changing. We&amp;rsquo;ll see how much demand for this there is - it&amp;rsquo;s something I enjoy doing!&lt;/p&gt;
@@ -29,18 +95,24 @@
 
 &lt;p&gt;All boards have been soaked in mineral oil and waxed to keep it in. Food grade and reliable.&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;Boxes&amp;rdquo; 3D Board - $150
-- Made from Maple, Walnut, and Saepele.
-- I have one of these boards.
-- Includes handles on the sides and rubber feet.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/boxes3d.jpg&#34; alt=&#34;Boxes Full&#34;&gt;&lt;/p&gt;
-
 &lt;p&gt;White Oak Bricks - $90
 - I have two of these boards, matching sizes.
 - Includes handles on the sides and rubber feet.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/whitebrick.jpg&#34; alt=&#34;White Oak Bricks&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Tiny Checkerboard - $50
+- I have one of these boards, matching sizes.
+- Includes handles on the sides and rubber feet.
+- Walnut and Maple.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/smallchecker.jpg&#34; alt=&#34;Tiny Checkerboard&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Offset Stripe - $40
+- Barren, flat board.
+- Maple, Cherry, Mahogany, and Wenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/offsetstripe.jpg&#34; alt=&#34;Offset Stripe&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Chevron Board - $90
 - Made from white oak, walnut, and mahogany.
@@ -76,12 +148,20 @@
             <title>Sold Cutting Boards</title>
             <link rel="alternate" href="/cuttingboards_done/" type="text/html" />
             <id>/cuttingboards_done/</id>
-            <updated>2020-11-04T00:21:17Z</updated>
+            <updated>2020-11-28T01:58:48Z</updated>
 
-            <summary type="html">&amp;ldquo;Snake&amp;rdquo; 3D Board
-- Made from Maple, Saepele, and Cherry.
+            <summary type="html">&amp;ldquo;Boxes&amp;rdquo; 3D Board 
+- Bespoke Item
+- Made from Maple, Walnut, and Saepele.
 - Includes handles on the sides and rubber feet.</summary>
-            <content type="html">&lt;p&gt;&amp;ldquo;Snake&amp;rdquo; 3D Board
+            <content type="html">&lt;p&gt;&amp;ldquo;Boxes&amp;rdquo; 3D Board 
+- Bespoke Item
+- Made from Maple, Walnut, and Saepele.
+- Includes handles on the sides and rubber feet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/timsboxes.jpg&#34; alt=&#34;Boxes Full&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Snake&amp;rdquo; 3D Board
 - Made from Maple, Saepele, and Cherry.
 - Includes handles on the sides and rubber feet.&lt;/p&gt;
 
@@ -108,23 +188,12 @@
 
 &lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/redoak.jpg&#34; alt=&#34;Red Oak Full&#34;&gt;
 &lt;img src=&#34;/assets/images/cuttingboards/redoak_upskirt.jpg&#34; alt=&#34;Red Oak Full&#34;&gt;&lt;/p&gt;
-</content>
-        </entry>
-    
-        <entry>
-            <title>Platonic Solids</title>
-            <link rel="alternate" href="/platonics/" type="text/html" />
-            <id>/platonics/</id>
-            <updated>2020-11-04T00:19:21Z</updated>
 
-            <summary type="html">Email me at &lt;a href=&#34;mailto:hughes.thad@gmail.com&#34;&gt;hughes.thad@gmail.com&lt;/a&gt; for inquiries - or if you&amp;rsquo;re getting this through the DEKA postings hunt me down or shoot me an email.
-The smaller icosahedrons are approximately 16&amp;quot;/20&amp;quot; flat-flat/tip-tip, a great size for an ottoman. The big ones are 20&amp;quot;/25&amp;quot;. I&amp;rsquo;m asking $60-100 depending on size and painting requested (if any).</summary>
-            <content type="html">&lt;p&gt;Email me at &lt;a href=&#34;mailto:hughes.thad@gmail.com&#34;&gt;hughes.thad@gmail.com&lt;/a&gt; for inquiries - or if you&amp;rsquo;re getting this through the DEKA postings hunt me down or shoot me an email.
-The smaller icosahedrons are approximately 16&amp;quot;/20&amp;quot; flat-flat/tip-tip, a great size for an ottoman. The big ones are 20&amp;quot;/25&amp;quot;. I&amp;rsquo;m asking $60-100 depending on size and painting requested (if any).&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Boxes&amp;rdquo; 3D Board
+- Made from Maple, Walnut, and Saepele.
+- Includes handles on the sides and rubber feet.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/assets/images/platonics/ico_painted.jpg&#34; alt=&#34;Icosahedron, Painted Red&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/assets/images/platonics/ico_barren.jpg&#34; alt=&#34;Icosahedrons, Drying, Masked up&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/assets/images/cuttingboards/boxes3d.jpg&#34; alt=&#34;Boxes Full&#34;&gt;&lt;/p&gt;
 </content>
         </entry>
     
