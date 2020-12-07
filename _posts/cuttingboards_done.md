@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "Sold Cutting Boards"
+title: "Cutting Boards (Sold!)"
 date: 2019-11-15 20:25:00
 image: cuttingboards/redoak.jpg
 description: Sold Cuttingboards

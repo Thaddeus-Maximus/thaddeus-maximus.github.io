@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "Cutting Boards For Sale"
+title: "Cutting Boards Available (Customs, too!)"
 date: 2019-11-15 20:25:00
 image: cuttingboards/splash.jpg
 description: End Grain Cutting Boards (For Sale!)
