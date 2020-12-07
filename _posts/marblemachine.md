@@ -13,7 +13,7 @@ This is a satisfying little project. Milled from a single billet of mahogany wit
 
 .. ad infinatum :)
 
-If you're interested in one, let me know! I'm thinking of making a batch of these soon.
+If you're interested in one, let me know! I'm thinking of making a batch of these soon, probably at around $450 apiece.
 
 Features both a 5V barrel jack input and a 3xAA battery 'backup'. A small toggle switch on the back turns it on/off.
 The pusher is powered by a miniature DC gearmotor running a scotch yoke.
