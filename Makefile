@@ -3,6 +3,7 @@ serve:
 	rm -rf _assets/css/screen.css
 	sass _assets/css/_sass/screen.sass _assets/css/screen.css
 	mynt gen ./ en
+	cp CNAME en/CNAME
 	mynt serve en
 
 deploy:
@@ -10,6 +11,7 @@ deploy:
 	rm -rf _assets/css/screen.css
 	sass _assets/css/_sass/screen.sass _assets/css/screen.css
 	mynt gen ./ en
+	cp CNAME en/CNAME
 	
 	git add en && git commit -am "Deployment"
 	#git subtree push --prefix en origin gh-pages
