@@ -39,8 +39,8 @@ table {
 
 body {
   background-size: 25px 25px;
-  background-image: linear-gradient(0deg, rgba(217, 203, 155, 0.5) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(217, 203, 155, 0.5) 1.5px, #fff6cd 1.5px);
-  color: #515144;
+  background-image: linear-gradient(0deg, rgba(217, 203, 155, 0.4) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(217, 203, 155, 0.4) 1.5px, #efffaf 1.5px);
+  color: #313124;
   font-family: "Bitter", "Ubuntu", sans-serif;
   font-size: 13px;
   line-height: 18px; }
@@ -51,7 +51,7 @@ blockquote, dl, ol, p, pre, table, ul {
 blockquote {
   overflow: hidden;
   padding: 0px 18px;
-  background-color: #ffed9a; }
+  background-color: #e2ef6f; }
 
 dl.horizontal > dd, .archives > dd, .archives-records > dd {
   margin-left: 65px; }
@@ -64,7 +64,7 @@ dl.horizontal > dt, .archives > dt, .archives-records > dt {
   width: 50px; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #515144;
+  color: #313124;
   font-style: normal;
   font-weight: normal; }
 
@@ -134,11 +134,11 @@ p {
 
 pre {
   padding: 0px 3px;
-  background-color: #ffed9a;
+  background-color: #e2ef6f;
   font-family: "Inconsolata", "Envy Code R", "Ubuntu Mono", monospace; }
 
 table {
-  background-color: #ffed9a;
+  background-color: #e2ef6f;
   border-collapse: collapse; }
 
 td, th {
@@ -149,35 +149,35 @@ td > :first-child {
 td > :last-child {
   margin-bottom: 0px; }
 tr:nth-child(2n) > td {
-  background-color: #ffed9a; }
+  background-color: #f2ff7f; }
 
 th {
-  background-color: #fff6cd;
+  background-color: #efffaf;
   color: #141414;
   font-style: italic;
   font-weight: normal;
   text-align: left; }
 
 a {
-  color: #268bd2;
+  color: #0262d5;
   text-decoration: underline; }
   a:hover {
     color: #141414; }
 
 code {
   padding: 0px 3px;
-  background-color: #ffed9a;
-  color: #82816d;
+  background-color: #e2ef6f;
+  color: #32311d;
   font-family: "Inconsolata", "Envy Code R", "Ubuntu Mono", monospace;
   line-height: 17px;
   white-space: pre; }
   pre code {
     padding: 0px;
     background-color: transparent;
-    color: #268bd2;
+    color: #0262d5;
     line-height: 18px; }
   table code {
-    background-color: #fff6cd; }
+    background-color: #efffaf; }
 
 em {
   font-style: italic; }
@@ -186,7 +186,7 @@ img {
   vertical-align: bottom; }
   a > img {
     padding: 5px;
-    background-color: #ffed9a; }
+    background-color: #e2ef6f; }
 
 strong {
   font-weight: bold; }
@@ -314,19 +314,19 @@ div.code {
   padding: 0px; }
 
 #sidebar, #topbar {
-  background-color: #ffed9a;
+  background-color: #e2ef6f;
   font-style: italic; }
 
 #title {
   font-family: "Patua One", "Ubuntu Mono", sans-serif;
   font-size: 36px; }
   #title > a {
-    color: #515144; }
+    color: #313124; }
     #title > a:hover {
       color: #141414; }
 
 #subtitle {
-  color: #82816d;
+  color: #32311d;
   font-size: 16px; }
 
 #nav {
@@ -340,15 +340,15 @@ div.code {
   text-transform: uppercase; }
 
 #breadcrumbs {
-  background-color: #fff6cd;
-  color: #82816d;
+  background-color: #efffaf;
+  color: #32311d;
   font-family: "Patua One", "Ubuntu Mono", sans-serif;
   font-style: italic; }
   #breadcrumbs > li {
     float: left; }
     #breadcrumbs > li:after {
       padding: 0px 6px;
-      color: #515144;
+      color: #313124;
       font-style: normal;
       content: "›"; }
     #breadcrumbs > li:last-child:after {
@@ -360,18 +360,18 @@ div.code {
 .post-list > .post-meta {
   font-size: 10px; }
   .post-list > .post-meta > a {
-    color: #515144; }
+    color: #313124; }
     .post-list > .post-meta > a:hover {
       color: #141414; }
 
 .post-title, .post-meta {
-  background-color: #ffed9a; }
+  background-color: #e2ef6f; }
 
 .post-title {
   font-size: 24px; }
 
 .post-meta {
-  color: #82816d;
+  color: #32311d;
   font-style: normal;
   text-transform: uppercase;
   word-spacing: 2px;
@@ -381,46 +381,46 @@ div.code {
     top: -1px; }
 
 div.code > div {
-  background-color: #ffed9a; }
+  background-color: #e2ef6f; }
 
 .highlighttable {
   background-color: transparent; }
 
 .linenos {
-  background-color: #fff6cd;
-  color: #82816d; }
+  background-color: #efffaf;
+  color: #32311d; }
 
 .linenodiv > pre, .highlight > pre {
   padding: 0px;
   background-color: transparent; }
 
 .archives {
-  background-color: #ffed9a;
+  background-color: #e2ef6f;
   font-style: italic;
   text-transform: uppercase; }
 
 .archives-year {
   font-size: 18px; }
   .archives-year > a {
-    color: #515144; }
+    color: #313124; }
     .archives-year > a:hover {
       color: #141414; }
 
 .archives-post-date {
-  color: #82816d;
+  color: #32311d;
   font-size: 12px; }
 
 .archives-post-title {
   text-transform: none; }
 
 .archives-post-tags {
-  color: #82816d;
+  color: #32311d;
   font-style: normal;
   text-transform: uppercase;
   word-spacing: 2px;
   font-size: 10px; }
   .archives-post-tags > a {
-    color: #515144; }
+    color: #313124; }
     .archives-post-tags > a:hover {
       color: #141414; }
   .archives-post-tags > span {
@@ -432,7 +432,7 @@ div.code > div {
   width: 100%; }
 
 .tile {
-  background-color: #ffed9a;
+  background-color: #e2ef6f;
   vertical-align: middle;
   font-family: "Patua One", "Ubuntu", sans-serif;
   width: 250px;
@@ -456,7 +456,7 @@ div.code > div {
   position: absolute;
   bottom: 0;
   background-color: rgba(255, 246, 205, 0.85);
-  color: #515144;
+  color: #313124;
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -482,7 +482,7 @@ div.code > div {
   transform: translateY(-50%);
   text-align: center;
   width: 100%;
-  color: #515144; }
+  color: #313124; }
 
 em {
   font-style: normal;
@@ -499,7 +499,7 @@ em {
   height: 180px;
   text-align: center;
   vertical-align: middle;
-  color: #515144; }
+  color: #313124; }
 
 #main-header-banner {
   background-image: url("/assets/images/header.svg");

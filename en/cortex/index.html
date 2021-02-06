@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
+
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>CORTEX : Blog – I'm Thad.</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="http://thadhughes.xyz">Main</a></li>
+                <li><a href="http://everycalc.thadhughes.xyz">EveryCalc</a></li>
+                <li><a href="http://blog.thadhughes.xyz">Blog</a></li>
+                <li><a href="http://thadhughes.xyz/fsae">FSAE</a></li>
+                <li><a href="http://thadhughes.xyz/comprobotics">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="http://thadhughes.xyz/contact">Contact</a></li>
+                <li><a href="http://thadhughes.xyz/resume">Resume</a></li>
+                <li><a href="http://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="http://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="http://blog.thadhughes.xyz/feed.xml">Blog RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2021 Thad Hughes – powered by <a href="http://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
+    <div class="post">
+        <h1 class="post-title">CORTEX</h1>
+        <h2 class="post-meta">2013-07-03 18:52:00 <span>»</span> <a href="/archives/C/">C</a>, <a href="/archives/controls/">controls</a>, <a href="/archives/LEGO/">LEGO</a>, <a href="/archives/Mechanical/">Mechanical</a>, <a href="/archives/MINDSTORMS/">MINDSTORMS</a>, <a href="/archives/motion-profiling/">motion profiling</a>, <a href="/archives/robotics/">robotics</a>, <a href="/archives/Software/">Software</a></h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/thu5XfkRmoA" frameborder="0" allowfullscreen></iframe>
+
+<p>Wait, a two linkage arm that moves in straight lines, not arcs..? Yes, it is possible even with the limited processing power of the NXTs&hellip;</p>
+
+<p>It&rsquo;s all in the (NXC) programming. To even begin making this motion, we need to figure out what set of arm angles (setU and setV here) will produce a certain Y and Z position for the arm&rsquo;s endpoint. We can leverage the law of cosines to do this.</p>
+<pre><code>bool GotoYZ(float y, float z){
+  float tMag=sqrt(y*y + z*z); &#x2F;&#x2F; Magnitude of the target.
+  float tAngle=atan2(z,y);    &#x2F;&#x2F; Angle of the target (in radians)
+  float vAngle, uAngle;       &#x2F;&#x2F; Angles of the arms
+  if(tMag&lt;=VMAG+UMAG &amp;&amp; tMag&gt;=abs(VMAG-UMAG)){ &#x2F;&#x2F; If inside of reach
+    vAngle= acos((VMAG*VMAG + tMag*tMag - UMAG*UMAG)&#x2F;(2*VMAG*tMag))+tAngle;
+    uAngle= acos((VMAG*VMAG + UMAG*UMAG - tMag*tMag)&#x2F;(2*VMAG*UMAG))-(PI-vAngle);
+    &#x2F;&#x2F; Use law of cosines to determine the angles based off the magnitudes of the limbs and target.
+    vAngle=RTOD*vAngle;
+    uAngle=RTOD*uAngle;
+    &#x2F;&#x2F; Convert angles into degrees
+    if(vAngle&lt;VAMAX &amp;&amp; vAngle&gt;VAMIN &amp;&amp; uAngle&lt;UAMAX &amp;&amp; uAngle&gt;UAMIN){ &#x2F;&#x2F; If within bounds
+      vRunning=uRunning=wRunning=true;
+      setU=uAngle;
+      setV=vAngle;
+      return true;
+      &#x2F;&#x2F; Execute the calculations and return true.
+    }else{ &#x2F;&#x2F; If outside of bounds
+      PlayTone(1000,600);
+      return false;
+      &#x2F;&#x2F; Beep high-pitched and return false.
+    }
+  }else{ &#x2F;&#x2F; If outside of reach
+    PlayTone(400,400);
+    return false;
+    &#x2F;&#x2F; Beep lower-pitched and return false.
+  }
+}
+</code></pre>
+<p>Now, we can actually iterate through a set of points along our line of motion!</p>
+<pre><code>void MoveAZ(float endY, float endZ, float frequency=0.5){
+  float startY=cos(setU*DTOR)*UMAG + cos(setV*DTOR)*VMAG;
+  float startZ=sin(setU*DTOR)*UMAG + sin(setV*DTOR)*VMAG;
+  &#x2F;&#x2F;Calculate our initial position in the Y-Z plane.
+  float runMagnitude=sqrt((endY-startY)*(endY-startY) + (endZ-startZ)*(endZ-startZ));
+  float runAngle=atan2((endZ-startZ),(endY-startY));
+  &#x2F;&#x2F; Turn that into a angle and magnitude.
+
+  for(float i=1;i&lt;runMagnitude;i+=frequency){ &#x2F;&#x2F; Iterate the magnitude by the given frequency until we are at our destination.
+    GotoYZ(cos(runAngle)*i + startY, sin(runAngle)*i + startZ);
+    &#x2F;&#x2F; Go to the the currently iterated 
+    while(vRunning || uRunning)
+      Wait(10);
+    &#x2F;&#x2F; Wait till done moving to the point.
+  }
+
+  GotoAZ(endA, endZ);
+  &#x2F;&#x2F; Go to the end point (just to be safe)
+  while(vRunning || uRunning)
+    Wait(10);
+}
+</code></pre>
+<p>Couple this with a background regulator task that works with vRunning, uRunning, setU, and setV:</p>
+<pre><code>task backUpdate(){
+  while(true){
+    RunMotor(OUT_A,((MotorTachoCount(OUT_A)*WRATIO)-setW)*-400);
+    RunMotor(OUT_C,((MotorTachoCount(OUT_C)*URATIO)-setU)*-170);
+    RunMotor(OUT_B,((90 - MotorTachoCount(OUT_B)*VRATIO)-setV)*170);
+    wRunning=abs((MotorTachoCount(OUT_A)*WRATIO)-setW)&gt;TOLERANCE;
+    uRunning=abs((MotorTachoCount(OUT_C)*URATIO)-setU)&gt;TOLERANCE;
+    vRunning=abs((90 - MotorTachoCount(OUT_B)*VRATIO)-setV)&gt;TOLERANCE;
+    ResetSleepTimer();
+  }
+  OffEx(OUT_ABC,RESET_NONE);
+}
+</code></pre>
+<p>And you can move a double-jointed arm in straight lines!</p>
+
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>
