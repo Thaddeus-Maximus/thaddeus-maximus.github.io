@@ -63,13 +63,24 @@ $(document).ready( function () {
 
 <div id="tilewall">
   <div class="tile" 
-       data-width="2" 
+       data-width="1" 
        data-height="1" 
        data-priority="2">
     <a href="{{ get_url('blog') }}">
       <img src="{{ get_asset('images/stylized/typewriter.jpg') }}" />
       <div class="tile-overlay"><div class="tile-overlay-text">
         <em>Blog.</em>.
+      </div></div>
+    </a>
+  </div>
+  <div class="tile" 
+       data-width="1" 
+       data-height="1" 
+       data-priority="2">
+    <a href="{{ get_url('portfolio') }}">
+      <img src="{{ get_asset('images/tdn_dies/4tdn.jpg') }}" />
+      <div class="tile-overlay"><div class="tile-overlay-text">
+        <em>Custom Work</em> I've done for others.
       </div></div>
     </a>
   </div>
@@ -96,7 +107,7 @@ $(document).ready( function () {
     </a>
   </div>
   <div class="tile" 
-       data-width="2" 
+       data-width="1" 
        data-height="1" 
        data-priority="40">
     <a href="{{ get_url('woodwork') }}">
@@ -125,17 +136,6 @@ $(document).ready( function () {
       <img src="{{ get_asset('images/stylized/dt_006_build.jpg') }}" />
       <div class="tile-overlay"><div class="tile-overlay-text">
         I spent many years in <em>Formula SAE</em> building <em>racecars</em>.
-      </div></div>
-    </a>
-  </div>
-  <div class="tile" 
-       data-width="1" 
-       data-height="1" 
-       data-priority="2">
-    <a href="https://github.com/RoseGPE/RoseLapWeb">
-      <img src="{{ get_asset('images/roselap_v5.png') }}" />
-      <div class="tile-overlay"><div class="tile-overlay-text">
-        <em>RoseLap</em> is a laptime simulation tool (that is currently under major overhaul)
       </div></div>
     </a>
   </div>
@@ -176,10 +176,10 @@ $(document).ready( function () {
        data-width="1" 
        data-height="1" 
        data-priority="2">
-    <a href="http://github.com/Thaddeus-Maximus/gweaver">
-      <img src="{{ get_asset('images/stylized/gcode.jpg') }}" />
+    <a href="{{ get_url('software') }}">
+      <img src="{{ get_asset('images/roselap_v5.png') }}" />
       <div class="tile-overlay"><div class="tile-overlay-text">
-        <em>Gweaver</em>, a suckless utility to write <em>G-code in python</em>.
+        Other <em>software</em> that you could use in your endeavors.
       </div></div>
     </a>
   </div>
@@ -187,21 +187,10 @@ $(document).ready( function () {
        data-width="1" 
        data-height="1" 
        data-priority="2">
-    <a href="http://github.com/Thaddeus-Maximus/tubular">
-      <img src="{{ get_asset('images/stylized/tubular.jpg') }}" />
+    <a href="{{ get_url('library') }}">
+      <img src="{{ get_asset('images/library.webp') }}" />
       <div class="tile-overlay"><div class="tile-overlay-text">
-        <em>Tubular</em>, a suckless <em>FE analysis</em> tool for tubeframes.
-      </div></div>
-    </a>
-  </div>
-  <div class="tile" 
-       data-width="1" 
-       data-height="1" 
-       data-priority="2">
-    <a href="{{ get_url('ev3hub') }}">
-      <img src="{{ get_asset('images/ev3hub.png') }}" />
-      <div class="tile-overlay"><div class="tile-overlay-text">
-        <em>EV3Hub</em> is a version control system for LEGO Mindstorms EV3 that <em>your FLL team could use!</em>
+        What's in my <em>library</em>?
       </div></div>
     </a>
   </div>

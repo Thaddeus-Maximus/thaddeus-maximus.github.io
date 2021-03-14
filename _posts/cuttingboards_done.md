@@ -8,7 +8,10 @@ tags:
  - woodworking
  - fabrication
  - woodwork
+ - portfolio
 ---
+
+These are cutting boards that I have sold to others.
 
 "Boxes" 3D Board 
 - Bespoke Item
@@ -34,7 +37,7 @@ Trappy Mini Board
 
 ![Trappy Mini]({{ site.url }}/assets/images/cuttingboards/trappymini.jpg)
 
-Hexy Mini Board - $60
+Hexy Mini Board
 
 ![Hexy Mini]({{ site.url }}/assets/images/cuttingboards/hexymini.jpg)
 
