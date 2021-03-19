@@ -39,7 +39,7 @@ table {
 
 body {
   background-size: 25px 25px;
-  background-image: linear-gradient(0deg, rgba(217, 203, 155, 0.4) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(217, 203, 155, 0.4) 1.5px, #fefeaf 1.5px);
+  background-image: linear-gradient(0deg, rgba(217, 203, 155, 0.4) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(217, 203, 155, 0.4) 1.5px, #fefbaf 1.5px);
   color: #313124;
   font-family: "Bitter", "Ubuntu", sans-serif;
   font-size: 13px;
@@ -51,7 +51,7 @@ blockquote, dl, ol, p, pre, table, ul {
 blockquote {
   overflow: hidden;
   padding: 0px 18px;
-  background-color: #fbfb8f; }
+  background-color: #fbf88f; }
 
 dl.horizontal > dd, .archives > dd, .archives-records > dd {
   margin-left: 65px; }
@@ -134,11 +134,11 @@ p {
 
 pre {
   padding: 0px 3px;
-  background-color: #fbfb8f;
+  background-color: #fbf88f;
   font-family: "Inconsolata", "Envy Code R", "Ubuntu Mono", monospace; }
 
 table {
-  background-color: #fbfb8f;
+  background-color: #fbf88f;
   border-collapse: collapse; }
 
 td, th {
@@ -149,24 +149,24 @@ td > :first-child {
 td > :last-child {
   margin-bottom: 0px; }
 tr:nth-child(2n) > td {
-  background-color: #fefe7f; }
+  background-color: #fefb7f; }
 
 th {
-  background-color: #fefeaf;
+  background-color: #fefbaf;
   color: #141414;
   font-style: italic;
   font-weight: normal;
   text-align: left; }
 
 a {
-  color: #0262d5;
+  color: #228f01;
   text-decoration: underline; }
   a:hover {
     color: #141414; }
 
 code {
   padding: 0px 3px;
-  background-color: #fbfb8f;
+  background-color: #fbf88f;
   color: #32311d;
   font-family: "Inconsolata", "Envy Code R", "Ubuntu Mono", monospace;
   line-height: 17px;
@@ -174,10 +174,10 @@ code {
   pre code {
     padding: 0px;
     background-color: transparent;
-    color: #0262d5;
+    color: #228f01;
     line-height: 18px; }
   table code {
-    background-color: #fefeaf; }
+    background-color: #fefbaf; }
 
 em {
   font-style: italic; }
@@ -186,7 +186,7 @@ img {
   vertical-align: bottom; }
   a > img {
     padding: 5px;
-    background-color: #fbfb8f; }
+    background-color: #fbf88f; }
 
 strong {
   font-weight: bold; }
@@ -314,7 +314,7 @@ div.code {
   padding: 0px; }
 
 #sidebar, #topbar {
-  background-color: #fbfb8f;
+  background-color: #fbf88f;
   font-style: italic; }
 
 #title {
@@ -340,7 +340,7 @@ div.code {
   text-transform: uppercase; }
 
 #breadcrumbs {
-  background-color: #fefeaf;
+  background-color: #fefbaf;
   color: #32311d;
   font-family: "Patua One", "Ubuntu Mono", sans-serif;
   font-style: italic; }
@@ -365,7 +365,7 @@ div.code {
       color: #141414; }
 
 .post-title, .post-meta {
-  background-color: #fbfb8f; }
+  background-color: #fbf88f; }
 
 .post-title {
   font-size: 24px; }
@@ -381,13 +381,13 @@ div.code {
     top: -1px; }
 
 div.code > div {
-  background-color: #fbfb8f; }
+  background-color: #fbf88f; }
 
 .highlighttable {
   background-color: transparent; }
 
 .linenos {
-  background-color: #fefeaf;
+  background-color: #fefbaf;
   color: #32311d; }
 
 .linenodiv > pre, .highlight > pre {
@@ -395,7 +395,7 @@ div.code > div {
   background-color: transparent; }
 
 .archives {
-  background-color: #fbfb8f;
+  background-color: #fbf88f;
   font-style: italic;
   text-transform: uppercase; }
 
@@ -432,7 +432,7 @@ div.code > div {
   width: 100%; }
 
 .tile {
-  background-color: #fbfb8f;
+  background-color: #fbf88f;
   vertical-align: middle;
   font-family: "Patua One", "Ubuntu", sans-serif;
   width: 250px;
