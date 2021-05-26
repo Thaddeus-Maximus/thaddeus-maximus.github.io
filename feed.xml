@@ -5,7 +5,7 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2021-03-19T11:05:40Z</updated>
+    <updated>2021-05-26T03:13:08Z</updated>
 
     <author>
         <name>Thad Hughes</name>
@@ -13,6 +13,99 @@
         <uri>/</uri>
     </author>
 
+    
+        <entry>
+            <title>Books on my Bookshelf</title>
+            <link rel="alternate" href="/library/" type="text/html" />
+            <id>/library/</id>
+            <updated>2021-05-26T03:12:29Z</updated>
+
+            <summary type="html">&lt;strong&gt;Recommendations&lt;/strong&gt; are bolded. If you know me in person, I&amp;rsquo;m happy to lend you anything.</summary>
+            <content type="html">&lt;p&gt;&lt;strong&gt;Recommendations&lt;/strong&gt; are bolded. If you know me in person, I&amp;rsquo;m happy to lend you anything.&lt;/p&gt;
+&lt;h1&gt;Practical Arts &amp;amp; Sciences&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Pierer and Hutchinge - Carpentry and Building Construction&lt;/li&gt;
+&lt;li&gt;Aidan Walker - The Encyclopedia of Wood&lt;/li&gt;
+&lt;li&gt;Industrial Press - Machinery&amp;rsquo;s Handbook, 30th edition&lt;/li&gt;
+&lt;li&gt;Ingenious Mechanisms for Engineers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Politics / Interpersonal Affairs&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Aristotle - Politics&lt;/li&gt;
+&lt;li&gt;Timothy &amp;amp; David Gordon - Rules for Retrogrades&lt;/li&gt;
+&lt;li&gt;Julius Evola - Ride the Tiger&lt;/li&gt;
+&lt;li&gt;Melinda Gates - The Moment of Lift (I legitimately recieved this in the mail from out of the blue after ordering the previous book, which is hilarious.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Charles Murray - Coming Apart&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Rodrik - Has Globalization Gone Too Far?&lt;/li&gt;
+&lt;li&gt;Burgin - The Great Persuasion&lt;/li&gt;
+&lt;li&gt;Allan Bloom - The Closing of the American Mind&lt;/li&gt;
+&lt;li&gt;Neil Postman - How to Watch TV News&lt;/li&gt;
+&lt;li&gt;Paul Feyerabend - Science in a Free Society&lt;/li&gt;
+&lt;li&gt;Joel Salatin - Everything I Want To Do Is Illegal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guillaume Faye - Archeofuturism&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Religion / Spirituality&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Mounce - Basics of Biblical Greek&lt;/li&gt;
+&lt;li&gt;NIV Interlinear Greek - English New Testament&lt;/li&gt;
+&lt;li&gt;New American Bible (Catholic Edition)&lt;/li&gt;
+&lt;li&gt;Marvin W. Meyer (Translator) - Four Gnostic Gospels&lt;/li&gt;
+&lt;li&gt;C.S. Lewis - Suprised By Joy / Reflections on the Psalms / The Four Loves / The Business of Heaven&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C.S. Lewis - The Abolition of Man (&lt;em&gt;loaned out&lt;/em&gt;)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;C.S. Lewis - Mere Christianity and The Screwtape Letters&lt;/li&gt;
+&lt;li&gt;C.S. Lewis - A Grief Observed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;G.K. Chesterton - Orthodoxy&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;G.K. Chesterton - The Everlasting Man&lt;/li&gt;
+&lt;li&gt;St. Francis De Sales - An Introduction to the Devout Life (Philothea)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kallistos Ware - The Orthodox Church&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;C.G. Jung - Jung on Christianity&lt;/li&gt;
+&lt;li&gt;C.G. Jung - Dreams&lt;/li&gt;
+&lt;li&gt;C.G. Jung - Four Archetypes&lt;/li&gt;
+&lt;li&gt;C.G. Jung - The Portable Jung&lt;/li&gt;
+&lt;li&gt;Strong&amp;rsquo;s Concordance with Hebrew, Chaldee, and Greek Dictionaries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blaise Pascal - Pensees&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;St. Basil The Great - On Social Justice&lt;/li&gt;
+&lt;li&gt;St. Maximus the Confessor - On The Cosmic Mystery of Jesus Christ&lt;/li&gt;
+&lt;li&gt;St. Basil The Great - On the Human Condition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Pure Philosophy&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Douglas Hofstadter - Godel, Escher, Bach: An Eternal Golden Braid&lt;/li&gt;
+&lt;li&gt;Adam Smith - The Theory of Moral Sentiments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Business&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dr. Laurence J. Peter - The Peter Principle&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Drucker - Managing in Turbulent Times&lt;/li&gt;
+&lt;li&gt;Ted S. Frost - Where Have All the Wooly Mammoths Gone?&lt;/li&gt;
+&lt;li&gt;Carl Sewell - Customers For Life&lt;/li&gt;
+&lt;li&gt;John C. Maxwell - Developing the Leader Within You&lt;/li&gt;
+&lt;li&gt;Clarence A. O&amp;#39;Brien - Patent Guide for the Inventor&lt;/li&gt;
+&lt;li&gt;Neil Rackham - SPIN Selling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Fiction&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Flannery O&amp;#39;Connor - The Violent Bear It Away / Everything That Rises Must Converge / Wise Blood&lt;/li&gt;
+&lt;li&gt;Frank Herbert - Dune&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eugene Vodolazkin - Laurus (&lt;em&gt;loaned out&lt;/em&gt;)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Jean-Paul Sartre - No Exit and Three Other Short Plays&lt;/li&gt;
+&lt;li&gt;R.A. Heinlein - Time Enough For Love&lt;/li&gt;
+&lt;li&gt;R.A. Heinlein - The Number of the Beast&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unknown - The Way of a Pilgrim / The Pilgrim Continues His Way (&lt;em&gt;loaned out&lt;/em&gt;)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;G.K. Chesterton - The Man Who Was Thursday&lt;/li&gt;
+&lt;li&gt;Leo Tolstoy - Resurrection&lt;/li&gt;
+&lt;li&gt;John Milton - Paradise Lost&lt;/li&gt;
+&lt;li&gt;J.R.R. Tolkien - The Hobbit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Other&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Edward Abbey - The Best of Edward Abbey&lt;/li&gt;
+&lt;li&gt;Henry Petroski - The Evolution of Useful Things&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Henry Petroski - To Engineer is Human&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Barker/Dodd/Webb - The Growth of a Nation&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
     
         <entry>
             <title>EV3Hub</title>
@@ -167,89 +260,6 @@
 
 &lt;p&gt;&lt;img src=&#34;/assets/images/tdn_dies/4tdn.jpg&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;/assets/images/tdn_dies/tdn_phone.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</content>
-        </entry>
-    
-        <entry>
-            <title>Books on my Bookshelf</title>
-            <link rel="alternate" href="/library/" type="text/html" />
-            <id>/library/</id>
-            <updated>2021-03-14T03:40:58Z</updated>
-
-            <summary type="html">&lt;strong&gt;Recommendations&lt;/strong&gt; are bolded. If you know me in person, I&amp;rsquo;m happy to lend you anything.</summary>
-            <content type="html">&lt;p&gt;&lt;strong&gt;Recommendations&lt;/strong&gt; are bolded. If you know me in person, I&amp;rsquo;m happy to lend you anything.&lt;/p&gt;
-&lt;h1&gt;Practical Arts &amp;amp; Sciences&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Pierer and Hutchinge - Carpentry and Building Construction&lt;/li&gt;
-&lt;li&gt;Aidan Walker - The Encyclopedia of Wood&lt;/li&gt;
-&lt;li&gt;Industrial Press - Machinery&amp;rsquo;s Handbook, 30th edition&lt;/li&gt;
-&lt;li&gt;Ingenious Mechanisms for Engineers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Business&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Dr. Laurence J. Peter - The Peter Principle&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Drucker - Managing in Turbulent Times&lt;/li&gt;
-&lt;li&gt;Ted S. Frost - Where Have All the Wooly Mammoths Gone?&lt;/li&gt;
-&lt;li&gt;Carl Sewell - Customers For Life&lt;/li&gt;
-&lt;li&gt;John C. Maxwell - Developing the Leader Within You&lt;/li&gt;
-&lt;li&gt;Clarence A. O&amp;#39;Brien - Patent Guide for the Inventor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Fiction&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Flannery O&amp;#39;Connor - The Violent Bear It Away / Everything That Rises Must Converge / Wise Blood&lt;/li&gt;
-&lt;li&gt;Frank Herbert - Dune&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Eugene Vodolazkin - Laurus (&lt;em&gt;loaned out&lt;/em&gt;)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Jean-Paul Sartre - No Exit and Three Other Short Plays&lt;/li&gt;
-&lt;li&gt;R.A. Heinlein - Time Enough For Love&lt;/li&gt;
-&lt;li&gt;R.A. Heinlein - The Number of the Beast&lt;/li&gt;
-&lt;li&gt;Unknown - The Way of a Pilgrim / The Pilgrim Continues His Way&lt;/li&gt;
-&lt;li&gt;G.K. Chesterton - The Man Who Was Thursday&lt;/li&gt;
-&lt;li&gt;Leo Tolstoy - Resurrection&lt;/li&gt;
-&lt;li&gt;John Milton - Paradise Lost&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Politics / Interpersonal Affairs&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Aristotle - Politics&lt;/li&gt;
-&lt;li&gt;Timothy &amp;amp; David Gordon - Rules for Retrogrades&lt;/li&gt;
-&lt;li&gt;Julius Evola - Ride the Tiger&lt;/li&gt;
-&lt;li&gt;Melinda Gates - The Moment of Lift (I legitimately recieved this in the mail from out of the blue).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Charles Murray - Coming Apart&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Rodrik - Has Globalization Gone Too Far?&lt;/li&gt;
-&lt;li&gt;Burgin - The Great Persuasion&lt;/li&gt;
-&lt;li&gt;Allan Bloom - The Closing of the American Mind&lt;/li&gt;
-&lt;li&gt;How to Watch TV News - Neil Postman&lt;/li&gt;
-&lt;li&gt;Science in a Free Society - Paul Feyerabend&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Religion / Spirituality&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Mounce - Basics of Biblical Greek&lt;/li&gt;
-&lt;li&gt;NIV Interlinear Greek - English New Testament&lt;/li&gt;
-&lt;li&gt;New American Bible (Catholic Edition)&lt;/li&gt;
-&lt;li&gt;Marvin W. Meyer (Translator) - Four Gnostic Gospels&lt;/li&gt;
-&lt;li&gt;C.S. Lewis - Suprised By Joy / Reflections on the Psalms / The Four Loves / The Business of Heaven&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;C.S. Lewis - The Abolition of Man (&lt;em&gt;loaned out&lt;/em&gt;)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;C.S. Lewis - Mere Christianity and The Screwtape Letters&lt;/li&gt;
-&lt;li&gt;C.S. Lewis - A Grief Observed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;G.K. Chesterton - Orthodoxy&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;G.K. Chesterton - The Everlasting Man&lt;/li&gt;
-&lt;li&gt;St. Francis De Sales - An Introduction to the Devout Life (Philothea)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kallistos Ware - The Orthodox Church&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;C.G. Jung - Jung on Christianity&lt;/li&gt;
-&lt;li&gt;C.G. Jung - Dreams&lt;/li&gt;
-&lt;li&gt;C.G. Jung - Four Archetypes&lt;/li&gt;
-&lt;li&gt;C.G. Jung - The Portable Jung&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Pure Philosophy&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Douglas Hofstadter - Godel, Escher, Bach: An Eternal Golden Braid&lt;/li&gt;
-&lt;li&gt;Adam Smith - The Theory of Moral Sentiments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;Other&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Edward Abbey - The Best of Edward Abbey&lt;/li&gt;
-&lt;li&gt;Henry Petroski - The Evolution of Useful Things&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Henry Petroski - To Engineer is Human&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
         </entry>
     
