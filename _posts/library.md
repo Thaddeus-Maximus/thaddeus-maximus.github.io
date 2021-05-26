@@ -14,37 +14,19 @@ tags: []
 - Industrial Press - Machinery's Handbook, 30th edition
 - Ingenious Mechanisms for Engineers
 
-# Business
-- **Dr. Laurence J. Peter - The Peter Principle**
-- Drucker - Managing in Turbulent Times
-- Ted S. Frost - Where Have All the Wooly Mammoths Gone?
-- Carl Sewell - Customers For Life
-- John C. Maxwell - Developing the Leader Within You
-- Clarence A. O'Brien - Patent Guide for the Inventor
-
-# Fiction
-- Flannery O'Connor - The Violent Bear It Away / Everything That Rises Must Converge / Wise Blood
-- Frank Herbert - Dune
-- **Eugene Vodolazkin - Laurus (*loaned out*)**
-- Jean-Paul Sartre - No Exit and Three Other Short Plays
-- R.A. Heinlein - Time Enough For Love
-- R.A. Heinlein - The Number of the Beast
-- Unknown - The Way of a Pilgrim / The Pilgrim Continues His Way
-- G.K. Chesterton - The Man Who Was Thursday
-- Leo Tolstoy - Resurrection
-- John Milton - Paradise Lost
-
 # Politics / Interpersonal Affairs
 - Aristotle - Politics
 - Timothy & David Gordon - Rules for Retrogrades
 - Julius Evola - Ride the Tiger
-- Melinda Gates - The Moment of Lift (I legitimately recieved this in the mail from out of the blue).
+- Melinda Gates - The Moment of Lift (I legitimately recieved this in the mail from out of the blue after ordering the previous book, which is hilarious.).
 - **Charles Murray - Coming Apart**
 - Rodrik - Has Globalization Gone Too Far?
 - Burgin - The Great Persuasion
 - Allan Bloom - The Closing of the American Mind
-- How to Watch TV News - Neil Postman
-- Science in a Free Society - Paul Feyerabend
+- Neil Postman - How to Watch TV News
+- Paul Feyerabend - Science in a Free Society
+- Joel Salatin - Everything I Want To Do Is Illegal
+- **Guillaume Faye - Archeofuturism**
 
 # Religion / Spirituality
 - Mounce - Basics of Biblical Greek
@@ -63,12 +45,40 @@ tags: []
 - C.G. Jung - Dreams
 - C.G. Jung - Four Archetypes
 - C.G. Jung - The Portable Jung
+- Strong's Concordance with Hebrew, Chaldee, and Greek Dictionaries
+- **Blaise Pascal - Pensees**
+- St. Basil The Great - On Social Justice
+- St. Maximus the Confessor - On The Cosmic Mystery of Jesus Christ
+- St. Basil The Great - On the Human Condition
 
 # Pure Philosophy
 - Douglas Hofstadter - Godel, Escher, Bach: An Eternal Golden Braid
 - Adam Smith - The Theory of Moral Sentiments
 
+# Business
+- **Dr. Laurence J. Peter - The Peter Principle**
+- Drucker - Managing in Turbulent Times
+- Ted S. Frost - Where Have All the Wooly Mammoths Gone?
+- Carl Sewell - Customers For Life
+- John C. Maxwell - Developing the Leader Within You
+- Clarence A. O'Brien - Patent Guide for the Inventor
+- Neil Rackham - SPIN Selling
+
+# Fiction
+- Flannery O'Connor - The Violent Bear It Away / Everything That Rises Must Converge / Wise Blood
+- Frank Herbert - Dune
+- **Eugene Vodolazkin - Laurus (*loaned out*)**
+- Jean-Paul Sartre - No Exit and Three Other Short Plays
+- R.A. Heinlein - Time Enough For Love
+- R.A. Heinlein - The Number of the Beast
+- **Unknown - The Way of a Pilgrim / The Pilgrim Continues His Way (*loaned out*)**
+- G.K. Chesterton - The Man Who Was Thursday
+- Leo Tolstoy - Resurrection
+- John Milton - Paradise Lost
+- J.R.R. Tolkien - The Hobbit
+
 # Other
 - Edward Abbey - The Best of Edward Abbey
 - Henry Petroski - The Evolution of Useful Things
 - **Henry Petroski - To Engineer is Human**
+- Barker/Dodd/Webb - The Growth of a Nation
