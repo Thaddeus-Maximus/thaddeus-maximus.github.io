@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
+
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>Drivable Beanbag! : Blog – I'm Thad.</title>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="http://thadhughes.xyz">Main</a></li>
+                <li><a href="http://everycalc.thadhughes.xyz">EveryCalc</a></li>
+                <li><a href="http://blog.thadhughes.xyz">Blog</a></li>
+                <li><a href="http://thadhughes.xyz/fsae">FSAE</a></li>
+                <li><a href="http://thadhughes.xyz/comprobotics">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="http://thadhughes.xyz/contact">Contact</a></li>
+                <li><a href="http://thadhughes.xyz/resume">Resume</a></li>
+                <li><a href="http://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="http://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="http://blog.thadhughes.xyz/feed.xml">Blog RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2021 Thad Hughes – powered by <a href="http://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
+    <div class="post">
+        <h1 class="post-title">Drivable Beanbag!</h1>
+        <h2 class="post-meta">2021-08-14 16:21:00 <span>»</span> <a href="/archives/bikes/">bikes</a>, <a href="/archives/fabrication/">fabrication</a>, <a href="/archives/odd/">odd</a>, <a href="/archives/robotics/">robotics</a></h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xHozvgy_H58" frameborder="0" allowfullscreen></iframe>
+
+<p><img src="/assets/images/beanbag/splash.jpg" alt=""></p>
+
+<p>This started out when we at the <a href="http://manchestermakerspace.org">Manchester Makerspace</a> decided &ldquo;hey. We should build a robochair.&rdquo; Nobody had a clear idea what that meant.</p>
+
+<p>We could build something like a literal chair bolted to a robot drivebase. Or a motorized couch. But those have all been done before. But then, we had the concept:</p>
+
+<p><img src="/assets/images/beanbag/concept.png" alt="Concept"></p>
+
+<p>A drivable beanbag. Controlled by a game controller. <em>How do you get lazier?</em></p>
+
+<p>We already had the massive beanbag. So I began drawing out what a platform might look like. <a href="https://cad.onshape.com/documents/9009f2774936f7e45a9ccd26/w/ba20c9ddc536071ad7316aeb/e/411323a82a9cc5a57325ecb7">The CAD is viewable in OnShape.</a></p>
+
+<p><img src="/assets/images/beanbag/cad_iso.png" alt="Isometric View of Platform in CAD"></p>
+
+<p>I took this as an opportunity to try and make custom timing pulleys. Which worked for HTD profile belts! The 8M sized ones are quite easy- they can even be finished and brought to perfect profile with a 3/16&quot; mill bit. The 3M were tougher and required the use of parabolic flute drillbits to make the 15:1 aspect ratio holes.</p>
+
+<p><img src="/assets/images/beanbag/sprockets.jpg" alt="Custom HTD Sprockets"></p>
+
+<p>With most of the parts made, we started building up the frame.</p>
+
+<p><img src="/assets/images/beanbag/barren_frame.jpg" alt="">
+<img src="/assets/images/beanbag/lower_frame.jpg" alt=""></p>
+
+<p>The motors are two sensored, brushless DC motors meant for electric skateboards. At 36V, they pack 3kW of peak power! Ridiculous! These things are no bigger than a miniCIM. The motors plug into a Flipsky dual-channel vESC, and the whole thing is powered by three 12V, 18Ah (FRC-sized) batteries, wired in series.</p>
+
+<p>The batteries aren&rsquo;t new, but they have enough life in them to drive all around the pits of the 24 Hours of Lemons in CT. And tow wagons of gasoline while we&rsquo;re at it.</p>
+
+<p>It isn&rsquo;t done: our drivetrain has some issues blowing up casters and wheels because we specced ones that are way underkill. We&rsquo;re going to revisit if we can make 4WD work at all (the long wheelbase isn&rsquo;t keen on turning when fully loaded)- maybe with some caster assist in the front. But we&rsquo;ll get there.</p>
+
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>

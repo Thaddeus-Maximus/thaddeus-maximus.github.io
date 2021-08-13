@@ -1,17 +1,31 @@
-{% extends 'layout.html' %}
+<!DOCTYPE html>
 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-{% set title = 'Software' %}
+<meta name="author" content="Thad Hughes">
+<meta name="description" content="Thad Hughes' Doings and Musings">
+<meta name="generator" content="mynt v0.4">
 
-{% block breadcrumbs %}
-    <ul id="breadcrumbs">
-        <li><a href="{{ get_url() }}">Home</a></li>
-        <li>Software</li>
-    </ul>
-{% endblock %}
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="/assets/css/pygments.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/assets/js/mynt.min.js"></script>
 
-{% block customscript %}
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/jquery.tilewall.min.js"></script>
+<!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
+
+    <title>Software – I'm Thad.</title>
+    
 <script>
 $(document).ready( function () {
   $("#tilewall").tileWall({
@@ -46,34 +60,94 @@ $(document).ready( function () {
   })
 });
 </script>
-{% endblock %}
 
-{% block content %}
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <center>
+                <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+                <h2 id="subtitle">I make things.</h2>
+                <img src="/assets/images/cross.svg" width="150px" style="margin-top: 10px;" />
+            </center>
+            <ul class="nav">
+                <li><a href="http://thadhughes.xyz">Main</a></li>
+                <li><a href="http://everycalc.thadhughes.xyz">EveryCalc</a></li>
+                <li><a href="http://blog.thadhughes.xyz">Blog</a></li>
+                <li><a href="http://thadhughes.xyz/fsae">FSAE</a></li>
+                <li><a href="http://thadhughes.xyz/comprobotics">Robotics</a></li>
+            </ul><ul class="nav">
+                <li><a href="http://thadhughes.xyz/contact">Contact</a></li>
+                <li><a href="http://thadhughes.xyz/resume">Resume</a></li>
+                <li><a href="http://github.com/Thaddeus-Maximus">GitHub</a></li>
+                <li><a href="http://instagram.com/tha_deus_ex_machina">Insta</a></li>
+                <li><a href="mailto:hughes.thad@gmail.com">Email</a></li>
+            </ul><ul class="nav">
+                <li><a href="http://blog.thadhughes.xyz/feed.xml">Blog RSS Feed</a></li>
+            </ul>
+
+            <p>Farm boy turned design engineer for <a href="http://www.dekaresearch.com/">DEKA R&D</a>, who does a good bit of engineering on the side. I play with nuts, bolts, bits, and bytes.</p>
+
+            <div id="footer">
+                <p>© 2021 Thad Hughes – powered by <a href="http://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+
+        <div id="topbar">
+            <h1 id="title"><a href="/">I'm <em>Thad</em>.</a></h1>
+        </div>
+
+        <div id="content">
+            
   <h1 class="post-title">Software Projects</h1>
 
   <div id="tilewall">
-      {% for post in posts.items -%}
-      {% if "software" in post.tags -%}
       <div class="tile" >
-        <a href="{{ get_url(post.url) }}">
-          <span style="display:none" class="timestamp">{{ post.timestamp }}</span>
-          <img src="{{ get_asset('images/' + post.image) }}" />
+        <a href="/ev3hub/">
+          <span style="display:none" class="timestamp">1615695783</span>
+          <img src="/assets/images/ev3hub.png" />
           <div class="tile-overlay"><div class="tile-overlay-text">
-            {{ post.title }}
+            EV3Hub
+          </div></div>
+        </a>
+      </div><div class="tile" >
+        <a href="/gweaver/">
+          <span style="display:none" class="timestamp">1615695561</span>
+          <img src="/assets/images/roselap_v5.png" />
+          <div class="tile-overlay"><div class="tile-overlay-text">
+            Gweaver
+          </div></div>
+        </a>
+      </div><div class="tile" >
+        <a href="/tubular/">
+          <span style="display:none" class="timestamp">1615695542</span>
+          <img src="/assets/images/roselap_v5.png" />
+          <div class="tile-overlay"><div class="tile-overlay-text">
+            Tubular
+          </div></div>
+        </a>
+      </div><div class="tile" >
+        <a href="/roselap/">
+          <span style="display:none" class="timestamp">1615695504</span>
+          <img src="/assets/images/roselap_v5.png" />
+          <div class="tile-overlay"><div class="tile-overlay-text">
+            RoseLapWeb
           </div></div>
         </a>
       </div>
-      {%- endif %}
-      {%- endfor %}
 
       <div class="tile" data-width="2" >
-        <a href="{{ get_url('everycalc') }}">
-          <img src="{{ get_asset('images/everycalc.png') }}" />
+        <a href="/everycalc">
+          <img src="/assets/images/everycalc.png" />
           <div class="tile-overlay"><div class="tile-overlay-text">
             EveryCalc
           </div></div>
         </a>
       </div>
   </div>
-{% endblock %}
 
+        </div>
+    </div>
+</body>
+</html>
