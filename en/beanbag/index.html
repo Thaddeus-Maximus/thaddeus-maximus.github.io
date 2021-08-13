@@ -24,7 +24,7 @@
 <script src="/assets/js/jquery.tilewall.min.js"></script>
 <!--<script src="/assets/js/isotope.pkgd.min.js"></script>-->
 
-    <title>bikes : Archives : Blog – I'm Thad.</title>
+    <title>Drivable Beanbag! : Blog – I'm Thad.</title>
     
 </head>
 
@@ -65,57 +65,42 @@
 
         <div id="content">
             
-    
-        <dl class="archives">
-            <dt class="archives-year"><a href="/archives/2021/">2021</a></dt>
-            <dd>
-                <dl class="archives-records">
-                    
-                        
-                            <dt class="archives-post-date">Aug 13</dt>
-                            <dd class="archives-post-title"><a href="/beanbag/">Drivable Beanbag!</a></dd>
+    <div class="post">
+        <h1 class="post-title">Drivable Beanbag!</h1>
+        <h2 class="post-meta">2021-08-14 16:21:00 <span>»</span> <a href="/archives/bikes/">bikes</a>, <a href="/archives/fabrication/">fabrication</a>, <a href="/archives/odd/">odd</a>, <a href="/archives/robotics/">robotics</a></h2>
 
-                            
-                                <dd class="archives-post-tags">Tagged <span>»</span> <a href="/archives/bikes/">bikes</a>, <a href="/archives/fabrication/">fabrication</a>, <a href="/archives/odd/">odd</a>, <a href="/archives/robotics/">robotics</a></dd>
-                            
-                        
-                    
-                </dl>
-            </dd>
-        </dl>
-    
-        <dl class="archives">
-            <dt class="archives-year"><a href="/archives/2020/">2020</a></dt>
-            <dd>
-                <dl class="archives-records">
-                    
-                        
-                            <dt class="archives-post-date">Sep 06</dt>
-                            <dd class="archives-post-title"><a href="/buoyantbike/">Buoyant Bike</a></dd>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xHozvgy_H58" frameborder="0" allowfullscreen></iframe>
 
-                            
-                                <dd class="archives-post-tags">Tagged <span>»</span> <a href="/archives/bikes/">bikes</a>, <a href="/archives/Fabrication/">Fabrication</a>, <a href="/archives/Mechanical/">Mechanical</a>, <a href="/archives/odd/">odd</a>, <a href="/archives/woodworking/">woodworking</a></dd>
-                            
-                        
-                            <dt class="archives-post-date">Sep 06</dt>
-                            <dd class="archives-post-title"><a href="/bikerest/">Bike Restoration</a></dd>
+<p><img src="/assets/images/beanbag/splash.jpg" alt=""></p>
 
-                            
-                                <dd class="archives-post-tags">Tagged <span>»</span> <a href="/archives/bikes/">bikes</a>, <a href="/archives/fabrication/">fabrication</a>, <a href="/archives/odd/">odd</a></dd>
-                            
-                        
-                            <dt class="archives-post-date">Sep 06</dt>
-                            <dd class="archives-post-title"><a href="/quadbike/">Quad Bike Electric Conversion</a></dd>
+<p>This started out when we at the <a href="http://manchestermakerspace.org">Manchester Makerspace</a> decided &ldquo;hey. We should build a robochair.&rdquo; Nobody had a clear idea what that meant.</p>
 
-                            
-                                <dd class="archives-post-tags">Tagged <span>»</span> <a href="/archives/bikes/">bikes</a>, <a href="/archives/Design/">Design</a>, <a href="/archives/Electrical/">Electrical</a>, <a href="/archives/Fabrication/">Fabrication</a>, <a href="/archives/Mechanical/">Mechanical</a>, <a href="/archives/odd/">odd</a></dd>
-                            
-                        
-                    
-                </dl>
-            </dd>
-        </dl>
-    
+<p>We could build something like a literal chair bolted to a robot drivebase. Or a motorized couch. But those have all been done before. But then, we had the concept:</p>
+
+<p><img src="/assets/images/beanbag/concept.png" alt="Concept"></p>
+
+<p>A drivable beanbag. Controlled by a game controller. <em>How do you get lazier?</em></p>
+
+<p>We already had the massive beanbag. So I began drawing out what a platform might look like. <a href="https://cad.onshape.com/documents/9009f2774936f7e45a9ccd26/w/ba20c9ddc536071ad7316aeb/e/411323a82a9cc5a57325ecb7">The CAD is viewable in OnShape.</a></p>
+
+<p><img src="/assets/images/beanbag/cad_iso.png" alt="Isometric View of Platform in CAD"></p>
+
+<p>I took this as an opportunity to try and make custom timing pulleys. Which worked for HTD profile belts! The 8M sized ones are quite easy- they can even be finished and brought to perfect profile with a 3/16&quot; mill bit. The 3M were tougher and required the use of parabolic flute drillbits to make the 15:1 aspect ratio holes.</p>
+
+<p><img src="/assets/images/beanbag/sprockets.jpg" alt="Custom HTD Sprockets"></p>
+
+<p>With most of the parts made, we started building up the frame.</p>
+
+<p><img src="/assets/images/beanbag/barren_frame.jpg" alt="">
+<img src="/assets/images/beanbag/lower_frame.jpg" alt=""></p>
+
+<p>The motors are two sensored, brushless DC motors meant for electric skateboards. At 36V, they pack 3kW of peak power! Ridiculous! These things are no bigger than a miniCIM. The motors plug into a Flipsky dual-channel vESC, and the whole thing is powered by three 12V, 18Ah (FRC-sized) batteries, wired in series.</p>
+
+<p>The batteries aren&rsquo;t new, but they have enough life in them to drive all around the pits of the 24 Hours of Lemons in CT. And tow wagons of gasoline while we&rsquo;re at it.</p>
+
+<p>It isn&rsquo;t done: our drivetrain has some issues blowing up casters and wheels because we specced ones that are way underkill. We&rsquo;re going to revisit if we can make 4WD work at all (the long wheelbase isn&rsquo;t keen on turning when fully loaded)- maybe with some caster assist in the front. But we&rsquo;ll get there.</p>
+
+    </div>
 
         </div>
     </div>

@@ -5,7 +5,7 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2021-05-26T03:13:08Z</updated>
+    <updated>2021-08-13T12:12:46Z</updated>
 
     <author>
         <name>Thad Hughes</name>
@@ -13,6 +13,46 @@
         <uri>/</uri>
     </author>
 
+    
+        <entry>
+            <title>Drivable Beanbag!</title>
+            <link rel="alternate" href="/beanbag/" type="text/html" />
+            <id>/beanbag/</id>
+            <updated>2021-08-13T11:59:53Z</updated>
+
+            
+            <content type="html">&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xHozvgy_H58&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/beanbag/splash.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;This started out when we at the &lt;a href=&#34;http://manchestermakerspace.org&#34;&gt;Manchester Makerspace&lt;/a&gt; decided &amp;ldquo;hey. We should build a robochair.&amp;rdquo; Nobody had a clear idea what that meant.&lt;/p&gt;
+
+&lt;p&gt;We could build something like a literal chair bolted to a robot drivebase. Or a motorized couch. But those have all been done before. But then, we had the concept:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/beanbag/concept.png&#34; alt=&#34;Concept&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;A drivable beanbag. Controlled by a game controller. &lt;em&gt;How do you get lazier?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We already had the massive beanbag. So I began drawing out what a platform might look like. &lt;a href=&#34;https://cad.onshape.com/documents/9009f2774936f7e45a9ccd26/w/ba20c9ddc536071ad7316aeb/e/411323a82a9cc5a57325ecb7&#34;&gt;The CAD is viewable in OnShape.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/beanbag/cad_iso.png&#34; alt=&#34;Isometric View of Platform in CAD&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;I took this as an opportunity to try and make custom timing pulleys. Which worked for HTD profile belts! The 8M sized ones are quite easy- they can even be finished and brought to perfect profile with a 3/16&amp;quot; mill bit. The 3M were tougher and required the use of parabolic flute drillbits to make the 15:1 aspect ratio holes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/beanbag/sprockets.jpg&#34; alt=&#34;Custom HTD Sprockets&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;With most of the parts made, we started building up the frame.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/assets/images/beanbag/barren_frame.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/assets/images/beanbag/lower_frame.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The motors are two sensored, brushless DC motors meant for electric skateboards. At 36V, they pack 3kW of peak power! Ridiculous! These things are no bigger than a miniCIM. The motors plug into a Flipsky dual-channel vESC, and the whole thing is powered by three 12V, 18Ah (FRC-sized) batteries, wired in series.&lt;/p&gt;
+
+&lt;p&gt;The batteries aren&amp;rsquo;t new, but they have enough life in them to drive all around the pits of the 24 Hours of Lemons in CT. And tow wagons of gasoline while we&amp;rsquo;re at it.&lt;/p&gt;
+
+&lt;p&gt;It isn&amp;rsquo;t done: our drivetrain has some issues blowing up casters and wheels because we specced ones that are way underkill. We&amp;rsquo;re going to revisit if we can make 4WD work at all (the long wheelbase isn&amp;rsquo;t keen on turning when fully loaded)- maybe with some caster assist in the front. But we&amp;rsquo;ll get there.&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Books on my Bookshelf</title>
