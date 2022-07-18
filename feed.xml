@@ -5,11 +5,11 @@
     <link rel="alternate" href="/" />
     <link rel="self" href="/feed.xml" type="application/atom+xml" />
     <id>/</id>
-    <updated>2022-02-13T15:33:19Z</updated>
+    <updated>2022-07-18T21:56:43Z</updated>
 
     <author>
         <name>Thad Hughes</name>
-        <email>hughes.thad@gmail.com</email>
+        <email>thad@thadhughes.xyz</email>
         <uri>/</uri>
     </author>
 
@@ -18,12 +18,12 @@
             <title>Contact &amp; About Thad</title>
             <link rel="alternate" href="/contact/" type="text/html" />
             <id>/contact/</id>
-            <updated>2022-02-13T15:32:46Z</updated>
+            <updated>2022-07-18T21:51:55Z</updated>
 
             <summary type="html">I&amp;rsquo;m an engineer from a small farm in Illinois. I grew up fixing equipment and getting my hands dirty. I went through 4-H and learned a slew of skills there, and &lt;a href=&#34;/comprobotics&#34;&gt;started a bunch of robotics teams&lt;/a&gt;. I earned a BSME with minors in various computer fields at Rose-Hulman Institute of Technology, while bring highly active in &lt;a href=&#34;/fsae&#34;&gt;Formula SAE&lt;/a&gt;.</summary>
             <content type="html">&lt;p&gt;I&amp;rsquo;m an engineer from a small farm in Illinois. I grew up fixing equipment and getting my hands dirty. I went through 4-H and learned a slew of skills there, and &lt;a href=&#34;/comprobotics&#34;&gt;started a bunch of robotics teams&lt;/a&gt;. I earned a BSME with minors in various computer fields at Rose-Hulman Institute of Technology, while bring highly active in &lt;a href=&#34;/fsae&#34;&gt;Formula SAE&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I currently engineer for &lt;a href=&#34;https://www.dekaresearch.com&#34;&gt;DEKA R&amp;amp;D&lt;/a&gt; in New Hampshire, and am president of the &lt;a href=&#34;http://manchestermakerspace.org&#34;&gt;Manchester Makerspace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am president of the &lt;a href=&#34;http://manchestermakerspace.org&#34;&gt;Manchester Makerspace&lt;/a&gt;, run &lt;a href=&#34;https://www.machinaeexdeo.com&#34;&gt;a blog on the intersection between technology and faith&lt;/a&gt; which has become &lt;a href=&#34;https://open.spotify.com/show/07PVSC8JlTKHlrWzH7fSh6&#34;&gt;a podcast&lt;/a&gt;, and engineer for &lt;a href=&#34;https://www.dekaresearch.com&#34;&gt;DEKA R&amp;amp;D&lt;/a&gt; in New Hampshire.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;/assets/resume.pdf&#34;&gt;My Resume.&lt;/a&gt;&lt;/p&gt;
 
@@ -36,7 +36,7 @@
 &lt;li&gt;All the scaffolding organization, infrastructure, and management to make that happen&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you want to reach me, shoot an email to &lt;a href=&#34;mailto:hughes.thad@gmail.com&#34;&gt;hughes.thad@gmail.com&lt;/a&gt;. I love to answer questions about what I&amp;rsquo;ve done, or how I can help you.&lt;/p&gt;
+&lt;p&gt;If you want to reach me, shoot an email to &lt;a href=&#34;mailto:thad@thadhughes.xyz&#34;&gt;thad@thadhughes.xyz&lt;/a&gt;. I love to answer questions about what I&amp;rsquo;ve done, or how I can help you.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Thad&lt;/li&gt;
