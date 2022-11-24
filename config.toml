@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section", "elements"]
 
 [Params]
   description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
-  logo = "images/IMG_6340.jpg"
+  logo = "images/fulls/thad_bridgeport.jpg"
   favicon = true
 
 [Params.social]
