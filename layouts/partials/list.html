@@ -1,0 +1,10 @@
+<section class="wrapper style1">
+        <div class="inner">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+
+            <ul>
+                {{ range .items }}
+                    <li>{{ .content | markdownify }}</li>
+                {{ end }}
+            </ul>
+    </section>

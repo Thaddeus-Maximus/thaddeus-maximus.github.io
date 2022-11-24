@@ -1,0 +1,19 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Jack of All Trades"
+subtitle: |
+  Master of some
+content : |
+  - '97-'15: Farmhand at Progressive Prairie, Inc.
+  - '16-'19: Building racecars with RoseGPE
+  - '19-'22: Design Engineer at DEKA R&D
+  - '22->: Mechanical engineer for composite manufacturing equipment
+  - '21->: President of Manchester Makerspace
+  - '22->: Host of Machinae Ex Deo
+button:
+  label : "Let's Get to Work."
+  link : "mailto:thad@thadhughes.xyz"
+image : "images/shop_splash.jpg"
+
+
+

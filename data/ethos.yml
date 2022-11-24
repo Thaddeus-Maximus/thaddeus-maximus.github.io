@@ -1,0 +1,21 @@
+####################### Banner #########################
+style: "style5 orient-left content-align-left image-position-left fullscreen"
+title : "Ethos"
+content : |
+  A common-sense approach to technology.
+  - Work with [sharp tools](https://www.machinaeexdeo.com/p/tools-and-theosis-sharpening).
+  - Solutions [shouldn't suck](https://suckless.org/philosophy/).
+  - Whenever possible, [integrate](https://www.machinaeexdeo.com/p/work-life-integration).
+  - Solutions should be [extensible](https://www.machinaeexdeo.com/p/extensible-technology).
+  - People should [actually own things](https://doctorow.medium.com/about-those-kill-switched-ukrainian-tractors-bc93f471b9c8).
+  - Human scale is the only [sustainable scale](https://wrathofgnon.substack.com/p/the-100-year-well).
+  - Solve problems at the [lowest level possible](https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html).
+  - Don't lie.
+
+button:
+  label : "Learn More"
+  link : "https://www.machinaeexdeo.com"
+image : "images/fulls/drafting.jpg"
+
+
+

@@ -1,0 +1,50 @@
+title: ""
+style: "style2 medium lightbox"
+#content: |
+#  I've worked on everything from racecars to bookshelves.
+pictures:
+
+  - title: "Copper Stamping Dies"
+    content: "Custom stamping dies made for copper work"
+    image: "images/fulls/stamping_603.jpg"
+    thumb: "images/thumbs/stamping_603.jpg"
+    button: "Detail"
+
+
+  - title: "Mahogany Marble Machine"
+    content: ""
+    image: "images/fulls/marble_machine.jpg"
+    thumb: "images/thumbs/marble_machine.jpg"
+    button: "Detail"
+
+  - title: "Finite-Element Analysis"
+    content: ""
+    image: "images/fulls/sprocket_analysis.png"
+    thumb: "images/thumbs/sprocket_analysis.png"
+    button: "Detail"
+
+  - title: "Cutting Boards"
+    content: ""
+    image: "images/fulls/cuttingboard.jpg"
+    thumb: "images/thumbs/cuttingboard.jpg"
+    button: "Detail"
+
+
+  - title: "Walnut Box"
+    content: ""
+    image: "images/fulls/walnut_box.jpg"
+    thumb: "images/thumbs/walnut_box.jpg"
+    button: "Detail"
+
+
+  - title: "Shop Classes"
+    content: "I teach shop classes for the Manchester Makerspace and have for my college as well."
+    image: "images/fulls/cnc_mill.jpg"
+    thumb: "images/thumbs/cnc_mill.jpg"
+    button: "Detail"
+
+  - title: "Icosahedrons"
+    content: ""
+    image: "images/fulls/icosahedron.jpg"
+    thumb: "images/thumbs/icosahedron.jpg"
+    button: "Detail"

@@ -1,0 +1,34 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+title = "Thaddeus Hughes"
+theme = "hugo-story"
+
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "elements"]
+# googleAnalytics = "your-google-analytics-id"
+
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
+  logo = "images/IMG_6340.jpg"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/Thaddeus-Maximus/"
+#  twitter = "https://twitter.com/caressofsteel_"
+  email = "thad@thadhughes.xyz"
+#  instagram = "https://instagram.com"
+  linkedin = "https://www.linkedin.com/in/thadhughes/"
+#  telegram = "https://telegram.org"
+
+baseURL = "https://thaddeus-maximus.github.io"

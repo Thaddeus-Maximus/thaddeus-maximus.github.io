@@ -1,0 +1,10 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-center fullscreen"
+title : "Thaddeus Hughes"
+subtitle: |
+  Engineer.
+  Machinist. Fabricator.
+  Farm Kid.
+  Woodworker.
+  Theologian.
+image : "images/fulls/thad_bridgeport.jpg"

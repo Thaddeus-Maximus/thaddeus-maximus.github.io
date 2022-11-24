@@ -1,0 +1,25 @@
+title : ""
+#content: |
+#  This is an <strong>Items</strong> element, and it's basically just a grid for organizing items of various types. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-items">details</a>).
+style: "style1 medium"
+items:
+  - name : "Bio"
+    content : "- '97-'15: Farmhand at Progressive Prairie, Inc.
+    - '16-'19: Building racecars with RoseGPE
+    - '19-'21: Developing saline production equipment
+    - '21-'22: Engineering R&D support
+    - '22->: Mechanical engineer for composite manufacturing equipment
+    - '21->: President of Manchester Makerspace
+    - '22->: Host of Machinae Ex Deo"
+    style : "style1"
+
+  - name : "Ethos"
+    content : "
+  - Work with [sharp tools](https://www.machinaeexdeo.com/p/tools-and-theosis-sharpening). \n
+  - Whenever possible, [integrate](https://www.machinaeexdeo.com/p/work-life-integration). \n
+  - The solution [shouldn't suck](https://suckless.org/philosophy/). \n
+  - People should [actually own things](https://doctorow.medium.com/about-those-kill-switched-ukrainian-tractors-bc93f471b9c8).\n
+  - Solutions should be [extensible](https://www.machinaeexdeo.com/p/extensible-technology).\n
+  - Think about the [generations after you](https://wrathofgnon.substack.com/p/the-100-year-well).\n
+  - Solve the problem at the [lowest level possible](https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html).\n"
+    style : "style1"

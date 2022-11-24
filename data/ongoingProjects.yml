@@ -1,0 +1,25 @@
+title : ""
+#content: |
+#  This is an <strong>Items</strong> element, and it's basically just a grid for organizing items of various types. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-items">details</a>).
+style: "style1 medium"
+items:
+  - name : "Machinae Ex Deo"
+    content : "Technology is inevitable - How do we develop and use technology in a Christian way? That's what I'm answering on my newsletter + podcast."
+    style : "style1"
+    button : 
+      title : "Read & Listen"
+      href : "https://www.machinaeexdeo.com/"
+
+  - name : "Manchester Makerspace"
+    content : "A non-profit workshop focused on re-engaging people with the practical crafts."
+    style : "style1"
+    button : 
+      title : "Get Involved"
+      href : "https://manchestermakerspace.org"
+  
+  - name : "EveryCalc"
+    content : "A set of suckless browser-based engineering analysis tools free for public use."
+    style : "style1"
+    button : 
+      title : "Use the Tools"
+      href : "https://everycalc.thadhughes.xyz"
