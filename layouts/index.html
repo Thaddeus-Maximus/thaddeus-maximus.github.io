@@ -2,13 +2,15 @@
 
     {{ partial "banner" site.Data.banner }}
 
+    {{ partial "spotlight" site.Data.video }}
+
     {{ partial "items" site.Data.ongoingProjects }}
 
     {{/*partial "spotlight" site.Data.bio*/}}
 
     {{ partial "gallery" site.Data.gallery }}
 
-    {{ partial "spotlight" site.Data.ethos }}
+    {{/*partial "spotlight" site.Data.ethos*/}}
     
     {{ partial "template/footer" . }}
 
