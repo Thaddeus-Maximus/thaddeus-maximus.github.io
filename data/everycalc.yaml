@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "EveryCalc"
+subtitle: |
+  Master of some
+content : |
+  A suite of analysis tools for engineers.
+button:
+  label : "Access the tools!"
+  link : "https://everycalc.thadhughes.xyz"
+image : "images/thumbs/everycalc.png"
+
+
+

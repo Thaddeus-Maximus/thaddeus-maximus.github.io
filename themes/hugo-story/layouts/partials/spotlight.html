@@ -7,9 +7,11 @@
             <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
         </ul>{{ end }}
     </div>
-    {{ with .image }}<div class="image">
-        <img src="{{ . }}" alt="" />
-    </div>{{ end }}
+        <div class="image">
+            <!--<a href="{{ .button.link }}" class="button">-->
+                <img src="{{ .image }}" alt="" onclick='window.location = {{ .button.link }}'/>
+            <!--</a>-->
+        </div>
 
     {{ with .yturl }}
     <div class="image">

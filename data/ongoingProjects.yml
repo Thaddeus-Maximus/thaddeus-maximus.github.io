@@ -3,6 +3,13 @@ title : ""
 #  This is an <strong>Items</strong> element, and it's basically just a grid for organizing items of various types. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-items">details</a>).
 style: "style1 medium"
 items:
+  - name : "Little Creators"
+    content : "High quality wooden icons and holy cards, pulling from the Byzantine and Catholic Worker styles."
+    style : "style1"
+    button : 
+      title : "Shop"
+      href : "https://www.littlecreators.shop"
+
   - name : "Machinae Ex Deo"
     content : "Technology is inevitable - How do we develop and use technology in a Christian way? That's what I'm answering on my newsletter + podcast."
     style : "style1"

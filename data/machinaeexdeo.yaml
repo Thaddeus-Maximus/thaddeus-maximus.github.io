@@ -1,0 +1,15 @@
+####################### Banner #########################
+style: "style1 orient-right content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Podcast"
+subtitle: |
+  Machinae Ex Deo: 'From God, Machines'
+content : |
+  Machinae Ex Deo: 'From God, Machines'.
+  A pod and blog about faith and technology - how the technology we build and use shapes our lives both now and eternally.
+button:
+  label : "Listen Now"
+  link : "https://www.machinaeexdeo.com/podcast"
+image : "images/med_logo_2000.png"
+
+
+

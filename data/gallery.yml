@@ -10,11 +10,28 @@ pictures:
     thumb: "images/thumbs/creche_front.JPG"
     button: "Detail"
 
-
-  - title: "Placquards"
+  - title: "Electronic Gear Shifter"
     content: ""
-    image: "images/fulls/placquard_1.JPG"
-    thumb: "images/thumbs/placquard_1.JPG"
+    image: "images/shift_007.jpg"
+    thumb: "images/thumbs/shift_007.jpg"
+    button: "Detail"
+
+  - title: "Formula SAE Design"
+    content: ""
+    image: "images/dt_007_design.jpg"
+    thumb: "images/dt_007_design.jpg"
+    button: "Detail"
+
+  - title: "Buoyant Bike"
+    content: ""
+    image: "images/buoyantbike.jpg"
+    thumb: "images/thumbs/buoyantbike.jpg"
+    button: "Detail" 
+
+  - title: "Sprocket Analysis"
+    content: ""
+    image: "images/fulls/sprocket_analysis.png"
+    thumb: "images/thumbs/sprocket_analysis.png"
     button: "Detail"
 
   - title: "Makerspace Conference Table"

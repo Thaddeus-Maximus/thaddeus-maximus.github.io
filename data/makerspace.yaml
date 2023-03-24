@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Makerspace"
+subtitle: |
+  Machinae Ex Deo: 'From God, Machines'
+content : |
+  Manchester Makerspace: A community workshop. Name a tool, we probably have it. Come be part of a community, and use it!
+button:
+  label : "Check it Out!"
+  link : "https://www.manchestermakerspace.org"
+image : "images/makerspace.jpg"
+
+
+

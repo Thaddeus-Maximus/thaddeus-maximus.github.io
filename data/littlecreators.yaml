@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Holy Cards and Icons"
+subtitle: |
+  Master of some
+content : |
+  High-quality wooden icons and holy cards made by me - a Little Creator.
+button:
+  label : "Browse my Catalogue"
+  link : "https://www.littlecreators.shop"
+image : "images/littlecreators.jpg"
+
+
+
