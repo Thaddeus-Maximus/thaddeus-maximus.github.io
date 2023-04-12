@@ -1,7 +1,20 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "About me"
+title = "Who is Thad?"
 +++
+
+I'm a free-roaming Engineer, looking to see how I can help my fellow man - that means YOU! Let's work together. I get stuff done, right. I'm not afraid to get my hands dirty or keep them too clean writing simulations and crunching numbers.
+
+## Testimonials
+
+> "You should consider yourself lucky to have Thaddeus on your team. He brings to the table a high level of machine design acumen and OEM automation industrial knowledge. He's professional, approachable, collaborative, and thoughtful. During our time working together, I came to know Thaddeus as the type of Engineer you could depend on to meet hard deadlines, work under ever-changing requirements, and adapt to difficult circumstances. If you ever get the opportunity to work with him, you'll understand what I mean."
+> 
+> -- [Fraser Tibbets](https://www.linkedin.com/in/fraser-tibbetts-69562428/), Engineering Manager at DAPR Engineering
+
+> "Thad, you're the most redneck engineer I know - I mean that as high praise."
+> 
+> -- A coworker, as I rolled a MIG welder across a parking lot to fix an RV for a medical device company.
+
 
 ## Story
 
@@ -9,11 +22,11 @@ Growing up around tractors and combines on a farm in Illinois, it didn't take lo
 
 ![Young Thad](/images/tjplanting.jpg)
 
-In 2012 I helped start [FRC Team #4213](http://metalcowrobotics.com/). I spent most of my time doing the software - because it needed to be done. I started getting more room to flex my mechanical muscles as time went on, though. I mentored FLL teams and brought good success to the many teams I fostered in my area. The kid in the blue below actually followed me (green) to RHIT. The kid in the grey followed me onto FRC #4213 and almost won the world championship in 2022.
+In 2012 I helped start a [FIRST Robotics Competition Team - #4213](http://metalcowrobotics.com/). I spent most of my time doing the software and managing the team - because it needed to be done. I started getting more room to flex my mechanical muscles as time went on, though. I mentored FLL teams and brought good success to the many teams I fostered in my area. The kid in the blue below actually followed me (green) to RHIT. The kid in the grey followed me onto FRC #4213 and almost won the world championship in 2022.
 
 ![RGP007](/images/mentoring.jpg)
 
-In 2015 I went off to college to study mechanical engineering, and I built racecars. I learned how to machine (and it became a passion of mine) - way better than just hobbled together fabrication. I also studied computer science, computational science, electrical engineering... 
+In 2015 I went off to college at Rose-Hulman Institute of Technology (RHIT) to study mechanical engineering, and I built racecars. I learned how to machine (and it became a passion of mine) - way better than just hobbled together fabrication. I also studied computer science, computational science, electrical engineering... 
 
 ![RGP007](/images/rgp007.jpg)
 

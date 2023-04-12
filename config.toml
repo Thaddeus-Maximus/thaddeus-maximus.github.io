@@ -17,8 +17,9 @@ unsafe=true
   description = "Engineer, Etc."
   copyright = "&copy;2023 Thaddeus Hughes"
   sidebarAbout = [
-    "<b>Interdisciplinary Design Engineer</b> who loves building stuff and pontificating on truth, beauty, and goodness.",
-    "Originally from Central IL, currently based in NH."
+    "<b>Freelance Design Engineer</b> who loves building <b>electromechanical</b> equipment.",
+    "Originally from Central IL, currently based in NH.",
+    ""
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -32,7 +33,7 @@ unsafe=true
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "thad@thadhughes.xyz"
+  email = "f/xknapzav"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -50,12 +51,25 @@ unsafe=true
   home = true
 
   [[params.navlinks]]
+  name = "Resume"
+  url = "/Thad Hughes - Resume - 11APR2023.pdf"
+
+  [[params.navlinks]]
   name = "About"
   url = "about/"
 
   [[params.navlinks]]
   name = "Get in touch"
   url = "contact/"
+
+  [[params.navlinks]]
+  name = "Blog"
+  url = "https://www.machinaeexdeo.com"
+
+  [[params.navlinks]]
+  name = "Podcast"
+  url = "https://www.machinaeexdeo.com/podcast"
+
 
   [params.social]
   email         = "thad@thadhughes.xyz"
