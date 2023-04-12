@@ -1,8 +1,0 @@
-<section>
-    <span class="icon {{ .style }}"></span>
-    <h3>{{ .name }}</h3>
-    <p>{{ .content | markdownify }}</p>
-    {{ if .button }}
-        <a href="{{ .button.href }}"><span class="button small">{{ .button.title }}</span></a>
-    {{ end }}
-</section>
