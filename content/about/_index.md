@@ -32,6 +32,10 @@ In 2015 I went off to college at Rose-Hulman Institute of Technology (RHIT) to s
 
 In 2019 I moved to New Hampshire to work for [DEKA R&D](http://www.dekaresearch.com/) as a Mechanical Design Engineer. I built many things in my tenure there which they don't let me talk about too much. The high points were blowing up an IV bag to the size of a beach ball, and poking a million dollar machine I built with a crowbar so that it would work - which led to a successful demo, happy client, and continued funding for a project.
 
-In 2022 me and some friends started a [podcast](https://www.machinaeexdeo.com) where we talk about how technology is related the the spiritual realm and things divine. We love the word 'numinosity'. In 2023 I started an [iconography business with a pretty unique style](https://littlecreators.shop).
+While out in NH, I wandered into a [Melkite Greek Catholic Church](https://www.olocnh.org/) and fell in love with God. The liturgy there is, well, divine. This is important because Work (Avodah) is Worship.
+
+In 2022 me and some friends started a [podcast](https://www.machinaeexdeo.com) where we talk about how technology is related the the spiritual realm and things divine. We love the word 'numinosity'.
+
+Recently in 2023 I started an [iconography business with a pretty unique style](https://littlecreators.shop).
 
 [1]: /img/about.jpg

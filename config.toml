@@ -1,5 +1,5 @@
 baseurl = "https://thadhughes.xyz/"
-title = "Thaddeus Hughes"
+title = "Thaddeus Hughes."
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -17,10 +17,15 @@ unsafe=true
   description = "Engineer, Etc."
   copyright = "&copy;2023 Thaddeus Hughes"
   sidebarAbout = [
-    "<b>Freelance Design Engineer</b> who loves building <b>electromechanical</b> equipment.",
-    "Originally from Central IL, currently based in NH.",
+    "Builder of <a href='/portfolio'>Technologies</a>, Maker of holy cards for <a href='https://www.littlecreators.shop'>Little Creators</a>, Host of <a href='https://www.machinaeexdeo.com'>Machinae Ex Deo</a>, President of <a href='https://www.manchestermakerspace.org'>Manchester Makerspace</a>.",
+    "<b><a href='https://www.machinaeexdeo.com/subscribe/''>Subscribe</a> to my mailing list.</b>",
     ""
   ]
+
+  #  "Basic Principles:",
+  #  "1. Work (Avodah) is Worship.",
+  #  "2. The material world is full of good things, although none of them are worth worshipping.",
+  #  "3. Truth, Beauty and Goodness are one; worship of one at the expense of the others results in none.",
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -48,7 +53,7 @@ unsafe=true
   [[params.navlinks]]
   name = "Home"
   url = "portfolio/"
-  home = true
+  # home = true
 
   [[params.navlinks]]
   name = "Resume"
@@ -57,6 +62,11 @@ unsafe=true
   [[params.navlinks]]
   name = "About"
   url = "about/"
+
+  [[params.navlinks]]
+  name = "Splash"
+  url = "splash/"
+  home = true
 
   [[params.navlinks]]
   name = "Get in touch"
