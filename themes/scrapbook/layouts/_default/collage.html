@@ -1,0 +1,38 @@
+{{ define "main" }}
+  {{ with .Params }}
+    <div class="wrapper {{ .wrapper_classes }}">
+      <a class="title" href="{{ .header_href | default $.Site.Params.default_header_href }}">
+        <img src="/{{ .header_img | default $.Site.Params.default_header}}">
+      </a>
+      {{ range .cards }}
+        {{ if .href }}
+          <div class="photo-card clickable {{.classes}}" style="{{.styles | safeCSS }}" onclick="window.location='{{.href}}'">
+        {{ else }}
+          <div class="photo-card {{.classes}}" style=" {{.styles | safeCSS }} ">
+        {{ end }}
+          <div class="photo-inner">
+            {{ if .img }}
+              <img src="/{{.img}}">
+            {{ end }}
+            {{.raw_html | safeHTML}}
+            <div class="caption">{{upper (.caption | markdownify)}}</div>
+            {{.body | markdownify}}
+          </div>
+        </div>
+      {{ end }}
+  {{ end }}
+
+      {{ if eq .Kind "section" }}
+        {{ range .Pages }}
+            <div class="photo-card clickable {{.Params.title_classes}}" style="{{.Params.title_styles | safeCSS }}" onclick="window.location='{{.Permalink}}'">
+              <div class="photo-inner">
+                {{ if .Params.title_img }}
+                  <img src="/{{.Params.title_img}}">
+                {{ end }}
+                <div class="caption">{{upper (.Params.title | markdownify)}}</div>
+              </div>
+            </div>
+        {{ end }}
+      {{ end }}
+    </div>
+{{ end }}

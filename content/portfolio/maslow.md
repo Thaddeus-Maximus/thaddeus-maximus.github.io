@@ -1,28 +1,33 @@
-+++
-showonlyimage = false
-draft = false
-image = "images/maslow/iso.jpg"
-date = "2022-01-12"
-title = "Knock-Down Maslow CNC"
-weight = 0
-+++
+---
+title: "Knock-Back CNC Router"
+title_img: "maslow/stowed.jpg"
+title_classes: "square"
+title_styles: ""
 
-We needed more space in [our shop](https://www.manchestermakerspace.org), so I made a way for our Maslow CNC router to open and close to add extra room in the shop.
+date: 2022-01-12
+draft: false
+layout: collage
 
-<!--more-->
+wrapper_classes: ""
+cards:
+  - body: >
+      We needed more space in [our shop](https://www.manchestermakerspace.org), so I made a way for our Maslow CNC router to open and close to add extra room in the shop.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MZrLUCWFEi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  - raw_html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/MZrLUCWFEi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    caption: "Collapsing Frame"
 
-This was accomplished by a custom metal top frame and some gas shocks properly placed at the bottom.
+  - img: "maslow/corner2.jpg"
+    classes: "square"
 
-## Chains
+  - body: >
+      This was accomplished by a custom metal top frame and some gas shocks properly placed at the bottom.
+  
+  - img: "maslow/stowed.jpg"
+    classes: "square"
 
-Along the way I added some guards to keep chains from jumping off the sprockets, a pretty notorious problem with this style of CNC.
+  - body: >
+      Along the way I added some guards to keep chains from jumping off the sprockets, a pretty notorious problem with this style of CNC.
 
-![](/images/maslow/corner2.jpg)
 
-## Extra Room
 
-This gives us some precious maneuvering room back. We'll add dust collection next...
-
-![](/images/maslow/stowed.jpg)
+---

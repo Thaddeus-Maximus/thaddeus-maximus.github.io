@@ -1,32 +1,53 @@
-+++
-showonlyimage = false
-draft = false
-image = "images/everycalc.png"
-date = "2021-01-15"
-title = "EveryCalc"
-weight = 0
-+++
+---
+title: "EveryCalc"
+title_img: "everycalc.png"
+title_classes: "square"
+title_styles: ""
 
-A set of online free-to-use engineering analysis tools. Lightweight and suckless.
+date: 2021-09-12
+draft: false
+layout: collage
 
-<!--more-->
+wrapper_classes: ""
+cards:
+  - body: >
+      A set of online free-to-use engineering analysis tools - lightweight and suckless. 
 
-This started because of the countless JVN calc clones - I wanted one that did sprint speeds for FRC bots. But then I realized I could do a lot more.
+  - img: 'everycalc.png'
+    caption: "Online Calculators"
+    href: "https://everycalc.thadhughes.xyz"
 
-- General Mechanism Simulator
-- Wheeled Pitchers
-- Ballistic Trajectory
-- Timing belt sizing
-- Beam tool (which is actually a beam FEA tool. It's very flexible. I'm most proud of this one).
-- Transmission strength calculator for FRC
-- O ring calculator
-- ISO fit calculator (actually the most useful of all of these)
-- 1D cut optimizer
-- More
+  
+  - body: >
+      This started because of the countless JVN calc clones - I wanted one that did sprint speeds for FRC bots. But then I realized I could do a lot more.
 
-And all of this designed with the intents to:
-- Be self-contained; each calculator can export itself to a self-contained, 'living' .html file for future reference.
-- Be suckless; no dependence on external libraries; all vanilla JS and lightweight
-- Allow for multiple units and ease of use; better than an excel spreadsheet.
+  - styles: "text-align: left; max-width: 50rem;"
+    body: >
+      - General Mechanism Simulator
 
-# [Seriously, just try it. Yes, it's free.](https://everycalc.thadhughes.xyz)
+      - Wheeled Pitchers
+
+      - Ballistic Trajectory
+
+      - Timing belt sizing
+
+      - Beam tool (which is actually a beam FEA tool. It's very flexible. I'm most proud of this one).
+
+      - Transmission strength calculator for FRC
+
+      - O ring calculator
+
+      - ISO fit calculator
+
+      - 1D cut optimizer
+
+      - And More...
+
+  - body: >
+      And all of this designed with the intents to:
+      - Be self-contained; each calculator can export itself to a self-contained, 'living' .html file for future reference.
+      - Be suckless; no dependence on external libraries; all vanilla JS and lightweight
+      - Allow for multiple units and ease of use; better than an excel spreadsheet.
+
+
+---
