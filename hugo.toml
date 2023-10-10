@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Thaddeus Hughes'
+theme = 'scrapbook'
+
+[markup]
+  [markup.asciidocExt]
+    safeMode = 'unsafe'
+
+[params]
+  default_header = "wordmark_wide.svg"
+  default_header_href = "/"
