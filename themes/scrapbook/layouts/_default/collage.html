@@ -3,7 +3,13 @@
     <div class="wrapper {{ .wrapper_classes }}">
       <a class="title" href="{{ .header_href | default $.Site.Params.default_header_href }}">
         {{ with resources.Get .header_img }}
-          <img src="{{.Permalink}}">
+          {{ if eq .MediaType.SubType "svg"}}
+            <img src="{{.Permalink}}">
+          {{ else }}
+            {{ with .Resize "1200x q50" }}
+              <img src="{{.Permalink}}">
+            {{ end }}
+          {{ end }}
         {{ end }}
       </a>
       {{ range .cards }}
@@ -14,7 +20,9 @@
         {{ end }}
           <div class="photo-inner">
             {{ with resources.Get .img }}
-              <img src="{{.Permalink}}">
+              {{ with .Resize "1200x q50" }}
+                <img src="{{.Permalink}}">
+              {{ end }}
             {{ end }}
             {{.raw_html | safeHTML}}
             <div class="caption">{{(.caption | markdownify)}}</div>
@@ -29,7 +37,9 @@
             <div class="photo-card clickable {{.Params.title_classes}}" style="{{.Params.title_styles | safeCSS }}" onclick="window.location='{{.Permalink}}'">
               <div class="photo-inner">
                 {{ with resources.Get .Params.title_img }}
-                  <img src="{{.Permalink}}">
+                  {{ with .Resize "1200x q50" }}
+                    <img src="{{.Permalink}}">
+                  {{ end }}
                 {{ end }}
                 <div class="caption">{{(.Params.title | markdownify)}}</div>
               </div>
