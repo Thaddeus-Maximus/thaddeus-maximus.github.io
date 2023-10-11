@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>I&#39;m Thaddeus. on Thaddeus Hughes</title>
-    <link>https://example.org/splash/</link>
+    <link>https://thadhughes.xyz/splash/</link>
     <description>Recent content in I&#39;m Thaddeus. on Thaddeus Hughes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate><atom:link href="https://example.org/splash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate><atom:link href="https://thadhughes.xyz/splash/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
