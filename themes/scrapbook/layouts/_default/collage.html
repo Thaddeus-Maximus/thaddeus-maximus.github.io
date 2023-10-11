@@ -2,7 +2,9 @@
   {{ with .Params }}
     <div class="wrapper {{ .wrapper_classes }}">
       <a class="title" href="{{ .header_href | default $.Site.Params.default_header_href }}">
-        <img src="/{{ .header_img | default $.Site.Params.default_header}}">
+        {{ with resources.Get .header_img }}
+          <img src="{{.Permalink}}">
+        {{ end }}
       </a>
       {{ range .cards }}
         {{ if .href }}
@@ -11,11 +13,11 @@
           <div class="photo-card {{.classes}}" style=" {{.styles | safeCSS }} ">
         {{ end }}
           <div class="photo-inner">
-            {{ if .img }}
-              <img src="/{{.img}}">
+            {{ with resources.Get .img }}
+              <img src="{{.Permalink}}">
             {{ end }}
             {{.raw_html | safeHTML}}
-            <div class="caption">{{upper (.caption | markdownify)}}</div>
+            <div class="caption">{{(.caption | markdownify)}}</div>
             {{.body | markdownify}}
           </div>
         </div>
@@ -26,10 +28,10 @@
         {{ range .Pages }}
             <div class="photo-card clickable {{.Params.title_classes}}" style="{{.Params.title_styles | safeCSS }}" onclick="window.location='{{.Permalink}}'">
               <div class="photo-inner">
-                {{ if .Params.title_img }}
-                  <img src="/{{.Params.title_img}}">
+                {{ with resources.Get .Params.title_img }}
+                  <img src="{{.Permalink}}">
                 {{ end }}
-                <div class="caption">{{upper (.Params.title | markdownify)}}</div>
+                <div class="caption">{{(.Params.title | markdownify)}}</div>
               </div>
             </div>
         {{ end }}

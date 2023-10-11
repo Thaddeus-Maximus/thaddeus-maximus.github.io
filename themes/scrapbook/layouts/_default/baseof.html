@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
+  {{ with resources.Get "bg.jpg" }}
+  <!-- have to call {{ .Permalink }} to get this asset to publish -->
+  {{ end }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+  <!-- ?family=Kalam:wght@700&family=Permanent+Marker&family=Walter+Turncoat&
+  -->
+
   {{ partial "head.html" . }}
 </head>
 <body>

@@ -8,12 +8,6 @@ header_img: wordmark.svg
 header_href: "/"
 wrapper_classes: "mw2"
 cards:
-  - href: "https://www.machinaeexdeo.com"
-    caption: "Blog + Podcast"
-    body: ""
-    img: "med_card.jpeg"
-    styles: ""
-    classes: "square"
 
   - href: "https://www.littlecreators.shop"
     caption: "Iconography + Woodworking"
@@ -22,17 +16,24 @@ cards:
     styles: ""
     classes: "square"
 
-  - href: "/about"
-    caption: "About Thad"
-    body: ""
-    img: "buoyantbike.jpg"
-    styles: ""
-    classes: "square"
-
   - href: "/portfolio"
     caption: "Engineering Portfolio"
     body: ""
     img: "fsae/007-shift.jpg"
+    styles: ""
+    classes: "square"
+    
+  - href: "https://www.machinaeexdeo.com"
+    caption: "Blog + Podcast"
+    body: ""
+    img: "med_card.jpeg"
+    styles: ""
+    classes: "square"
+
+  - href: "/about"
+    caption: "About Thad"
+    body: ""
+    img: "buoyantbike.jpg"
     styles: ""
     classes: "square"
 

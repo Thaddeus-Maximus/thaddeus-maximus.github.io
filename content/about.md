@@ -18,7 +18,7 @@ wrapper_classes: ""
 #   classes: css class list (wide, tall, square... otherwise, it's automatic aspect ratio)
 
 cards:
-  - body: "I grew up on a farm in Shirley, IL - where I learned how to drive, weld, fabricate, wire, program, and more. I transitioned into becoming a mechanical engineer before moving out to New Hampshire and furthering my on-the-job know-how. In the past decade I've built competition-winning robots, IV production equipment, retrofitted RVs, motorized beanbags, church furniture, and more. Since then, I've moved back to IL to work the farm and see where God is directing me next."
+  - body: "I grew up on a farm in Shirley, IL - where I learned how to drive, weld, fabricate, wire, program, and more. I transitioned into becoming a mechanical engineer before moving out to New Hampshire and furthering my on-the-job know-how. In the past decade I've built competition-winning robots, IV production equipment, retrofitted RVs, motorized beanbags, church furniture, and more."
 
   - caption: "A Budding Thad"
     img: "tjplanting.jpg"

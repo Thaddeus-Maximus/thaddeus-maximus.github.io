@@ -7,6 +7,12 @@ theme = 'scrapbook'
   [markup.asciidocExt]
     safeMode = 'unsafe'
 
+
+
+[_build]
+  publishResources = false
+
+
 [params]
   default_header = "wordmark_wide.svg"
   default_header_href = "/"
