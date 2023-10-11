@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Thaddeus Hughes'
 theme = 'scrapbook'
 
+publishDir = 'docs'
+
 [markup]
   [markup.asciidocExt]
     safeMode = 'unsafe'
