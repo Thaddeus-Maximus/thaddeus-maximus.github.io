@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>This Website | Thaddeus Hughes</title>
+  
+      <link rel="stylesheet" href="/css/main.min.d1aeb7bc5c4ffa346a7dbff0c8fb56c59387e025d2614353f09d9f3461c9c0ba.css" integrity="sha256-0a63vFxP&#43;jRqfb/wyPtWxZOH4CXSYUNT8J2fNGHJwLo=" crossorigin="anonymous">
+
+  
+
+
+</head>
+<body>
+  <main>
+    
+  
+    <div class="wrapper mw2">
+      <a class="title" href="/">
+        
+          
+            <img src="https://thadhughes.xyz/wordmark_wide.svg">
+          
+        
+      </a>
+      
+        
+          <div class="photo-card " style="  ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            This website was built with Hugo using a custom theme. I&rsquo;m particularly inspired by the great work of <a href="https://www.youtube.com/channel/UC5mPJA4y5G8Z6aNkY6AxgAw">Van Neistat</a> and <a href="https://www.tomsachs.com/">Tom Sachs</a>.
+This is a guide for future users of this theme - a guide which should hopefully be unneccessary, but is a prostethic for putting on the mindset in which this theme was developed.
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style="  ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            <p>The idea was to make a website look like something real (pieces of paper on a cutting mat). I have some technical requirements:</p>
+<ul>
+<li>SUCKLESS. No Javascript. Minimal CSS (&lt;300sloc). Minimal HTML template (&lt;100sloc).</li>
+<li>Load fast (so, need to convert images to compressed webp)</li>
+<li>Be relatively painless to edit pages (either trivial HTML, or use a templator)</li>
+<li>If using a templator, make the template as simple as possible so you&rsquo;re not looking in 20 different places to try and change something</li>
+</ul>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" min-width: 75% ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            <p>I really like the ideas of this <a href="https://evenbettermotherfucking.website/">better website</a> - but I need images, too, and I want to display a crafty look. So&hellip; some more CSS is needed.
+Between needing to resize images, and the prototype HTML for the look I want being clunky, I needed to use a static site generator. I&rsquo;ve used many over the years and what I like best is Hugo. Why? Honestly, because it just works - setup is a breeze.</p>
+<h1 id="github-repohttpsgithubcomthaddeus-maximusthaddeus-maximusgithubio"><a href="https://github.com/Thaddeus-Maximus/thaddeus-maximus.github.io">GitHub Repo</a></h1>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" width: 100%; ">
+        
+          <div class="photo-inner">
+            
+            
+              
+                <img src="https://thadhughes.xyz/recursion/photo_card_hu1e423f8ef4622f87a72ecb41376b1c36_491259_1113x0_resize_q80_h2_box_3.webp">
+              
+            
+            
+            <div class="caption">The core &lsquo;card&rsquo; element</div>
+            <p>Everything is built around this core idea of a &lsquo;card&rsquo;. You put multiple cards together to build a page, kinda.
+The HTML structure is like so:</p>
+<pre><code>&lt;div class=&quot;photo-card {extra classes}&quot; style=&quot;{extra styles}&quot; onclick=&quot;window.location='{href}'&quot;&gt;
+  &lt;div class=&quot;photo-inner&quot;&gt;
+    &lt;img src=&quot;{url}&quot;&gt;
+    {optional raw HTML snippet}
+    &lt;div class=&quot;caption&quot;&gt;{caption}&lt;/div&gt;
+    {additional body}
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" width: 100%; ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            <p>So, there&rsquo;s a lot of parameters for each card! It seemed like the best way would be to structure posts entirely in the front matter of documents (and I like YAML). So, for instance, this page looks like:
+[<em>File: content/<em>index</em>.md</em>]</p>
+<pre><code>---
+title: 'This Website'
+date: 2023-10-12
+draft: false
+layout: collage
+
+wrapper_classes: &quot;mw2&quot;
+cards:
+  - body: &gt;
+      This website was built with Hugo using a custom theme. I'm particularly inspired by the great work of [Van Neistat](https://www.youtube.com/channel/UC5mPJA4y5G8Z6aNkY6AxgAw) and [Tom Sachs](https://www.tomsachs.com/).
+
+  - body: &gt;
+      The idea was to make a site look like something real, but with a few requirements:
+
+      - If using a templator, make the template as simple as possible so you're not looking in 20 different places to try and change something
+    styles: &quot;text-align: left&quot;
+---
+</code></pre>
+<p>Each <code>card</code> can have the following fields, all of which are optional:</p>
+<ul>
+<li><code>href</code>: where the card should link to</li>
+<li><code>caption</code>: a heading for the card</li>
+<li><code>body</code>: a body for the card, in markdown</li>
+<li><code>img</code>: url of the image to be displayed</li>
+<li><code>styles</code>: a CSS snippet to apply to the card. (<code>text-align</code>, <code>max-width</code>, and <code>width</code> are particularly helpful)</li>
+<li><code>classes</code>: a set of CSS classes to apply to the card (<code>square</code>, <code>wide</code>, and <code>tall</code> will modify the aspect ratio of the internal image)</li>
+<li><code>resizeq</code>: override the resizing for the <code>img</code> (default is <code>webp 1000x q40</code>; see the <a href="https://gohugo.io/content-management/image-processing/">Hugo Resize documentation</a>)</li>
+</ul>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" width: 100%; ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            This is then used in the main template: <code>themes/layouts/_default/collage.html</code>
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" width: 60%; ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            <p>I now understand the hugo templating system a bit better&hellip;
+<code>{{ with .field }}</code> creates a block where any reference is based on <code>.field</code>; so that:</p>
+<pre><code>{{ with .field }}
+  {{ .subfield }}
+{{ end }}
+</code></pre>
+<p>is identical to:</p>
+<pre><code>{{ .field.subfield }}
+</code></pre>
+<p>and the use of <code>$</code> brings you back to the root of all variables.</p>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" width: 100%; ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            <p><code>resources.Get</code> will get a particular resource (like a page, or image). This is particularly useful with the resizing functionality:</p>
+<pre><code>{{ with resources.Get .img }}
+  {{ with .Resize &quot;webp 1000x q40&quot; }}
+    &lt;img src=&quot;{{.Permalink}}&quot;&gt;
+  {{ end }}
+{{ end }}
+</code></pre>
+<p><code>| default</code> is a useful construct:</p>
+<pre><code>{{ .header_img | default $.Site.Params.default_header }}
+</code></pre>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style=" min-width: 70% ">
+        
+          <div class="photo-inner">
+            
+            
+              
+                <img src="https://thadhughes.xyz/recursion/pagespeed_hu7d76d2419461c4da3bc418ff8908b9ed_239628_977x0_resize_q75_h2_box_3.webp">
+              
+            
+            
+            <div class="caption">Success?</div>
+            <p>I think so! As of this writing:</p>
+<ul>
+<li>There are two HTML templates: <code>baseof.html</code> for the scaffolding (headers, css, and the like) and <code>collage.html</code> for the actual content. Together they are 77 lines.</li>
+<li>There is one CSS file <code>main.css</code> (aside from Google fonts) and it is 214 lines.</li>
+<li>Main page loads in under a second - great for something that is primarially images.</li>
+<li>This is the happiest I have been with the look and feel of a website yet.</li>
+<li>This is the easiest editing experience of a theme I have had, by a longshot (I mean, everything I care about is in a few config files and &lt;300 lines of HTML/CSS).</li>
+<li>There is interactivity and interesting visual effects that look heavyweight, but are actually simple and lightweight.</li>
+</ul>
+
+          </div>
+        </div>
+      
+        
+          <div class="photo-card " style="  ">
+        
+          <div class="photo-inner">
+            
+            
+            
+            <div class="caption"></div>
+            One key thing I did, if you didn&rsquo;t notice, was add <code>class</code> and <code>style</code> fields to the cards. When&rsquo;s the last time you saw a static site theme that gave you such controls? To me, the beauty of static sites is that you can risk &ldquo;injection attacks&rdquo; - shouldn&rsquo;t we open these avenues up for the content-makers (ourselves) to further tweak the look and feel of pages? I think that&rsquo;s a blog post in the making&hellip;
+          </div>
+        </div>
+      
+  
+
+      
+    </div>
+
+  </main>
+</body>
+</html>

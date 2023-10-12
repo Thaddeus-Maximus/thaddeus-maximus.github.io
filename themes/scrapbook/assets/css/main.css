@@ -33,6 +33,18 @@ body {
 .photo-card img {
   aspect-ratio: auto;
 }
+.photo-card pre, code {
+  font-family: "IBM Plex Mono", monospace;
+  background-color: #ddddd8;
+  text-align: left;
+}
+.photo-card pre {
+  white-space: pre-wrap;
+  font-size: 1.0rem !important;
+}
+.photo-card ul {
+  text-align: left;
+}
 .photo-card.square img{
   aspect-ratio: 10/10;
 }
@@ -46,6 +58,7 @@ body {
   cursor: pointer;
 }
 .caption {
+  font-weight: bold;
   font-size: 2rem;
   text-align: center;
   line-height: 2rem;
@@ -56,7 +69,6 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   color: #333;
-  font-weight: bold;
 
   /*min-width: 30rem;
   width: 45%;*/

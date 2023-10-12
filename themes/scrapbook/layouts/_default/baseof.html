@@ -6,21 +6,19 @@
   {{ end }}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
   <!-- ?family=Kalam:wght@700&family=Permanent+Marker&family=Walter+Turncoat&
   -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+  {{ partialCached "head/css.html" . }}
+  {{ partialCached "head/js.html" . }}
 
-  {{ partial "head.html" . }}
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
 </body>
 </html>

@@ -2,11 +2,11 @@
   {{ with .Params }}
     <div class="wrapper {{ .wrapper_classes }}">
       <a class="title" href="{{ .header_href | default $.Site.Params.default_header_href }}">
-        {{ with resources.Get .header_img }}
+        {{ with resources.Get (.header_img | default $.Site.Params.default_header) }}
           {{ if eq .MediaType.SubType "svg"}}
             <img src="{{.Permalink}}">
           {{ else }}
-            {{ with .Resize "webp 800x q40" }}
+            {{ with .Resize "webp 1000x q40" }}
               <img src="{{.Permalink}}">
             {{ end }}
           {{ end }}
@@ -19,8 +19,9 @@
           <div class="photo-card {{.classes}}" style=" {{.styles | safeCSS }} ">
         {{ end }}
           <div class="photo-inner">
+            {{ $resizeq := (.resize | default "webp 1000x q40")}}
             {{ with resources.Get .img }}
-              {{ with .Resize "webp 800x q40" }}
+              {{ with .Resize $resizeq }}
                 <img src="{{.Permalink}}">
               {{ end }}
             {{ end }}
@@ -37,7 +38,7 @@
             <div class="photo-card clickable {{.Params.title_classes}}" style="{{.Params.title_styles | safeCSS }}" onclick="window.location='{{.Permalink}}'">
               <div class="photo-inner">
                 {{ with resources.Get .Params.title_img }}
-                  {{ with .Resize "webp 800x q40" }}
+                  {{ with .Resize "webp 1000x q40" }}
                     <img src="{{.Permalink}}">
                   {{ end }}
                 {{ end }}

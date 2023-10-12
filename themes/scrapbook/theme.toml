@@ -12,3 +12,8 @@ demosite = 'https://www.thadhughes.xyz'
 [author]
   name = 'Thaddeus Hughes'
   homepage = 'https://www.thadhughes.xyz'
+
+extensions = [
+  "laxHtmlBlocks", # laxer block handling... let's see what this does?
+  "hardLineBreak", # newlines result in line breaks
+]
