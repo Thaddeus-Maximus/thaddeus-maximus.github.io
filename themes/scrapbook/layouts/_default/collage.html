@@ -6,7 +6,7 @@
           {{ if eq .MediaType.SubType "svg"}}
             <img src="{{.Permalink}}">
           {{ else }}
-            {{ with .Resize "1200x q50" }}
+            {{ with .Resize "webp 800x q40" }}
               <img src="{{.Permalink}}">
             {{ end }}
           {{ end }}
@@ -20,7 +20,7 @@
         {{ end }}
           <div class="photo-inner">
             {{ with resources.Get .img }}
-              {{ with .Resize "1200x q50" }}
+              {{ with .Resize "webp 800x q40" }}
                 <img src="{{.Permalink}}">
               {{ end }}
             {{ end }}
@@ -37,7 +37,7 @@
             <div class="photo-card clickable {{.Params.title_classes}}" style="{{.Params.title_styles | safeCSS }}" onclick="window.location='{{.Permalink}}'">
               <div class="photo-inner">
                 {{ with resources.Get .Params.title_img }}
-                  {{ with .Resize "1200x q50" }}
+                  {{ with .Resize "webp 800x q40" }}
                     <img src="{{.Permalink}}">
                   {{ end }}
                 {{ end }}
