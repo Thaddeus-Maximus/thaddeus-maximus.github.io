@@ -26,7 +26,7 @@ cards:
   - href: "https://www.machinaeexdeo.com"
     caption: "Blog + Podcast"
     body: ""
-    img: "med_card.jpeg"
+    img: "med.png"
     styles: ""
     classes: "square"
 
