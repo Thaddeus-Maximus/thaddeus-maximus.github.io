@@ -14,7 +14,7 @@ cards:
       A set of online free-to-use engineering analysis tools - lightweight and suckless. 
 
   - img: 'everycalc.png'
-    caption: "Online Calculators"
+    caption: "Online Calculators - Click Here to Open"
     href: "https://everycalc.thadhughes.xyz"
 
   

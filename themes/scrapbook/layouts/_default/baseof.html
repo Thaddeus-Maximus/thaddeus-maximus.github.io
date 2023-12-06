@@ -4,10 +4,13 @@
   {{ with resources.Get "bg.webp" }}
   <!-- have to call {{ .Permalink }} to get this asset to publish -->
   {{ end }}
+  {{ with resources.Get "thadscript.otf" }}
+  <!-- have to call {{ .Permalink }} to get this asset to publish -->
+  {{ end }}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-  <!-- ?family=Kalam:wght@700&family=Permanent+Marker&family=Walter+Turncoat&
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <!-- ?family=Kalam:wght@700&family=Permanent+Marker&family=Walter+Turncoat&family=Patrick+Hand+SC&
   -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">

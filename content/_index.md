@@ -9,13 +9,6 @@ header_href: "/"
 wrapper_classes: "mw2"
 cards:
 
-  - href: "https://www.littlecreators.shop"
-    caption: "Iconography + Woodworking"
-    body: ""
-    img: "lc_card.jpg"
-    styles: ""
-    classes: "square"
-
   - href: "/portfolio"
     caption: "Engineering Portfolio"
     body: ""
@@ -30,10 +23,24 @@ cards:
     styles: ""
     classes: "square"
 
+  - href: "https://www.littlecreators.shop"
+    caption: "Woodworking + Iconography"
+    body: ""
+    img: "bentable.jpg"
+    styles: ""
+    classes: "square"
+
+  - href: "/portfolio/everycalc"
+    caption: "EveryCalc"
+    body: ""
+    img: "everycalc.png"
+    styles: ""
+    classes: "square"
+
   - href: "/about"
     caption: "About Thad"
     body: ""
-    img: "buoyantbike.jpg"
+    img: "straight.jpg"
     styles: ""
     classes: "square"
 
@@ -42,6 +49,6 @@ cards:
     body: ""
     img: "switchboard.jpeg"
     styles: ""
-    classes: "wide"
+    classes: "square"
 ---
 
