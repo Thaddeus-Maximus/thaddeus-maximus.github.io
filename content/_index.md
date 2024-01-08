@@ -40,7 +40,7 @@ cards:
   - href: "/about"
     caption: "About Thad"
     body: ""
-    img: "straight.jpg"
+    img: "mill_crop.jpg"
     styles: ""
     classes: "square"
 
