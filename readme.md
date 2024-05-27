@@ -8,3 +8,4 @@
  You don't need to add the /resources folder
 
  You run `hugo serve` to get a live working version on your machine
+
