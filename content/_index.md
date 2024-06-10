@@ -40,14 +40,14 @@ cards:
   - href: "/about"
     caption: "About Thad"
     body: ""
-    img: "mill_crop.jpg"
+    img: "iso3.JPG"
     styles: ""
     classes: "square"
 
   - href: "/contact"
     caption: "Contact"
     body: ""
-    img: "switchboard.jpeg"
+    img: "weldinghelmet.jpg"
     styles: ""
     classes: "square"
 ---
