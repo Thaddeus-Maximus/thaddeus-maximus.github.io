@@ -5,7 +5,7 @@ draft: false
 layout: collage
 type: collage
 
-header_img: wordmark_wide.svg
+header_img: wordmark_w_face.png
 header_href: "/"
 wrapper_classes: ""
 
