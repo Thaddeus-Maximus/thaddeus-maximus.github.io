@@ -26,4 +26,16 @@ cards:
     href: "https://www.instagram.com/machinaeexdeo/"
     body: "IG: @machinaeexdeo"
 
+  - styles: "text-align: right;"
+    href: "https://x.com/machinaeexdeo"
+    body: "X: @machinaeexdeo"
+
+  - styles: "text-align: right;"
+    href: "https://github.com/Thaddeus-Maximus"
+    body: "GitHub: Thaddeus-Maximus"
+
+  - styles: "text-align: right;"
+    href: "https://www.youtube.com/channel/UC61GMHV-3Dq02XibxWoLkJg"
+    body: "YT: @ThaddeusHughes"
+
 ---
