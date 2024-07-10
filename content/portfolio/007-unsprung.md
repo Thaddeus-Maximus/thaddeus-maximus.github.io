@@ -4,7 +4,7 @@ title_img: "fsae/007-unspr-hubs-front.jpg"
 title_classes: "square"
 title_styles: ""
 
-date: 2023-10-10
+date: 2023-05-02
 draft: false
 layout: collage
 

@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ with .Params }}
+    <div class="wrapper {{ .wrapper_classes }}">
+      <a class="title" href="{{ .header_href | default $.Site.Params.default_header_href }}">
+        {{ with resources.Get (.header_img | default $.Site.Params.default_header) }}
+          {{ if eq .MediaType.SubType "svg"}}
+            <img src="{{.Permalink}}">
+          {{ else }}
+            {{ with .Resize "webp 1000x q40" }}
+              <img src="{{.Permalink}}">
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </a>
+  {{ end }}
+  <div class="content">
+    <div class="separator">
+        {{ with resources.Get "divider.svg" }}
+          {{ if eq .MediaType.SubType "svg"}}
+            <img src="{{.Permalink}}">
+          {{ else }}
+            {{ with .Resize "webp 1000x q40" }}
+              <img src="{{.Permalink}}">
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+  {{ .Content }}
+</div>
+</div>
+{{ end }}

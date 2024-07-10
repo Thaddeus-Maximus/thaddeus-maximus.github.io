@@ -1,7 +1,7 @@
 baseURL = 'https://thadhughes.xyz/'
 languageCode = 'en-us'
-title = 'Thaddeus Hughes'
-theme = 'scrapbook'
+title = 'Thad Hughes Design'
+theme = 'blackboard'
 
 publishDir = 'docs'
 
@@ -16,5 +16,5 @@ publishDir = 'docs'
 
 
 [params]
-  default_header = "wordmark_wide.svg"
+  default_header = "wordmark.svg"
   default_header_href = "/"

@@ -5,7 +5,7 @@ title_classes: "square"
 title_styles: ""
 
 date: 2019-09-03
-draft: false
+draft: true
 layout: collage
 
 wrapper_classes: ""

@@ -4,7 +4,7 @@ title_img: "fsae/007-clutch.jpg"
 title_classes: "square"
 title_styles: ""
 
-date: "2016-11-05T18:25:22+05:30"
+date: 2023-05-09
 draft: false
 layout: collage
 

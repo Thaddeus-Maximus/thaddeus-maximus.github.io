@@ -5,7 +5,7 @@ title_classes: "square"
 title_styles: ""
 
 date: 2023-10-12
-draft: false
+draft: true
 layout: collage
 
 wrapper_classes: "mw2"

@@ -1,0 +1,19 @@
+name = 'Blackboard'
+license = 'MIT'
+licenselink = 'https://github.com/owner/repo/LICENSE'
+description = 'Blackboard-style theme inspired by the work of Van Neistat, Tom Sachs, etc.'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/Thaddeus-Maximus/thaddeus-maximus.github.io'
+
+# If you have a running demo of the theme
+demosite = 'https://www.thadhughes.xyz'
+
+[author]
+  name = 'Thad Hughes Design'
+  homepage = 'https://www.thadhughes.xyz'
+
+extensions = [
+  "laxHtmlBlocks", # laxer block handling... let's see what this does?
+  "hardLineBreak", # newlines result in line breaks
+]

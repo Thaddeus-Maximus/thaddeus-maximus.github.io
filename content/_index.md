@@ -4,51 +4,38 @@ date: 2023-01-01T08:00:00-07:00
 draft: false
 layout: collage
 
-header_img: wordmark_w_face.png
-header_href: "/"
+#header_img: wordmark_w_face.png
+#header_href: "/"
 wrapper_classes: "mw2"
 cards:
 
   - href: "/portfolio"
-    caption: "Engineering Portfolio"
+    caption: "Projects"
     body: ""
-    img: "fsae/007-shift.jpg"
+    img: "design.jpg"
     styles: ""
     classes: "square"
     
-  - href: "https://www.machinaeexdeo.com"
-    caption: "Blog + Podcast"
+  - href: "/capabilities"
+    caption: "Capabilities"
     body: ""
-    img: "med.png"
-    styles: ""
-    classes: "square"
-
-  - href: "https://www.littlecreators.shop"
-    caption: "Woodworking + Iconography"
-    body: ""
-    img: "bentable.jpg"
-    styles: ""
-    classes: "square"
-
-  - href: "/portfolio/everycalc"
-    caption: "EveryCalc"
-    body: ""
-    img: "everycalc.png"
+    img: "mill_setup.jpg"
     styles: ""
     classes: "square"
 
   - href: "/about"
-    caption: "About Thad"
+    caption: "About"
     body: ""
-    img: "iso3.JPG"
-    styles: ""
-    classes: "square"
-
-  - href: "/contact"
-    caption: "Contact"
-    body: ""
-    img: "weldinghelmet.jpg"
+    img: "iso3.jpg"
     styles: ""
     classes: "square"
 ---
 
+I'm Thad. I'm an engineer and much more, with an ag background. I design and build things that are owner-operator-minded, or at least suck less than complicated junk most engineers come up with.
+
+I'm interdisciplinary and hands-on: design, build, test, ship.
+
+Got a big project? Or just a broken trailer that needs fixed? Contact:
+[thad@thadhughes.xyz](mailto:thad@thadhughes.xyz) or [309-530-0909](tel:3095300909).
+
+*3504 N 900 E Rd, Shirley, IL, 61772*
