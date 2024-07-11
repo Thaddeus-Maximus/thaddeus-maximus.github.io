@@ -7,11 +7,5 @@ layout: collage
 #header_img: wordmark_w_face.png
 #header_href: "/"
 #wrapper_classes: "mw3"
-
-cards:
-  - styles: "min-width: 75%"
-    body: >
-      A sample of some of the projects I've worked on.
-
 ---
 

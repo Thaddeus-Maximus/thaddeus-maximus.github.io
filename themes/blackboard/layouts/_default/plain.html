@@ -6,7 +6,7 @@
           {{ if eq .MediaType.SubType "svg"}}
             <img src="{{.Permalink}}">
           {{ else }}
-            {{ with .Resize "webp 1000x q40" }}
+            {{ with .Resize "webp 1000x q60" }}
               <img src="{{.Permalink}}">
             {{ end }}
           {{ end }}
@@ -19,7 +19,7 @@
           {{ if eq .MediaType.SubType "svg"}}
             <img src="{{.Permalink}}">
           {{ else }}
-            {{ with .Resize "webp 1000x q40" }}
+            {{ with .Resize "webp 1000x q60" }}
               <img src="{{.Permalink}}">
             {{ end }}
           {{ end }}

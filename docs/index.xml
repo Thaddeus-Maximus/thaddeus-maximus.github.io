@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://thadhughes.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>THF R&amp;D</title>
+      <title>THF R&#43;D</title>
       <link>https://thadhughes.xyz/portfolio/thf/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://thadhughes.xyz/portfolio/thf/</guid>
-      <description></description>
+      <description>I am currently in the process of designing electronic actuation system for TH Fabrication in El Paso, IL.</description>
     </item>
     
     <item>
@@ -31,6 +31,15 @@
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://thadhughes.xyz/portfolio/augermover/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Livestock Trailer</title>
+      <link>https://thadhughes.xyz/portfolio/trailer/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://thadhughes.xyz/portfolio/trailer/</guid>
       <description></description>
     </item>
     
@@ -100,11 +109,11 @@ This was a fun project that used the ecamming feature of a digital motor control
     
     <item>
       <title>Capabilities</title>
-      <link>https://thadhughes.xyz/capabilities/</link>
+      <link>https://thadhughes.xyz/services/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
       
-      <guid>https://thadhughes.xyz/capabilities/</guid>
-      <description>Capabilities Design mechanical cad 3D modeling 2D drawings electronics pcb design embedded systems design improvement / review and more! In-House Fabrication Welding Machining Mill Lathe CNC coming soon Laser Cutting &amp;amp; Engraving (For wood / plastics) Contact: thad@thadhughes.xyz or 309-530-0909.</description>
+      <guid>https://thadhughes.xyz/services/</guid>
+      <description>Services Design mechanical cad 3D modeling 2D drawings electronics pcb design embedded systems design improvement / review and more! In-House Fabrication Welding Machining Mill Lathe CNC coming soon Laser Cutting &amp;amp; Engraving (For wood / plastics) Contact: thad@thadhughes.xyz or 309-530-0909.</description>
     </item>
     
     <item>

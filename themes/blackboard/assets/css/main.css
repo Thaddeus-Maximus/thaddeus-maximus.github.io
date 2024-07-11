@@ -196,7 +196,7 @@ body {
   transform: scale(1.05, 1.05) rotate(0deg) !important;
 }
 
-.photo-card:hover {
+.photo-card.clickable:hover {
   filter: none;
   transition: all 0.35s;
   box-shadow: 0rem 0.5rem 1rem 0.5rem rgba(0,0,0,0.3);
@@ -208,7 +208,7 @@ body {
   z-index: -1;
   transition: all 0.35s;
 }
-.card:hover .photo-inner:before {
+.card.clickable:hover .photo-inner:before {
   position: absolute;
   z-index: -1;
   height: 90%;
@@ -239,4 +239,50 @@ ul > li {
 ul > li:before {
   content: "- ";
   text-indent: -5px;
+}
+
+
+.column {
+  float: left;
+  width: 48%;
+}
+
+.divider {
+  float: left;
+  width: 4%;
+}
+
+.row div:first-child {
+  text-align: right;
+}
+.row div:last-child {
+  text-align: left;
+}
+
+
+.row {
+  margin-left: auto;margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+  margin-bottom: 1rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column .card {
+  width: 90%;
+}
+
+figure {
+  width: 100%;
+}
+
+figure img {
+  text-align: center;
+  width: 50%;
 }

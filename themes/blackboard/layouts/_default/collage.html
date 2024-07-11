@@ -6,7 +6,7 @@
           {{ if eq .MediaType.SubType "svg"}}
             <img src="{{.Permalink}}">
           {{ else }}
-            {{ with .Resize "webp 1000x q40" }}
+            {{ with .Resize "webp 1000x q60" }}
               <img src="{{.Permalink}}">
             {{ end }}
           {{ end }}
@@ -21,7 +21,7 @@
             <div class="photo-card {{.classes}}">
           {{ end }}
             <div class="photo-inner">
-              {{ $resizeq := (.resize | default "webp 1000x q40")}}
+              {{ $resizeq := (.resize | default "webp 1000x q60")}}
               {{ with resources.Get .img }}
                 {{ with .Resize $resizeq }}
                   <img src="{{.Permalink}}">
@@ -44,7 +44,7 @@
             <div class="photo-card clickable" onclick="window.location='{{.Permalink}}'">
               <div class="photo-inner">
                 {{ with resources.Get .Params.title_img }}
-                  {{ with .Resize "webp 1000x q40" }}
+                  {{ with .Resize "webp 1000x q60" }}
                     <img src="{{.Permalink}}">
                   {{ end }}
                 {{ end }}
@@ -62,7 +62,7 @@
           {{ if eq .MediaType.SubType "svg"}}
             <img src="{{.Permalink}}">
           {{ else }}
-            {{ with .Resize "webp 1000x q40" }}
+            {{ with .Resize "webp 1000x q60" }}
               <img src="{{.Permalink}}">
             {{ end }}
           {{ end }}

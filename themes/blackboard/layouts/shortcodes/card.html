@@ -1,0 +1,43 @@
+card here plz
+{{ if .Get "img" }}
+<div
+  {{ if .Get "class" }}
+    class="card {{.class}}"
+  {{ else }}
+    class="card"
+  {{ end }}
+
+  {{ if .Get ""}}
+    style="{{.style | safeCSS }}"
+  {{ end }}
+>
+  {{ if .Get ".href" }}
+    <div class="photo-card clickable" onclick="window.location='{{.href}}'">
+  {{ else }}
+    <div
+    {{ if .Get "class" }}
+      class="photo-card {{.class}}"
+    {{ else }}
+      class="photo-card"
+    {{ end }}
+    >
+  {{ end }}
+    <div class="photo-inner">
+      {{ with resources.Get (.Get "img") }}
+      {{ with .Resize "webp 1000x q60" }}
+        <img src="{{.Permalink}}">
+      {{ end }}
+      {{ end }}
+
+      {{ if .Get "raw_html"}}
+        {{.raw_html | safeHTML}}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
+
+{{ if .Get "caption" }}
+  <div class="caption">{{(.caption | markdownify)}}</div>
+    {{.body | markdownify}}
+  </div>
+{{ end }}

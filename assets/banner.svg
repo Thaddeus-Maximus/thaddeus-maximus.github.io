@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="361.24399"
+   height="361.24442"
+   viewBox="0 0 361.24398 361.24443"
+   version="1.1"
+   id="svg1681"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="banner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1683"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="163.96139"
+     inkscape:cy="310.68581"
+     inkscape:window-width="1228"
+     inkscape:window-height="1040"
+     inkscape:window-x="10"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1678" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(223.41034,160.48662)">
+    <image
+       width="361.24442"
+       height="361.24442"
+       preserveAspectRatio="none"
+       xlink:href="../../../thad/media/branding/blackboard.jpg"
+       id="image765"
+       x="-223.41034"
+       y="-160.48662" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.4615px;line-height:1.25;font-family:Thadscript;-inkscape-font-specification:Thadscript;fill:#ececec;stroke:#e6e6e6;stroke-width:0.793751;stroke-dasharray:none;stroke-opacity:1"
+       x="-195.39911"
+       y="25.920668"
+       id="text773"
+       transform="scale(0.99905558,1.0009453)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.4615px;font-family:Thadscript;-inkscape-font-specification:'Thadscript Bold';fill:#ececec;stroke:#e6e6e6;stroke-width:0.793751;stroke-dasharray:none;stroke-opacity:1"
+         x="-195.39911"
+         y="25.920668"
+         id="tspan877">Thaddeus Hughes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25.2307px;line-height:1.25;font-family:Thadscript;-inkscape-font-specification:Thadscript;fill:#e6e6e6;stroke-width:0.264583"
+       x="-154.36096"
+       y="50.688026"
+       id="text883"
+       transform="scale(0.99905558,1.0009453)"><tspan
+         sodipodi:role="line"
+         id="tspan881"
+         style="fill:#e6e6e6;stroke-width:0.264583"
+         x="-154.36096"
+         y="50.688026">design - build - repair</tspan></text>
+  </g>
+</svg>

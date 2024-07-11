@@ -16,8 +16,8 @@ cards:
     styles: ""
     classes: "square"
     
-  - href: "/capabilities"
-    caption: "Capabilities"
+  - href: "/services"
+    caption: "Services"
     body: ""
     img: "mill_setup.jpg"
     styles: ""
@@ -39,3 +39,8 @@ Got a big project? Or just a broken trailer that needs fixed? Contact:
 [thad@thadhughes.xyz](mailto:thad@thadhughes.xyz) or [309-530-0909](tel:3095300909).
 
 *3504 N 900 E Rd, Shirley, IL, 61772*
+
+Follow on:
+
+{{<figure src="x.svg" link="https://twitter.com/machinaeexdeo">}}
+{{<figure src="instagram.svg" link="https://instagram.com/machinaeexdeo">}}

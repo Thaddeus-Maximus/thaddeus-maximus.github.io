@@ -2,7 +2,7 @@
 title: 'About Thad'
 date: 2023-01-01T08:00:00-07:00
 draft: false
-layout: collage
+layout: split
 type: collage
 
 #header_img: wordmark_w_face.png
@@ -18,8 +18,9 @@ wrapper_classes: ""
 #   classes: css class list (wide, tall, square... otherwise, it's automatic aspect ratio)
 
 cards:
-  - img: "welding_span.jpg"
-    classes: "mw1"
+  - img: "iso3.jpg"
+  - img: "Image001s.jpg"
+  - img: "beanbag/thad.jpg"
 
 ---
 
