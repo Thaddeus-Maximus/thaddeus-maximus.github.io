@@ -32,7 +32,7 @@ I grew up on a farm in Shirley, IL where I first learned how to drive, weld, fab
 
 "A jack of all trades is a master of none, but oftentimes better than a master of one."
 
-I bring a holistic / interdisciplinary / 'big picture' view to my work. Someone more specialized and siloed might struggle when they reach a part of a project that is outside their wheelhouse - but I design and work on complicated systems with relative ease. Raised as a farmer and repairman, I end up building things that [suck less](http://suckless.org/) than what a lot of other designers come up with.
+I bring a holistic / interdisciplinary / 'big picture' view to my work. Someone more specialized and siloed might struggle when they reach a part of a project that is outside their wheelhouse - but I design and work on complicated systems with relative ease. Raised as a farmer and repairman, I end up building things that [suck less](http://suckless.org/philosophy/) than what a lot of other designers come up with.
 
 I am a staunch proponent of **open-source** software and hardware, and the **right to repair**.
 
