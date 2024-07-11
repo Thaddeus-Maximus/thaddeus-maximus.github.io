@@ -43,4 +43,3 @@ Got a big project? Or just a broken trailer that needs fixed? Contact:
 Follow on:
 
 {{<figure src="x.svg" link="https://twitter.com/machinaeexdeo">}}
-{{<figure src="instagram.svg" link="https://instagram.com/machinaeexdeo">}}
