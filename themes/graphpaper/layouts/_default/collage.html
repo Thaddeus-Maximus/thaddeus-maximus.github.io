@@ -1,0 +1,73 @@
+{{ define "main" }}
+  {{ with .Params }}
+    <div class="wrapper {{ .wrapper_classes }}">
+      <a class="title" href="{{ .header_href | default $.Site.Params.default_header_href }}">
+        {{ with resources.Get (.header_img | default $.Site.Params.default_header) }}
+          {{ if eq .MediaType.SubType "svg"}}
+            <img src="{{.Permalink}}">
+          {{ else }}
+            {{ with .Resize "webp 1000x q60" }}
+              <img src="{{.Permalink}}">
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </a>
+      {{ range .cards }}
+        <div class="card {{.classes}}" style="{{.styles | safeCSS }}">
+        {{ if .img }}
+          {{ if .href }}
+            <div class="photo-card clickable" onclick="window.location='{{.href}}'">
+          {{ else }}
+            <div class="photo-card {{.classes}}">
+          {{ end }}
+            <div class="photo-inner">
+              {{ $resizeq := (.resize | default "webp 1000x q60")}}
+              {{ with resources.Get .img }}
+                {{ with .Resize $resizeq }}
+                  <img src="{{.Permalink}}">
+                {{ end }}
+              {{ end }}
+              {{.raw_html | safeHTML}}
+            </div>
+          </div>
+        {{ end }}
+            <div class="caption">{{(.caption | markdownify)}}</div>
+            {{.body | markdownify}}
+          </div>
+      {{ end }}
+  {{ end }}
+
+      {{ if eq .Kind "section" }}
+        {{ range .Pages }}
+        <div class="card {{.Params.title_classes}}" style="{{.Params.title_styles | safeCSS }}">
+          {{ if .Params.title_img }}
+            <div class="photo-card clickable" onclick="window.location='{{.Permalink}}'">
+              <div class="photo-inner">
+                {{ with resources.Get .Params.title_img }}
+                  {{ with .Resize "webp 1000x q60" }}
+                    <img src="{{.Permalink}}">
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+                <div class="caption">{{(.Params.title | markdownify)}}</div>
+              </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  <div class="content">
+    <div class="separator">
+        <!--{{ with resources.Get "divider.svg" }}
+          {{ if eq .MediaType.SubType "svg"}}
+            <img src="{{.Permalink}}">
+          {{ else }}
+            {{ with .Resize "webp 1000x q60" }}
+              <img src="{{.Permalink}}">
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>-->
+  {{ .Content }}
+</div>
+{{ end }}
