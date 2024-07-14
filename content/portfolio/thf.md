@@ -1,6 +1,6 @@
 ---
 title: "THF R+D"
-title_img: "thf_rhp.jpg"
+title_img: "thf.png"
 title_classes: "square"
 title_styles: ""
 

@@ -12,7 +12,7 @@ cards:
   - href: "/services"
     caption: "Design"
     body: ""
-    img: "design.jpg"
+    img: "drawing.jpg"
     styles: ""
     classes: "square"
     
