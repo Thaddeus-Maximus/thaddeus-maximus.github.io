@@ -8,18 +8,25 @@ layout: collage
 #header_href: "/"
 wrapper_classes: "mw2"
 cards:
-
-  - href: "/portfolio"
-    caption: "Projects"
+    
+  - href: "/services"
+    caption: "Design"
     body: ""
     img: "design.jpg"
     styles: ""
     classes: "square"
     
   - href: "/services"
-    caption: "Services"
+    caption: "Fabrication"
     body: ""
     img: "mill_setup.jpg"
+    styles: ""
+    classes: "square"
+
+  - href: "/portfolio"
+    caption: "Past Projects"
+    body: ""
+    img: "augermover/cover.jpg"
     styles: ""
     classes: "square"
 
