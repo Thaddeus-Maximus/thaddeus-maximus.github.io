@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://thadhughes.xyz/portfolio/thf_ss/</loc>
+    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thadhughes.xyz/portfolio/linuxcnc/</loc>
+    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://thadhughes.xyz/portfolio/thf/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -52,6 +58,9 @@
   </url><url>
     <loc>https://thadhughes.xyz/portfolio/everycalc/</loc>
     <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thadhughes.xyz/portfolio/007-dt/</loc>
+    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thadhughes.xyz/portfolio/roselap_v5/</loc>
     <lastmod>2018-07-03T00:00:00+00:00</lastmod>

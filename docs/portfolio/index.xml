@@ -4,126 +4,121 @@
     <title>Thad Hughes - Portfolio on Hughes Engineering</title>
     <link>https://thadhughes.xyz/portfolio/</link>
     <description>Recent content in Thad Hughes - Portfolio on Hughes Engineering</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://thadhughes.xyz/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thadhughes.xyz/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THF Swinging Spider Actuation</title>
+      <link>https://thadhughes.xyz/portfolio/thf_ss/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://thadhughes.xyz/portfolio/thf_ss/</guid>
+      <description>&lt;p&gt;I designed and built a prototype electronic actuation system for &lt;a href=&#34;https://www.th-fabrication.com/&#34;&gt;TH Fabrication&lt;/a&gt; in El Paso, IL.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LnAkuBCnZtI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Lagun LinuxCNC Conversion</title>
+      <link>https://thadhughes.xyz/portfolio/linuxcnc/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://thadhughes.xyz/portfolio/linuxcnc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>THF R&#43;D</title>
       <link>https://thadhughes.xyz/portfolio/thf/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/thf/</guid>
-      <description>I am currently in the process of designing electronic actuation system for TH Fabrication in El Paso, IL.</description>
+      <description>&lt;p&gt;Working on more projects with &lt;a href=&#34;https://www.th-fabrication.com/&#34;&gt;TH Fabrication&lt;/a&gt; in El Paso, IL&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TRAK CNC II Restoration</title>
       <link>https://thadhughes.xyz/portfolio/supermax/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/supermax/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RC Auger Mover</title>
       <link>https://thadhughes.xyz/portfolio/augermover/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/augermover/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Livestock Trailer</title>
       <link>https://thadhughes.xyz/portfolio/trailer/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/trailer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>High-Performance ECAM</title>
       <link>https://thadhughes.xyz/portfolio/ecam/</link>
       <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/ecam/</guid>
-      <description>A client needed to simulate a camshaft, but change the profile on the fly. I produced a machine that simulated the cam profile with individual high-speed effectors with sub-millimeter accuracy even at high speeds.
-This was a fun project that used the ecamming feature of a digital motor controller. Even though these are short distances, the high speeds - and accelerations - proved demanding at the required resolution.</description>
+      <description>&lt;p&gt;A client needed to simulate a camshaft, but change the profile on the fly. I produced a machine that simulated the cam profile with individual high-speed effectors with sub-millimeter accuracy even at high speeds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun project that used the ecamming feature of a digital motor controller. Even though these are short distances, the high speeds - and accelerations - proved demanding at the required resolution.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/aDn9hjizzZU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Fluidics Patent (11980587)</title>
       <link>https://thadhughes.xyz/portfolio/patent11980587/</link>
       <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/patent11980587/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Shift Actuator</title>
       <link>https://thadhughes.xyz/portfolio/007-shift/</link>
       <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/007-shift/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Clutch Actuator</title>
       <link>https://thadhughes.xyz/portfolio/007-clutch/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/007-clutch/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FSAE Uprights</title>
       <link>https://thadhughes.xyz/portfolio/007-unsprung/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/007-unsprung/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Drivable Beanbag</title>
       <link>https://thadhughes.xyz/portfolio/beanbag/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/beanbag/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Knock-Back CNC Router</title>
       <link>https://thadhughes.xyz/portfolio/maslow/</link>
       <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/maslow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>EveryCalc</title>
       <link>https://thadhughes.xyz/portfolio/everycalc/</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/everycalc/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>FSAE Drivetrain - 007</title>
+      <link>https://thadhughes.xyz/portfolio/007-dt/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://thadhughes.xyz/portfolio/007-dt/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Laptime Simulation Package</title>
       <link>https://thadhughes.xyz/portfolio/roselap_v5/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/roselap_v5/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

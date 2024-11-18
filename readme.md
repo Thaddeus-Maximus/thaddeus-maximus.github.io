@@ -3,7 +3,7 @@
  - `cd` to this directory
  - run `hugo` to publish to the `docs` folder
  - `git add docs` (and other things)
- - commit and push to GitHub (set up to publish Github pages from the /docs folder)
+ - `git commit` and `git push` to GitHub (set up to publish Github pages from the /docs folder)
 
  You don't need to add the /resources folder
 

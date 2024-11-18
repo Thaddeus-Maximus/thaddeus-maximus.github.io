@@ -4,153 +4,142 @@
     <title>Thaddeus Hughes on Hughes Engineering</title>
     <link>https://thadhughes.xyz/</link>
     <description>Recent content in Thaddeus Hughes on Hughes Engineering</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://thadhughes.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thadhughes.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THF Swinging Spider Actuation</title>
+      <link>https://thadhughes.xyz/portfolio/thf_ss/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://thadhughes.xyz/portfolio/thf_ss/</guid>
+      <description>&lt;p&gt;I designed and built a prototype electronic actuation system for &lt;a href=&#34;https://www.th-fabrication.com/&#34;&gt;TH Fabrication&lt;/a&gt; in El Paso, IL.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LnAkuBCnZtI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Lagun LinuxCNC Conversion</title>
+      <link>https://thadhughes.xyz/portfolio/linuxcnc/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://thadhughes.xyz/portfolio/linuxcnc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>THF R&#43;D</title>
       <link>https://thadhughes.xyz/portfolio/thf/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/thf/</guid>
-      <description>I am currently in the process of designing electronic actuation system for TH Fabrication in El Paso, IL.</description>
+      <description>&lt;p&gt;Working on more projects with &lt;a href=&#34;https://www.th-fabrication.com/&#34;&gt;TH Fabrication&lt;/a&gt; in El Paso, IL&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TRAK CNC II Restoration</title>
       <link>https://thadhughes.xyz/portfolio/supermax/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/supermax/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>RC Auger Mover</title>
       <link>https://thadhughes.xyz/portfolio/augermover/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/augermover/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Livestock Trailer</title>
       <link>https://thadhughes.xyz/portfolio/trailer/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/trailer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>High-Performance ECAM</title>
       <link>https://thadhughes.xyz/portfolio/ecam/</link>
       <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/ecam/</guid>
-      <description>A client needed to simulate a camshaft, but change the profile on the fly. I produced a machine that simulated the cam profile with individual high-speed effectors with sub-millimeter accuracy even at high speeds.
-This was a fun project that used the ecamming feature of a digital motor controller. Even though these are short distances, the high speeds - and accelerations - proved demanding at the required resolution.</description>
+      <description>&lt;p&gt;A client needed to simulate a camshaft, but change the profile on the fly. I produced a machine that simulated the cam profile with individual high-speed effectors with sub-millimeter accuracy even at high speeds.&lt;/p&gt;&#xA;&lt;p&gt;This was a fun project that used the ecamming feature of a digital motor controller. Even though these are short distances, the high speeds - and accelerations - proved demanding at the required resolution.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/aDn9hjizzZU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
-    
     <item>
       <title>Fluidics Patent (11980587)</title>
       <link>https://thadhughes.xyz/portfolio/patent11980587/</link>
       <pubDate>Sun, 14 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/patent11980587/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Shift Actuator</title>
       <link>https://thadhughes.xyz/portfolio/007-shift/</link>
       <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/007-shift/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Clutch Actuator</title>
       <link>https://thadhughes.xyz/portfolio/007-clutch/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/007-clutch/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FSAE Uprights</title>
       <link>https://thadhughes.xyz/portfolio/007-unsprung/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/007-unsprung/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>About Thad</title>
       <link>https://thadhughes.xyz/about/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
-      
       <guid>https://thadhughes.xyz/about/</guid>
-      <description>Background I grew up on a farm in Shirley, IL where I first learned how to drive, weld, fabricate, wire, program, and more. I went to Rose-Hulman Institute of Technology where I studied mechanical engineering and built Formula-style racecars. Upon graduation, I worked at DEKA Research and Development, developing IV production machines, manufacturing equipment, delivery robots, new medical devices, and even retrofitting an RV. Desiring to be closer to family, community, and roots, I moved back to the farm, but am continuing to serve those around me with the gifts God has given me.</description>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;I grew up on a farm in Shirley, IL where I first learned how to drive, weld, fabricate, wire, program, and more. I went to Rose-Hulman Institute of Technology where I studied mechanical engineering and built Formula-style racecars. Upon graduation, I worked at DEKA Research and Development, developing IV production machines, manufacturing equipment, delivery robots, new medical devices, and even retrofitting an RV. Desiring to be closer to family, community, and roots, I moved back to the farm, but am continuing to serve those around me with the gifts God has given me.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About Thad</title>
       <link>https://thadhughes.xyz/contact/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
-      
       <guid>https://thadhughes.xyz/contact/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Capabilities</title>
       <link>https://thadhughes.xyz/services/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
-      
       <guid>https://thadhughes.xyz/services/</guid>
-      <description>Services Design mechanical cad 3D modeling 2D drawings electronics pcb design embedded systems design improvement / review and more! In-House Fabrication Welding Machining Mill Lathe CNC coming soon Laser Cutting &amp;amp; Engraving (For wood / plastics) Contact: thad@thadhughes.xyz or 309-530-0909.</description>
+      <description>&lt;h1 id=&#34;services&#34;&gt;Services&lt;/h1&gt;&#xA;&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;mechanical cad&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3D modeling&lt;/li&gt;&#xA;&lt;li&gt;2D drawings&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;electronics&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pcb design&lt;/li&gt;&#xA;&lt;li&gt;embedded systems&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;design improvement / review&lt;/li&gt;&#xA;&lt;li&gt;and more!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;in-house-fabrication&#34;&gt;In-House Fabrication&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Welding&lt;/li&gt;&#xA;&lt;li&gt;Machining&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mill&lt;/li&gt;&#xA;&lt;li&gt;Lathe&lt;/li&gt;&#xA;&lt;li&gt;CNC coming soon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Laser Cutting &amp;amp; Engraving (For wood / plastics)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Contact: &lt;a href=&#34;mailto:thad@thadhughes.xyz&#34;&gt;thad@thadhughes.xyz&lt;/a&gt; or &lt;a href=&#34;tel:3095300909&#34;&gt;309-530-0909&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Drivable Beanbag</title>
       <link>https://thadhughes.xyz/portfolio/beanbag/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/beanbag/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Knock-Back CNC Router</title>
       <link>https://thadhughes.xyz/portfolio/maslow/</link>
       <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/maslow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>EveryCalc</title>
       <link>https://thadhughes.xyz/portfolio/everycalc/</link>
       <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/everycalc/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>FSAE Drivetrain - 007</title>
+      <link>https://thadhughes.xyz/portfolio/007-dt/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://thadhughes.xyz/portfolio/007-dt/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Laptime Simulation Package</title>
       <link>https://thadhughes.xyz/portfolio/roselap_v5/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://thadhughes.xyz/portfolio/roselap_v5/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

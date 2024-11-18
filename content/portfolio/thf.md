@@ -10,10 +10,10 @@ layout: split
 
 wrapper_classes: ""
 cards:
-  - img: "thf_ss.webp"
+  - img: "thf.webp"
     classes: "square"
     href: "https://www.th-fabrication.com/"
 ---
 
 
-I am currently in the process of designing electronic actuation system for [TH Fabrication](https://www.th-fabrication.com/) in El Paso, IL.
+Working on more projects with [TH Fabrication](https://www.th-fabrication.com/) in El Paso, IL...

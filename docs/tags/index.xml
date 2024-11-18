@@ -4,7 +4,8 @@
     <title>Tags on Hughes Engineering</title>
     <link>https://thadhughes.xyz/tags/</link>
     <description>Recent content in Tags on Hughes Engineering</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://thadhughes.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://thadhughes.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
