@@ -21,6 +21,10 @@ cards:
 
 I designed and built a prototype electronic actuation system for [TH Fabrication](https://www.th-fabrication.com/) in El Paso, IL.
 
+This features integration of off-the-shelf motors and sensors with custom PCBs networked over a CAN bus.
+
+We are still in the process of bringing this to beta testing and eventually to market, but here is a demo of the prototype:
+
 {{< rawhtml >}}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LnAkuBCnZtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 {{< /rawhtml >}}

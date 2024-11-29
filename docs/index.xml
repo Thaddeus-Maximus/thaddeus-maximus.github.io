@@ -13,7 +13,7 @@
       <link>https://thadhughes.xyz/portfolio/thf_ss/</link>
       <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://thadhughes.xyz/portfolio/thf_ss/</guid>
-      <description>&lt;p&gt;I designed and built a prototype electronic actuation system for &lt;a href=&#34;https://www.th-fabrication.com/&#34;&gt;TH Fabrication&lt;/a&gt; in El Paso, IL.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LnAkuBCnZtI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+      <description>&lt;p&gt;I designed and built a prototype electronic actuation system for &lt;a href=&#34;https://www.th-fabrication.com/&#34;&gt;TH Fabrication&lt;/a&gt; in El Paso, IL.&lt;/p&gt;&#xA;&lt;p&gt;This features integration of off-the-shelf motors and sensors with custom PCBs networked over a CAN bus.&lt;/p&gt;&#xA;&lt;p&gt;We are still in the process of bringing this to beta testing and eventually to market, but here is a demo of the prototype:&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LnAkuBCnZtI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Lagun LinuxCNC Conversion</title>
