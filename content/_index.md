@@ -10,16 +10,16 @@ wrapper_classes: "mw2"
 cards:
     
   - href: "/services"
-    caption: "Design"
+    caption: "Services"
     body: ""
     img: "drawing.jpg"
     styles: ""
     classes: "square"
     
-  - href: "/services"
-    caption: "Fabrication"
+  - href: "https://shop.thadhughes.xyz"
+    caption: "Store [NEW]"
     body: ""
-    img: "mill_setup.jpg"
+    img: "jackalope.jpg"
     styles: ""
     classes: "square"
 
