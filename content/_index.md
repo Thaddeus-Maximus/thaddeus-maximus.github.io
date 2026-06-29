@@ -16,12 +16,12 @@ cards:
     styles: ""
     classes: "square"
     
-  - href: "https://shop.thadhughes.xyz"
-    caption: "Store [NEW]"
-    body: ""
-    img: "jackalope.jpg"
-    styles: ""
-    classes: "square"
+#  - href: "https://shop.thadhughes.xyz"
+#    caption: "Store [NEW]"
+#    body: ""
+#    img: "jackalope.jpg"
+#    styles: ""
+#    classes: "square"
 
   - href: "/portfolio"
     caption: "Past Projects"
