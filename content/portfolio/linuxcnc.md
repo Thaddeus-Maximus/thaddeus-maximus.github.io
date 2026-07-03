@@ -13,3 +13,4 @@ cards:
   - img: "linuxcnc_box.jpg"
 ---
 
+[View more at the GitHub Repo](https://github.com/Thaddeus-Maximus/linuxcnc)
